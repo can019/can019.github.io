@@ -25,7 +25,7 @@ categories: MachineLearning DataAnalyze
       <i style = "font-size : 0.9em">선형성은 중첩의 원리를 보장 (ax1+bx2 = a(x1+x2)를 만족)하며 중첩의 원리가 통하는 식들은 직관적이고 예측 가능합니다.<br/>
         더 나아가 선형성이 만족하는 모델은 적용할 수 있는 원리와 공식들이 정말정말정말 많기 때문에<br/>
         논문들에서 내가 만든 모델이 선형성을 띈다는 것을 증명하는데 많은 노력을 가하는 이유입니다.</i><br/><br/><br/>
-
+        <hr/>
 
     </div>
   </div>
@@ -50,7 +50,7 @@ categories: MachineLearning DataAnalyze
       키가 아주 크거나 작거나 모두 세대가 갈수록 평균과 가까워 진다는 이론입니다. <br><br>
       그럼 fit한 모델을 추정하는 것을 왜 회귀라 부르냐??<br/><br/>
       학습이 계속될 수록 Cost가 0으로 회귀하기 때문이죠. Cost는 아래에서 설명합니다.</i><br/><br/>
-
+     <hr/>
 
 
     </div>
@@ -94,26 +94,13 @@ categories: MachineLearning DataAnalyze
        
          다시 말하면 선형회귀의 목표는 <img src="https://latex.codecogs.com/png.latex?minimize(Cost(w,b))" title="minimize(Cost(w,b))" />가 됩니다.
 
-
+	<hr/>
     </div>
       
 
       
 
 
-       만들어진 모델이 파란색 직선, data와 label set이 검정색 점이라고 할 때<br/>
-       빨간색 선, 즉 거리의 제곱의 평균
-
-
-
-
-
-
-
-      간단히 말하자면 '회귀모델이 선형식이다'입니다.
-      가설의 w1과 b에 수를 대입한 후 data, label을 모델에 대입,<br/><br/>
-      이 과정을 무한히 거쳐 가장 fit한 회귀모델을 찾아냅니다.<br><br>
-      (물론 w1과 b에 숫자를 계속 넣어가며 최적의 H(x)를 추정하는 것은 비효율적이라 쓰지 않습니다.)
     </div>
   </div>
 
