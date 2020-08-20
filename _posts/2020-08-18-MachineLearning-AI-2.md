@@ -3,7 +3,7 @@ title: "[KAIST AI 교육 :: 데이터 분석 및 예측] 2"
 date: 2020-08-19 01:56:30 -0400
 categories: MachineLearning DataAnalyze
 ---
-# 선형회귀와 경사하강법
+# 선형회귀
 
 <hr/>
 <div style = "font-size :0.8em">
