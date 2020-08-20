@@ -90,7 +90,7 @@ categories: MachineLearning DataAnalyze
          한 점에서의 거리의 제곱은 <img src="https://latex.codecogs.com/png.latex?(H(x)-y)^{2}" title="(H(x)-y)^{2}" />라고 할 수 있으므로<br/><br/>
          Cost의 정의를 수식으로 나타내면 <img src="https://latex.codecogs.com/png.latex?\frac{1}{m}\sum_{i=1}^{m}(H(x^{i})-y^{i})^{2}" title="\frac{1}{m}\sum_{i=1}^{m}(H(x^{i})-y^{i})^{2}" />가 됩니다.<br/><br/>
          i는 i번째 data, label set을 의미하며 <img src="https://latex.codecogs.com/png.latex?(x^{1},y^{1}),&space;(x^{2},y^{2}),&space;(x^{3},y^{3}),&space;...(x^{1},y^{i})" title="(x^{1},y^{1}), (x^{2},y^{2}), (x^{3},y^{3}), ...(x^{1},y^{i})" /><br/><br/>이 때 m은 data, label set의 갯수를 의미합니다.<br/><br/><br/>
-         <img src="/assets/photos/20200820_1.png" width="450"><br><br>
+         <img src="/assets/photos/20200820_3.png" width="450"><br><br>
          <span style = "font-size : 0.8em">Cost 그래프</span><br/>
          다시 말하면 선형회귀의 목표는 <img src="https://latex.codecogs.com/png.latex?minimize(Cost(w,b))" title="minimize(Cost(w,b))" />가 됩니다.
 
@@ -99,7 +99,7 @@ categories: MachineLearning DataAnalyze
       <br/><br/>
        자 그럼 선형회귀의 핵심은 'Cost를 가장 작게'라는 것을 알게되었습니다.<br/>
        다음 포스팅에서는 작은 Cost를 찾아내는 방법인 경사하강법(Gradient Descent Algorithm)에 대해 살펴보겠습니다.<br/><br/>
-       <a href = "www.naver.com">경사하강법</a>
+       <a href = "https://can019.github.io/machinelearning/dataanalyze/MachineLearning-AI-3/">경사하강법</a>
 
       
 
