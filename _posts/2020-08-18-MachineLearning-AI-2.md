@@ -41,7 +41,7 @@ categories: MachineLearning DataAnalyze
       가설이란 계수가 모두 미지수인 식으로 1차식이 될 수도 있고 아니면 초월함수꼴이 될 수도 있습니다.<br><br>
       ex :: H(x) = w1x1+b <br><br>
       이렇게 세운 가설과 data, label을 컴퓨터에게 주면 컴퓨터는 가설에 data와 label을 대입하며 계수를 얻어내어 회귀모델을 만들어 냅니다.<br><br>
-      이렇게 추정된 회귀모델중 loss(오차)가 가장 적은 회귀모델을 위에서 설명한 가장 fit한 회귀모델이 되는 것이며,<br>
+      이렇게 추정된 회귀모델중 비용이 가장 적은 회귀모델을 위에서 설명한 가장 fit한 회귀모델이 되는 것이며,<br>
       학습을 계속하며 계속 할수록 완벽한 회귀모델을얻어 낼 수 있습니다.<br>
 
 
@@ -58,7 +58,9 @@ categories: MachineLearning DataAnalyze
   <div>
     <h3 style = "font-size :1.2em"> 선형회귀</h3><br/>
     <div style = "margin-left : 30px">
-      간단히 말하자면 '회귀모델이 선형식이다'입니다.
+      <img src="../assets/photos/20200820_1" width="245">
+      
+       간단히 말하자면 '회귀모델이 선형식이다'입니다.
 
 
     </div>
