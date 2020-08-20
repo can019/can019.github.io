@@ -17,7 +17,7 @@ categories: MachineLearning DataAnalyze
        <img src="/assets/photos/20200820_3.png" width="450"><br/>
         <span style = "font-size : 0.8em">Cost 그래프 예시</span><br/><br/>
          선형회귀의 핵심은 U자 개형을 가지는 Cost그래프에서 Cost값이 최저일 때 w값을 찾아내는 것이 목표입니다.<br/><br/>
-         저 문장을 바꾸어 말한다면 <b>'Cost그래프를 미분했을 때 0인 지점의 w값을 구하는 것이 목표입니다'.</b> 라고 바꿔 말할 수 있습니다.<br/><br/>
+         저 문장을 바꾸어 말한다면<br/> <b>'Cost그래프를 미분했을 때 0인 지점의 w값을 구하는 것이 목표입니다'.</b> 라고 바꿔 말할 수 있습니다.<br/><br/>
          
          이것이 경사하강법의 출발점입니다.<br/><br/>
          경사하강법은 특정 w에서의 순간 기울기를 측정합니다. 그리고 순간 기울기값이 만약 음수라면 w값을 우측으로,<br/>
