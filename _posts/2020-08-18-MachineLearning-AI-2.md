@@ -96,7 +96,10 @@ categories: MachineLearning DataAnalyze
 
 	<hr/>
     </div>
-      
+      <br/><br/>
+       자 그럼 선형회귀의 핵심은 'Cost를 가장 작게'라는 것을 알게되었습니다.<br/>
+       다음 포스팅에서는 작은 Cost를 찾아내는 방법인 경사하강법(Gradient Descent Algorithm)에 대해 살펴보겠습니다.<br/><br/>
+       <a href = "www.naver.com">경사하강법</a>
 
       
 
