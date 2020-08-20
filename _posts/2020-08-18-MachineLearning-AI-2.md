@@ -61,7 +61,7 @@ categories: MachineLearning DataAnalyze
 
       <img src="/assets/photos/20200820_1.png" width="450"><br><br>
       위 그래프를 예로 보겠습니다.<br/>
-      파란색 점이 data, label set이라 할 때 우리가 이상적인 모델은 파란색 그래프,<br/> 
+      파란색 점이 data, label set이라 할 때 이상적인 모델은 파란색 그래프,<br/> 
       주황색과 초록색 그래프는 이상적이지 못한 모델이 됩니다.<br/><br/>
       
       파란색 그래프를 찾아내는 방법으로 가장 먼저 생각할 수 있는 것은 점을 대입하여 w,b 값을 찾아내거나<br/>
@@ -71,7 +71,8 @@ categories: MachineLearning DataAnalyze
       저 두가지 방법으로 모델을 찾을 경우 많은 시간이 소요됩니다.<br/><br/>
 
       그래서 조금 다른 방법으로 접근하고자 합니다.<br/>
-      <b>바로 Cost(비용)를 통한 접근 방법입니다.</b><br/>  
+      <b>바로 Cost(비용)를 통한 접근 방법입니다.</b><br/><br/>
+      이 방법은 정답을 찾는 것이 아닌 <b style ="color : red">'정답에 가장 가까운 답'<b/>을 찾는 것입니다.  
 	
       간단히 말하자면 '회귀모델이 선형식이다'입니다.
       가설의 w1과 b에 수를 대입한 후 data, label을 모델에 대입,<br/><br/>
