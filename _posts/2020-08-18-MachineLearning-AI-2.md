@@ -58,7 +58,7 @@ categories: MachineLearning DataAnalyze
   <div>
     <h3 style = "font-size :1.2em"> 선형회귀</h3><br/>
     <div style = "margin-left : 30px">
-      <img src="../assets/photos/20200820_1" width="245">
+      <img src="../assets/photos/20200820_1.png" width="245"><br>
       
        간단히 말하자면 '회귀모델이 선형식이다'입니다.
 
