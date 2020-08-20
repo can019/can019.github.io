@@ -47,7 +47,9 @@ categories: MachineLearning DataAnalyze
       '평균으로의 회귀'.프랜시스 골턴이 처음 주장한 이론으로 극단적이거나 이례적인 결과는 평균 방향으로 되돌아오는 경향을 가진다는 개념입니다.<br><br>
       인류의 평균 키를 A라고 했을 때 아버지가 A보다 크면 아들은 A보다 작고, 아버지가 A보다 작으면 아들은 A보다 크게되는
       관찰 결과에서 비롯됐으며,<br>
-      키가 아주 크거나 작거나 모두 세대가 갈수록 평균과 가까워 진다는 이론입니다.<br><br></i><br/><br/>
+      키가 아주 크거나 작거나 모두 세대가 갈수록 평균과 가까워 진다는 이론입니다. <br><br>
+      그럼 fit한 모델을 추정하는 것을 왜 회귀라 부르냐??<br/><br/>
+      Cost가 회귀하기 때문이죠. Cost에 대한 설명은 아래 선형회귀에서 설명합니다.</i><br/><br/>
 
 
 
@@ -85,6 +87,11 @@ categories: MachineLearning DataAnalyze
        한 점에서의 거리의 제곱은 <img src="https://latex.codecogs.com/png.latex?(H(x)-y)^{2}" title="(H(x)-y)^{2}" />라고 할 수 있으므로<br/><br/>
        Cost의 정의를 수식으로 나타내면 <img src="https://latex.codecogs.com/png.latex?\frac{1}{m}\sum_{i=1}^{m}(H(x^{i})-y^{i})^{2}" title="\frac{1}{m}\sum_{i=1}^{m}(H(x^{i})-y^{i})^{2}" />가 됩니다.<br/><br/>
        i는 i번째 data, label set을 의미하며 <img src="https://latex.codecogs.com/png.latex?(x^{1},y^{1}),&space;(x^{2},y^{2}),&space;(x^{3},y^{3}),&space;...(x^{1},y^{i})" title="(x^{1},y^{1}), (x^{2},y^{2}), (x^{3},y^{3}), ...(x^{1},y^{i})" /><br/><br/>이 때 m은 data, label set의 갯수를 의미합니다.<br/><br/><br/>
+       즉 한마디로 정리하면 Cost의 평균을 통해 가장 fit한 가설(모델)을 찾아내는 것이 선형회귀법입니다.<br/><br/><br/>
+
+      
+
+
        만들어진 모델이 파란색 직선, data와 label set이 검정색 점이라고 할 때<br/>
        빨간색 선, 즉 거리의 제곱의 평균
 
