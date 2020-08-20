@@ -97,8 +97,6 @@ categories: MachineLearning DataAnalyze
         
          간혹 헷갈리는 포인트가 있는데<br/>
          'x축, y축이 뭐지?'입니다.'<br/><br/>
-         Cost 그래프의 x축은 w, y축은 Cost입니다.
-         Cost 그래프는 w를 준 후 data,label을 곱한 그래프입니다.<br/><br/>
        
          x축은 일단 w를 의미합니다. 여기까진 실수 안하시는데 그 다음 y축이 무엇이냐..에서 실수를 하십니다.<br/><br/>
 
