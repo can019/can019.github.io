@@ -82,9 +82,9 @@ categories: MachineLearning DataAnalyze
        이 때 빨간 선분의 제곱의 합의 평균을 <b>비용(Cost)</b>라고 합니다.<br/><br/>
        
 
-       한 점에서의 거리의 제곱은 <img src="https://latex.codecogs.com/png.latex?(H(x)-y)^{2}" title="(H(x)-y)^{2}" />라고 할 수 있으므로<br/>
-       Cost의 정의를 수식으로 나타내면 <img src="https://latex.codecogs.com/png.latex?\frac{1}{m}\sum_{i=1}^{m}(H(x^{i})-y^{i})^{2}" title="\frac{1}{m}\sum_{i=1}^{m}(H(x^{i})-y^{i})^{2}" />가 됩니다.<br/>
-       i는 i번째 data, label set을 의미하며 <img src="https://latex.codecogs.com/png.latex?(x^{1},y^{1}),&space;(x^{2},y^{2}),&space;(x^{3},y^{3}),&space;...(x^{1},y^{i})" title="(x^{1},y^{1}), (x^{2},y^{2}), (x^{3},y^{3}), ...(x^{1},y^{i})" />이 때 m은 data, label set의 갯수를 의미합니다.<br/><br/>
+       한 점에서의 거리의 제곱은 <img src="https://latex.codecogs.com/png.latex?(H(x)-y)^{2}" title="(H(x)-y)^{2}" />라고 할 수 있으므로<br/><br/>
+       Cost의 정의를 수식으로 나타내면 <img src="https://latex.codecogs.com/png.latex?\frac{1}{m}\sum_{i=1}^{m}(H(x^{i})-y^{i})^{2}" title="\frac{1}{m}\sum_{i=1}^{m}(H(x^{i})-y^{i})^{2}" />가 됩니다.<br/><br/>
+       i는 i번째 data, label set을 의미하며 <img src="https://latex.codecogs.com/png.latex?(x^{1},y^{1}),&space;(x^{2},y^{2}),&space;(x^{3},y^{3}),&space;...(x^{1},y^{i})" title="(x^{1},y^{1}), (x^{2},y^{2}), (x^{3},y^{3}), ...(x^{1},y^{i})" />이 때 m은 data, label set의 갯수를 의미합니다.<br/><br/><br/>
        만들어진 모델이 파란색 직선, data와 label set이 검정색 점이라고 할 때<br/>
        빨간색 선, 즉 거리의 제곱의 평균
 
