@@ -49,7 +49,7 @@ categories: MachineLearning DataAnalyze
       관찰 결과에서 비롯됐으며,<br>
       키가 아주 크거나 작거나 모두 세대가 갈수록 평균과 가까워 진다는 이론입니다. <br><br>
       그럼 fit한 모델을 추정하는 것을 왜 회귀라 부르냐??<br/><br/>
-      Cost가 회귀하기 때문이죠. Cost에 대한 설명은 아래 선형회귀에서 설명합니다.</i><br/><br/>
+      학습이 계속될 수록 Cost가 0으로 회귀하기 때문이죠. Cost는 아래에서 설명합니다.</i><br/><br/>
 
 
 
@@ -75,19 +75,28 @@ categories: MachineLearning DataAnalyze
 
       그래서 조금 다른 방법으로 접근하고자 합니다.<br/>
       <b>바로 Cost(비용)를 통한 접근 방법입니다.</b><br/><br/>
-      이 방법은 정답을 찾는 것이 아닌 <b style ="color : red">'정답에 가장 가까운 답'</b>을 찾는 것입니다.<br/><br/>
-      바로 <b style ="color : red">거리</b>를 이용한 방법입니다.<br/><br/>
+     <div>
+       <h3 style = "font-size :1.2em"> 비용(Cost)</h3><br/>
+       <div style = "margin-left : 30px">
+        이 방법은 정답을 찾는 것이 아닌 <b style ="color : red">'정답에 가장 가까운 답'</b>을 찾는 것입니다.<br/><br/>
+        바로 <b style ="color : red">거리</b>를 이용한 방법입니다.<br/><br/>
    
-      <img src="/assets/photos/20200820_2.png" width="450"><br><br>
-       검정색 점은 data와 label set, 파란색 직선이 임의로 만들어진 모델이라고 할 때<br/>
-       거리의 제곱의 합, 즉 빨간 선분의 제곱의 합을 통해 이상적인 모델을 찾습니다.<br/><br/>
-       이 때 빨간 선분의 제곱의 합의 평균을 <b>비용(Cost)</b>라고 합니다.<br/><br/>
+        <img src="/assets/photos/20200820_2.png" width="450"><br><br>
+         검정색 점은 data와 label set, 파란색 직선이 임의로 만들어진 모델이라고 할 때<br/>
+         거리의 제곱의 합, 즉 빨간 선분의 제곱의 합을 통해 이상적인 모델을 찾습니다.<br/><br/>
+         이 때 빨간 선분의 제곱의 합의 평균을 <b>비용(Cost)</b>라고 합니다.<br/><br/>
        
 
-       한 점에서의 거리의 제곱은 <img src="https://latex.codecogs.com/png.latex?(H(x)-y)^{2}" title="(H(x)-y)^{2}" />라고 할 수 있으므로<br/><br/>
-       Cost의 정의를 수식으로 나타내면 <img src="https://latex.codecogs.com/png.latex?\frac{1}{m}\sum_{i=1}^{m}(H(x^{i})-y^{i})^{2}" title="\frac{1}{m}\sum_{i=1}^{m}(H(x^{i})-y^{i})^{2}" />가 됩니다.<br/><br/>
-       i는 i번째 data, label set을 의미하며 <img src="https://latex.codecogs.com/png.latex?(x^{1},y^{1}),&space;(x^{2},y^{2}),&space;(x^{3},y^{3}),&space;...(x^{1},y^{i})" title="(x^{1},y^{1}), (x^{2},y^{2}), (x^{3},y^{3}), ...(x^{1},y^{i})" /><br/><br/>이 때 m은 data, label set의 갯수를 의미합니다.<br/><br/><br/>
-       즉 한마디로 정리하면 Cost의 평균을 통해 가장 fit한 가설(모델)을 찾아내는 것이 선형회귀법입니다.<br/><br/><br/>
+         한 점에서의 거리의 제곱은 <img src="https://latex.codecogs.com/png.latex?(H(x)-y)^{2}" title="(H(x)-y)^{2}" />라고 할 수 있으므로<br/><br/>
+         Cost의 정의를 수식으로 나타내면 <img src="https://latex.codecogs.com/png.latex?\frac{1}{m}\sum_{i=1}^{m}(H(x^{i})-y^{i})^{2}" title="\frac{1}{m}\sum_{i=1}^{m}(H(x^{i})-y^{i})^{2}" />가 됩니다.<br/><br/>
+         i는 i번째 data, label set을 의미하며 <img src="https://latex.codecogs.com/png.latex?(x^{1},y^{1}),&space;(x^{2},y^{2}),&space;(x^{3},y^{3}),&space;...(x^{1},y^{i})" title="(x^{1},y^{1}), (x^{2},y^{2}), (x^{3},y^{3}), ...(x^{1},y^{i})" /><br/><br/>이 때 m은 data, label set의 갯수를 의미합니다.<br/><br/><br/>
+       
+       
+         다시 말하면 선형회귀의 목표는 <img src="https://latex.codecogs.com/png.latex?minimize(Cost(w,b))" title="minimize(Cost(w,b))" />가 됩니다.
+
+
+    </div>
+      
 
       
 
