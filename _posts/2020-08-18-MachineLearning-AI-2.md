@@ -40,10 +40,8 @@ categories: MachineLearning DataAnalyze
       회귀모델을 얻어내기 위해서는 data(x값), label(y값 : 결과값), 가설(hypothesis) 이 세가지가 필요합니다.<br>
       가설이란 계수가 모두 미지수인 식으로 1차식이 될 수도 있고 아니면 초월함수꼴이 될 수도 있습니다.<br><br>
       ex :: H(x) = w1x1+b <br><br>
-      이렇게 세운 가설과 data, label을 컴퓨터에게 주면 컴퓨터는 가설에 data와 label을 대입하며 계수를 얻어내어 회귀모델을 만들어 냅니다.<br><br>
-      이렇게 추정된 회귀모델중 비용이 가장 적은 회귀모델을 위에서 설명한 가장 fit한 회귀모델이 되는 것이며,<br>
-      학습을 계속하며 계속 할수록 완벽한 회귀모델을얻어 낼 수 있습니다.<br>
-
+      이렇게 세운 가설과 data, label을 컴퓨터에게 주면 컴퓨터는 data와 label을 설명할 수 있는 H(x)들을 만들어내고<br/><br/>
+      그 중 가장 fit한 회귀모델을 얻어냅니다.<br/><br/>
 
       <i style = "font-size : 0.9em">
       '평균으로의 회귀'.프랜시스 골턴이 처음 주장한 이론으로 극단적이거나 이례적인 결과는 평균 방향으로 되돌아오는 경향을 가진다는 개념입니다.<br><br>
@@ -58,9 +56,19 @@ categories: MachineLearning DataAnalyze
   <div>
     <h3 style = "font-size :1.2em"> 선형회귀</h3><br/>
     <div style = "margin-left : 30px">
-      <img src="../assets/photos/20200820_1.png" width="245"><br>
+      그럼 회귀 중 가장 간단한 단순선형회귀부터 살펴보겠습니다.<br/><br/>
+      위에서 예시로 든 H(x)와 같이 y = wx+b꼴의 가설의 형태를 가지는 것이 단순선형회귀입니다.<br/><br/><br/>
+
+      <img src="/assets/photos/20200820_1.png" width="245"><br><br>
+      우리는 점이 찍힌  
+	
+      간단히 말하자면 '회귀모델이 선형식이다'입니다.
+      가설의 w1과 b에 수를 대입한 후 data, label을 모델에 대입,<br/><br/>
+      이 과정을 무한히 거쳐 가장 fit한 회귀모델을 찾아냅니다.<br><br>
+      (물론 w1과 b에 숫자를 계속 넣어가며 최적의 H(x)를 추정하는 것은 비효율적이라 쓰지 않습니다.)
       
-       간단히 말하자면 '회귀모델이 선형식이다'입니다.
+      
+      
 
 
     </div>
