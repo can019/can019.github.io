@@ -59,7 +59,7 @@ categories: MachineLearning DataAnalyze
       그럼 회귀 중 가장 간단한 단순선형회귀부터 살펴보겠습니다.<br/><br/>
       위에서 예시로 든 H(x)와 같이 y = wx+b꼴의 가설의 형태를 가지는 것이 단순선형회귀입니다.<br/><br/><br/>
 
-      <img src="/assets/photos/20200820_1.png" width="245"><br><br>
+      <img src="/assets/photos/20200820_1.png" width="450"><br><br>
       우리는 점이 찍힌  
 	
       간단히 말하자면 '회귀모델이 선형식이다'입니다.
