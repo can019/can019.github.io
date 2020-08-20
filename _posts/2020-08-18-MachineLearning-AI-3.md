@@ -7,7 +7,7 @@ categories: MachineLearning DataAnalyze
 
 <hr/>
 <div style = "font-size :0.8em">
-  지난 포스팅 요약 :: 선형회귀법은 Cost가 가장 작은 model을 구하는 것이다. <a href = "https://can019.github.io/machinelearning/dataanalyze/MachineLearning-AI-3/">지난 포스팅</a><br/>
+  <a href = "https://can019.github.io/machinelearning/dataanalyze/MachineLearning-AI-3/">지난 포스팅</a> 요약 :: 선형회귀법은 Cost가 가장 작은 model을 구하는 것이다. <br/>
   오늘 포스팅 :: 작은 Cost를 구하는 법인 경사하강법(Gradient Descend Algorithm)에 대해 알아보자.
   <div>
     <h3 style = "font-size :1.2em"> 경사하강법</h3><br/>
