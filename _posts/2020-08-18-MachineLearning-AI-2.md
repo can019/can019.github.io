@@ -89,11 +89,30 @@ categories: MachineLearning DataAnalyze
 
          한 점에서의 거리의 제곱은 <img src="https://latex.codecogs.com/png.latex?(H(x)-y)^{2}" title="(H(x)-y)^{2}" />라고 할 수 있으므로<br/><br/>
          Cost의 정의를 수식으로 나타내면 <img src="https://latex.codecogs.com/png.latex?\frac{1}{m}\sum_{i=1}^{m}(H(x^{i})-y^{i})^{2}" title="\frac{1}{m}\sum_{i=1}^{m}(H(x^{i})-y^{i})^{2}" />가 됩니다.<br/><br/>
-         i는 i번째 data, label set을 의미하며 <img src="https://latex.codecogs.com/png.latex?(x^{1},y^{1}),&space;(x^{2},y^{2}),&space;(x^{3},y^{3}),&space;...(x^{1},y^{i})" title="(x^{1},y^{1}), (x^{2},y^{2}), (x^{3},y^{3}), ...(x^{1},y^{i})" /><br/><br/>이 때 m은 data, label set의 갯수를 의미합니다.<br/><br/><br/>
-         <img src="/assets/photos/20200820_3.png" width="450">
+          i는 i번째 data, label set을 의미하며 <img src="https://latex.codecogs.com/png.latex?(x^{1},y^{1}),&space;(x^{2},y^{2}),&space;(x^{3},y^{3}),&space;...(x^{1},y^{i})" title="(x^{1},y^{1}), (x^{2},y^{2}), (x^{3},y^{3}), ...(x^{1},y^{i})" /><br/><br/>이 때 m은 data, label set의 갯수를 의미합니다.<br/><br/><br/>
+         
+          다시 말하면 선형회귀의 목표는 <img src="https://latex.codecogs.com/png.latex?minimize(Cost(w,b))" title="minimize(Cost(w,b))" />가 됩니다.<br/><br/>
+         <img src="/assets/photos/20200820_3.png" width="450"><br/>
          <span style = "font-size : 0.8em">Cost 그래프</span><br/><br/>
-         다시 말하면 선형회귀의 목표는 <img src="https://latex.codecogs.com/png.latex?minimize(Cost(w,b))" title="minimize(Cost(w,b))" />가 됩니다.
+        
+         간혹 헷갈리는 포인트가 있는데<br/>
+         'x축, y축이 뭐지?'입니다.'<br/><br/>
+         Cost 그래프의 x축은 w, y축은 Cost입니다.
+         Cost 그래프는 w를 준 후 data,label을 곱한 그래프입니다.<br/><br/>
+       
+         x축은 일단 w를 의미합니다. 여기까진 실수 안하시는데 그 다음 y축이 무엇이냐..에서 실수를 하십니다.<br/><br/>
 
+         w가 1이라고 할 때 H(x) = x, w가 2라면 H(x) = 2x가 됩니다.<br/><br/>
+         이 때 data, label set이 [x1,y1],[x2,y2],[x3,y3]라고 할 때<br/><br/>
+         w=1일 때 cost는 <img src="https://latex.codecogs.com/png.latex?(x1-y1)^{2}+(x2-y2)^{2}+(x3-y3)^{2}" title="(x1-y1)^{2}+(x2-y2)^{2}+(x3-y3)^{2}}" /><br/><br/>
+         w=2일 때 cost는 <img src="https://latex.codecogs.com/png.latex?(2x1-y1)^{2}+(2x2-y2)^{2}+(2x3-y3)^{2}" title="(2x1-y1)^{2}+(2x2-y2)^{2}+(2x3-y3)^{2}}" /><br/><br/>
+         가 됩니다.<br/><br/>
+         즉 w가 바뀌게 되면 당연히 cost의 계산이 달라지며 바뀌겠죠<br/><br/>
+         또 하나 data, label의 변동입니다. <br/><br/>
+         그래프의 축이 하나이기 때문에 하나의 값에 따라 그래프의 변동이 있다고 생각합니다<br/><br/>
+         위에서 방금 위에서 보았듯 data, label이 바뀌면 당연히 바뀌겠죠???<br/><br/>
+         이해하고 돌이켜서 보면 정말 뻔하지만 막상 배울 땐 혼동이 오는 경우가 있습니다.<br/><br/>
+       
 	<hr/>
     </div>
       <br/><br/>
