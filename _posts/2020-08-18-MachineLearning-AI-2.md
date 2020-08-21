@@ -101,10 +101,12 @@ categories: MachineLearning DataAnalyze
          x축은 일단 w를 의미합니다. 여기까진 실수 안하시는데 그 다음 y축이 무엇이냐..에서 실수를 하십니다.<br/><br/>
 
          w가 1이라고 할 때 H(x) = x, w가 2라면 H(x) = 2x가 됩니다.<br/><br/>
-         이 때 data, label set이 [x1,y1],[x2,y2],[x3,y3]라고 할 때<br/><br/>
+         data, label set이 [x1,y1],[x2,y2],[x3,y3]라고 할 때<br/><br/>
          w=1일 때 cost는 <img src="https://latex.codecogs.com/png.latex?(x1-y1)^{2}+(x2-y2)^{2}+(x3-y3)^{2}" title="(x1-y1)^{2}+(x2-y2)^{2}+(x3-y3)^{2}}" /><br/><br/>
          w=2일 때 cost는 <img src="https://latex.codecogs.com/png.latex?(2x1-y1)^{2}+(2x2-y2)^{2}+(2x3-y3)^{2}" title="(2x1-y1)^{2}+(2x2-y2)^{2}+(2x3-y3)^{2}}" /><br/><br/>
          가 됩니다.<br/><br/>
+         Cost 그래프에서는<br/>
+         <img src="https://latex.codecogs.com/png.latex?(1,(x1-y1)^{2}+(x2-y2)^{2}+(x3-y3)^{2})" title="(1,(x1-y1)^{2}+(x2-y2)^{2}+(x3-y3)^{2})" />,<img src="https://latex.codecogs.com/png.latex?(2,(x1-y1)^{2}+(x2-y2)^{2}+(x3-y3)^{2})" title="(2,(x1-y1)^{2}+(x2-y2)^{2}+(x3-y3)^{2})" />가 되겠죠<br/>
          즉 w가 바뀌게 되면 당연히 cost의 계산이 달라지며 바뀌겠죠<br/><br/>
          또 하나 data, label의 변동입니다. <br/><br/>
          그래프의 축이 하나이기 때문에 하나의 값에 따라 그래프의 변동이 있다고 생각합니다<br/><br/>
