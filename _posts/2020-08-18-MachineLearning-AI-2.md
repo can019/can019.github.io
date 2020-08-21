@@ -95,7 +95,7 @@ categories: MachineLearning DataAnalyze
          <img src="/assets/photos/20200820_3.png" width="450"><br/>
          <span style = "font-size : 0.8em">Cost 그래프</span><br/><br/>
         
-         간혹 헷갈리는 포인트가 있는데<br/>
+         간혹 용어들과 개념이 잡히지 않아 헷갈리는 포인트가 있는데<br/>
          'x축, y축이 뭐지?'입니다.'<br/><br/>
        
          x축은 일단 w를 의미합니다. 여기까진 실수 안하시는데 그 다음 y축이 무엇이냐..에서 실수를 하십니다.<br/><br/>
@@ -111,6 +111,10 @@ categories: MachineLearning DataAnalyze
          또 하나 data, label의 변동입니다. <br/><br/>
          그래프의 축이 하나이기 때문에 하나의 값에 따라 그래프의 변동이 있다고 생각합니다<br/><br/>
          위에서 방금 위에서 보았듯 data, label이 바뀌면 당연히 바뀌겠죠???<br/><br/>
+
+         다시 정리하자면<br/>
+          x축 : w, y축 : Cost(w).<br/>
+         Cost(w)는 w와 data/label set에 따라 바뀐다. data/label에 따라 바뀌는 경우는 아예 다른 case를 예측하는 것이므로<br/> 같은 case에서 예측하는 것은 w에 대한 변동사항이다.<br/><br/>         
          이해하고 돌이켜서 보면 정말 뻔하지만 막상 배울 땐 혼동이 오는 경우가 있습니다.<br/><br/>
        
 	<hr/>
