@@ -16,7 +16,7 @@ categories: MachineLearning DataAnalyze
        순간기울기를 통해 극값을 추정하는 방법이며 미분가능한 함수에서 가능합니다.<br/><br/>
        
        어떤 지점의 순간기울기의 부호를 통해 현재 지점보다 낮은 지점으로 가기위해 어느쪽으로 이동해야하는 건지 판단하며<br/>
-       최종적으로<br/> 순간기울기가 0일때 까지 반복합니다.<br/><br/>
+       최종적으로 순간기울기가 0일때 까지 반복합니다.<br/><br/>
 
        <img src="/assets/photos/gradient-descent-local-minima.png" width="550"><br/>
        <span style = "font-size : 0.8em">local minima, global minima</span><br/><br/>
@@ -30,7 +30,7 @@ categories: MachineLearning DataAnalyze
     <h3 style = "font-size :1.2em"> 선형회귀에서 경사하강법</h3><br/>
     <div style = "margin-left : 30px">
         
-        H(x) = wx+b일 때의 Cost그래프를 통해 설명하겠습니다.<br/><br/>
+        H(x) = wx+b일 때의 Cost그래프는 아래와 같이 2차함수 형태입니다.<br/><br/>
        <img src="/assets/photos/20200820_3.png" width="450"><br/>
        <span style = "font-size : 0.8em">Cost 그래프 예시</span><br/><br/>
          선형회귀의 핵심은 U자 개형을 가지는 Cost그래프에서 Cost값이 최저일 때 w값을 찾아내는 것이 목표입니다.<br/><br/>
