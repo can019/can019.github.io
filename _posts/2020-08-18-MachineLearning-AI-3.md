@@ -63,10 +63,10 @@ categories: MachineLearning DataAnalyze
           따라서 '적당한 값'을 주는 것이 중요합니다.</i><br/><br/><hr/>
 
           이제 식을 정리해보면,<br/>
-         <img src="https://latex.codecogs.com/png.latex?w := w - \alpha \frac{\partial }{\partial w}Cost(w)" title="w := w - \alpha \frac{\partial }{\partial x}Cost(w)" /><br/>
-         <img src="https://latex.codecogs.com/png.latex?w := w - \alpha \frac{\partial }{\partial w}\frac{1}{2m}\sum_{i=1}^{m}(W(x^{i})-y^{i})^{2}" title="w := w - \alpha \frac{\partial }{\partial w}\frac{1}{2m}\sum_{i=1}^{m}(W(x^{i})-y^{i})^{2}" /><br/>
-         <img src="https://latex.codecogs.com/png.latex?w := w - \alpha \frac{1}{2m}\sum_{i=1}^{m}2(W(x^{i})-y^{i})x^{i}" title="w := w - \alpha \frac{1}{2m}\sum_{i=1}^{m}2(W(x^{i})-y^{i})x^{i}" /><br/>
-         <img src="https://latex.codecogs.com/png.latex?w := w - \alpha \frac{1}{m}\sum_{i=1}^{m}(W(x^{i})-y^{i})x^{i}" title="w := w - \alpha \frac{1}{m}\sum_{i=1}^{m}(W(x^{i})-y^{i})x^{i}" /><br/>
+         <img src="https://latex.codecogs.com/png.latex?w := w - \alpha \frac{\partial }{\partial w}Cost(w)" title="w := w - \alpha \frac{\partial }{\partial x}Cost(w)" /><br/><br/>
+         <img src="https://latex.codecogs.com/png.latex?w := w - \alpha \frac{\partial }{\partial w}\frac{1}{2m}\sum_{i=1}^{m}(W(x^{i})-y^{i})^{2}" title="w := w - \alpha \frac{\partial }{\partial w}\frac{1}{2m}\sum_{i=1}^{m}(W(x^{i})-y^{i})^{2}" /><br/><br/>
+         <img src="https://latex.codecogs.com/png.latex?w := w - \alpha \frac{1}{2m}\sum_{i=1}^{m}2(W(x^{i})-y^{i})x^{i}" title="w := w - \alpha \frac{1}{2m}\sum_{i=1}^{m}2(W(x^{i})-y^{i})x^{i}" /><br/><br/>
+         <img src="https://latex.codecogs.com/png.latex?w := w - \alpha \frac{1}{m}\sum_{i=1}^{m}(W(x^{i})-y^{i})x^{i}" title="w := w - \alpha \frac{1}{m}\sum_{i=1}^{m}(W(x^{i})-y^{i})x^{i}" /><br/><br/>
          이렇게 됩니다.
         
     </div>
