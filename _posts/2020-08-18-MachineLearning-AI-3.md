@@ -23,8 +23,8 @@ categories: MachineLearning DataAnalyze
        <span style = "font-size : 0.8em">출처 :: https://bdtechtalks.com</span><br/><br/>
        이때문에 극소값(local minima)이 하나인 그래프에서는 최소값이 하나기 때문에 문제가 없지만<br/>
        극소값이 여러개인 그래프에서는 찾은 곳이 최소값(global minima)이라는 보장을 할 수 없습니다.<br/><br/>
-       즉, <b>'어떻게 내려가는지'</b>에 따라 도착한 곳이 바뀌며,<br/>
-       어떻게 내려가는지는 <b>'출발지점'</b>이 어딘지에 따라 영향을 크게 받습니다.<br/><br/>
+       그리고 경사하강법을 통한 극값 추정시 <b>'내려가는 루트'</b>에 따라 도착한 곳이 바뀌며,<br/>
+       내려가는 루트는 <b>'출발지점'</b>이 어딘지에 따라 영향을 크게 받습니다.<br/><br/>
        
     </div>
     <hr/>
