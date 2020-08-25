@@ -18,7 +18,7 @@ categories: MachineLearning DataAnalyze
        어떤 지점의 순간기울기의 부호를 통해 현재 지점보다 낮은 지점으로 가기위해 어느쪽으로 이동해야하는 건지 판단하며<br/>
        최종적으로<br/> 순간기울기가 0일때 까지 반복합니다.<br/><br/>
 
-       <img src="/assets/photos/gradient-descent-local-minima.png" width="450"><br/>
+       <img src="/assets/photos/gradient-descent-local-minima.png" width="550"><br/>
        <span style = "font-size : 0.8em">local mima, global minima</span><br/><br/>
        이때문에 극소값(local minima)이 하나인 그래프에서는 최소값이 하나기 때문에 문제가 없지만<br/>
        극소값이 여러개인 그래프에서는 찾은 곳이 최소값(global minima)이라는 보장을 할 수 없습니다.<br/><br/>
