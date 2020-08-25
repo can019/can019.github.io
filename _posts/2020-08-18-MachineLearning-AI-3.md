@@ -12,9 +12,9 @@ categories: MachineLearning DataAnalyze
   <div>
     <h3 style = "font-size :1.2em"> 경사하강법이란?</h3><br/>
     <div style = "margin-left : 30px">
-       <table>
-       <tr><td>경사하강법은 많은 최소값 탐색 문제에 사용되며 특히 근사값을 구하는 문제에서 많이 사용됩니다.<br/><br/>
-       순간기울기를 통해 극값을 추정하는 방법이며 미분가능한 함수에서 가능합니다.</td></tr>
+       <table style = "font-size :1.2em" >
+       <tr><td><b>경사하강법은 많은 최소값 탐색 문제에 사용되며 특히 근사값을 구하는 문제에서 많이 사용됩니다.<br/><br/>
+       순간기울기를 통해 극값을 추정하는 방법이며 미분가능한 함수에서 가능합니다.</b></td></tr>
        </table>
        <br/><br/>
        
