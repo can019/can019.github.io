@@ -33,7 +33,7 @@ categories: MachineLearning DataAnalyze
        알파값이 너무 큰값이라면 w가 움직이는 범위가 너무 커서 극점을 지나칠 우려가 있으며<br/>
        너무 작은값이라면 최소점을 찾는데 지나치게 오랜시간이 걸립니다.<br/>
        따라서 '적당한 값'을 주는 것이 중요합니다.</i><br/><br/><hr/>
-       또한 경사하강법은 Cost함수가 컨벡스함수인경우 사용가능합니다.<br/><br/><hr/>
+       또한 경사하강법은 Cost함수가 컨벡스함수인경우 사용가능합니다.<br/><hr/>
     </div>
     
   <div>
@@ -64,8 +64,8 @@ categories: MachineLearning DataAnalyze
          <i style = "font-size : 0.9em">m이 몹시 크기 때문에 2를 나누어 주는 것 정도는 큰 변화가 없습니다.<br/>
          시간복잡도 구할 때 n이 너무 커 상수를 무시하는 것을 생각하시면 되겠습니다.</i><br/><br/><hr/>
         
-
-          이제 식을 정리해보면,<br/>
+         경사하강법 알고리즘이 <img src="https://latex.codecogs.com/png.latex?w := w - \alpha \frac{\partial }{\partial w}Cost(w)" title="w := w - \alpha \frac{\partial }{\partial w}Cost(w)" />이므로<br/><br/>
+         식을 정리해보면,<br/><br/>
          <img src="https://latex.codecogs.com/png.latex?w := w - \alpha \frac{\partial }{\partial w}Cost(w)" title="w := w - \alpha \frac{\partial }{\partial x}Cost(w)" /><br/><br/>
          <img src="https://latex.codecogs.com/png.latex?w := w - \alpha \frac{\partial }{\partial w}\frac{1}{2m}\sum_{i=1}^{m}(W(x^{i})-y^{i})^{2}" title="w := w - \alpha \frac{\partial }{\partial w}\frac{1}{2m}\sum_{i=1}^{m}(W(x^{i})-y^{i})^{2}" /><br/><br/>
          <img src="https://latex.codecogs.com/png.latex?w := w - \alpha \frac{1}{2m}\sum_{i=1}^{m}2(W(x^{i})-y^{i})x^{i}" title="w := w - \alpha \frac{1}{2m}\sum_{i=1}^{m}2(W(x^{i})-y^{i})x^{i}" /><br/><br/>
@@ -76,7 +76,7 @@ categories: MachineLearning DataAnalyze
   </div>
  </div>
  <hr/>
-<a href = "">다음 포스팅</a>은 파이썬 코드로 구현하는 법을 알아보겠습니다.<br/>
+<a href = "">다음 포스팅</a>은 파이썬 코드로 구현하는 법을 알아보겠습니다.<hr/>
    <blockquote> 공부하며 작성하는 포스팅이기 때문에 수정사항이 생길 수 있습니다. </blockquote>
   <blockquote>해당 포스팅은 KAIST교육을 바탕으로 하며 이해에 필요한 추가적인 정보를 덧붙였습니다.<br/>
   영상과 강의자료는 배포가 불가하기에 공유가 불가하면 포스팅에 사용한 자료와 이미지는 개인적으로 복습하며 만들었습니다. </blockquote>
