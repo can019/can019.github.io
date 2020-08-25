@@ -8,11 +8,12 @@ categories: MachineLearning DataAnalyze
 <hr/>
 <div style = "font-size :0.8em">
   <a href = "https://can019.github.io/machinelearning/dataanalyze/MachineLearning-AI-2/">지난 포스팅</a> 요약 :: 선형회귀법은 Cost가 가장 작은 model을 구하는 것이다. <br/>
-  오늘 포스팅 :: 작은 Cost를 구하는 법인 경사하강법(Gradient Descend Algorithm)에 대해 알아보자.
+  오늘 포스팅 :: 선형회귀에서의 경사하강법(Gradient Descend Algorithm)에 대해 알아보자
   <div>
     <h3 style = "font-size :1.2em"> 경사하강법</h3><br/>
     <div style = "margin-left : 30px">
        경사하강법은 많은 최소값 탐색 문제에 사용되며 특히 근사값을 구하는 문제에서 많이 사용됩니다.<br/><br/>
+       
        쉽게 설명하기 위해 H(x) = wx+b일 때의 Cost그래프를 통해 설명하겠습니다.<br/><br/>
        <img src="/assets/photos/20200820_3.png" width="450"><br/>
        <span style = "font-size : 0.8em">Cost 그래프 예시</span><br/><br/>
