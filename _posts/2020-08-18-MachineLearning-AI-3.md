@@ -19,7 +19,7 @@ categories: MachineLearning DataAnalyze
        최종적으로<br/> 순간기울기가 0일때 까지 반복합니다.<br/><br/>
 
        <img src="/assets/photos/gradient-descent-local-minima.png" width="450"><br/>
-       <span style = "font-size : 0.8em">local mima, global minima</span>
+       <span style = "font-size : 0.8em">local mima, global minima</span><br/><br/>
        이때문에 극소값(local minima)이 하나인 그래프에서는 최소값이 하나기 때문에 문제가 없지만<br/>
        극소값이 여러개인 그래프에서는 찾은 곳이 최소값(global minima)이라는 보장을 할 수 없습니다.<br/><br/>
        즉, <b>'어떻게 내려가는지'</b>에 따라 도착한 곳이 바뀌며,<br/>
