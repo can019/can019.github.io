@@ -13,9 +13,9 @@ categories: MachineLearning DataAnalyze
     <h3 style = "font-size :1.2em"> 경사하강법</h3><br/>
     <div style = "margin-left : 30px">
        경사하강법은 많은 최소값 탐색 문제에 사용되며 특히 근사값을 구하는 문제에서 많이 사용됩니다.<br/><br/>
-       쉽게 설명하기 위해 Cost그래프를 통해 설명하겠습니다.<br/><br/>
+       쉽게 설명하기 위해 H(x) = wx+b일 때의 Cost그래프를 통해 설명하겠습니다.<br/><br/>
        <img src="/assets/photos/20200820_3.png" width="450"><br/>
-        <span style = "font-size : 0.8em">Cost 그래프 예시</span><br/><br/>
+       <span style = "font-size : 0.8em">Cost 그래프 예시</span><br/><br/>
          선형회귀의 핵심은 U자 개형을 가지는 Cost그래프에서 Cost값이 최저일 때 w값을 찾아내는 것이 목표입니다.<br/><br/>
          저 문장을 바꾸어 말한다면<br/> <b>'Cost그래프를 미분했을 때 0인 지점의 w값을 구하는 것이 목표입니다'.</b> 라고 바꿔 말할 수 있습니다.<br/><br/>
          
