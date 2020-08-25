@@ -26,10 +26,10 @@ categories: MachineLearning DataAnalyze Python Colab
     발전을 위해서는익숙해지는게 정신건강에 편합니다.
   </blockquote>
   <blockquote>
-    환경.<br/><br/>
+    환경<br/>
     CPU :: Amd RYZEN9 3900X<br/>
     GPU :: Asus GeFore RTX 2080<br/>
-    RAM :: DDR4 8G PC4-21300 x2 (3200Mhz, CL 16)
+    RAM :: DDR4 8G PC4-21300 x2 (3200Mhz, CL 16)<br/>
     IDE :: Pycharm
     Os :: Window 10
     Anaconda :: version 3
