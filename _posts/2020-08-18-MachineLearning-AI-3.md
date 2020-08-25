@@ -25,8 +25,16 @@ categories: MachineLearning DataAnalyze
        그리고 경사하강법을 통한 극값 추정시 <b>'내려가는 루트'</b>에 따라 도착한 곳이 바뀌며,<br/>
        내려가는 루트는 <b>'출발지점'</b>이 어딘지에 따라 영향을 크게 받습니다.<br/><br/>
        
+       경사하강법은 Cost함수가 컨벡스함수인경우 사용가능하며,<br/>
+       알고리즘을 수식으로 표현할 경우 <br/><img src="https://latex.codecogs.com/png.latex?w := w - \alpha \frac{\partial }{\partial w}Cost(w)" title="w := w - \alpha \frac{\partial }{\partial w}Cost(w)" />가 됩니다.<br/><br/>
+       위식을 설명하자면 다음 w값은 현재 w값에서 Cost(w)의 미분값 x 알파를 빼준 값이라는 뜻입니다.<br/><br/>
+       알파값은 우리가 정해주는 값으로 얼마만큼 움직일지이며, 알파 오른쪽 식은 미분표현인 dCost(w)/dw입니다.<br/> d(델타)가 조금 이상하게 표현됬네요..<br/><br/>
+       <i style = "font-size : 0.9em">':='은 좌항을 우항으로 대체하라는 표현입니다.<br/>
+       알파값이 너무 큰값이라면 w가 움직이는 범위가 너무 커서 극점을 지나칠 우려가 있으며<br/>
+       너무 작은값이라면 최소점을 찾는데 지나치게 오랜시간이 걸립니다.<br/>
+       따라서 '적당한 값'을 주는 것이 중요합니다.</i><br/><br/><hr/>
     </div>
-    <hr/>
+    
   <div>
     <h3 style = "font-size :1.2em"> 경사하강법 in 선형회귀</h3><br/>
     <div style = "margin-left : 30px">
@@ -54,13 +62,7 @@ categories: MachineLearning DataAnalyze
          <br/>
          <i style = "font-size : 0.9em">m이 몹시 크기 때문에 2를 나누어 주는 것 정도는 큰 변화가 없습니다.<br/>
          시간복잡도 구할 때 n이 너무 커 상수를 무시하는 것을 생각하시면 되겠습니다.</i><br/><br/><hr/>
-         그리고 gradient 알고리즘을 수식으로 표현하자면 <img src="https://latex.codecogs.com/png.latex?w := w - \alpha \frac{\partial }{\partial w}Cost(w)" title="w := w - \alpha \frac{\partial }{\partial w}Cost(w)" />가 됩니다.<br/><br/>
-         위식을 설명하자면 다음 w값은 현재 w값에서 Cost(w)의 미분값 x 알파를 빼준 값이라는 뜻입니다.<br/><br/>
-         알파값은 우리가 정해주는 값으로 얼마만큼 움직일지이며, 알파 오른쪽 식은 미분표현인 dCost(w)/dw입니다.<br/> d(델타)가 조금 이상하게 표현됬네요..<br/><br/>
-          <i style = "font-size : 0.9em">':='은 좌항을 우항으로 대체하라는 표현입니다.<br/>
-          알파값이 너무 큰값이라면 w가 움직이는 범위가 너무 커서 극점을 지나칠 우려가 있으며<br/>
-          너무 작은값이라면 최소점을 찾는데 지나치게 오랜시간이 걸립니다.<br/>
-          따라서 '적당한 값'을 주는 것이 중요합니다.</i><br/><br/><hr/>
+        
 
           이제 식을 정리해보면,<br/>
          <img src="https://latex.codecogs.com/png.latex?w := w - \alpha \frac{\partial }{\partial w}Cost(w)" title="w := w - \alpha \frac{\partial }{\partial x}Cost(w)" /><br/><br/>
