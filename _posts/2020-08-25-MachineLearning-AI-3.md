@@ -4,6 +4,7 @@ date: 2020-08-20 21:00:15 -0400
 categories: MachineLearning DataAnalyze
 ---
 # 경사하강법(Gradient Descend Algorithm)과 단순선형회귀에서의 경사하강법
+
 <hr/>
 <div style = "font-size :0.8em">
   <a href = "https://can019.github.io/machinelearning/dataanalyze/MachineLearning-AI-2/">지난 포스팅</a> 요약 :: 선형회귀법은 Cost가 가장 작은 model을 구하는 것이다. <br/>
