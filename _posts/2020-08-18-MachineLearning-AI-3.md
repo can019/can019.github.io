@@ -47,7 +47,10 @@ categories: MachineLearning DataAnalyze
          <i style = "font-size : 0.9em">찾는 모양새가 그래프의 경사면을 따라 주르륵 미끄러져 내려가는 것 처럼 보이기 때문에 경사하강법이라고 부릅니다.</i><br/><br/>
         
          <hr/>
-         이번에는 수식을 통해 살펴보겠습니다.
+         이번에는 수식을 통해 살펴보겠습니다.<br/><br/>
+         Cost 정의인 <img src="https://latex.codecogs.com/png.latex?\frac{1}{m}\sum_{i=1}^{m}(H(x^{i})-y^{i})^{2}" title="\frac{1}{m}\sum_{i=1}^{m}(H(x^{i})-y^{i})^{2}" />입니다.<br/><br/>
+         이 식을 미분했을 때 조금 편한 꼴이 되도록 2로 나누어 식을 아래와 같이 변형시키겠습니다.<br/><br/>
+        <img src="https://latex.codecogs.com/png.latex?\frac{1}{2m}\sum_{i=1}^{m}(H(x^{i})-y^{i})^{2}" title="\frac{1}{2m}\sum_{i=1}^{m}(H(x^{i})-y^{i})^{2}" />
          위 상황은 H'(x)값이 0이 아닌경우 '적당한 거리'만큼 지점을 움직였습니다.<br/><br/>
         
          만약 H'(x)!=0인 경우 움직는 거리가 너무 크다면 극점을 지나치게 되며(이 경우 발산하게 되어 최소점을 찾지 못합니다)<br/>
