@@ -17,6 +17,7 @@ categories: MachineLearning DataAnalyze
        
        어떤 지점의 순간기울기의 부호를 통해 현재 지점보다 낮은 지점으로 가기위해 어느쪽으로 이동해야하는 건지 판단하며<br/>
        최종적으로 순간기울기가 0일때 까지 반복합니다.<br/><br/>
+       <i style = "font-size : 0.9em">이 모양새가 그래프의 경사면을 따라 주르륵 미끄러지는 것 처럼 보이기 때문에 경사하강법이라고 부릅니다.</i><br/><br/>
 
        <img src="/assets/photos/gradient-descent-local-minima.png" width="550"><br/>
        <span style = "font-size : 0.8em">출처 :: https://bdtechtalks.com</span><br/><br/>
@@ -31,14 +32,14 @@ categories: MachineLearning DataAnalyze
     <h3 style = "font-size :1.2em"> 선형회귀에서 경사하강법</h3><br/>
     <div style = "margin-left : 30px">
         
-        H(x) = wx+b일 때의 Cost그래프는 아래와 같이 2차함수 형태입니다.<br/><br/>
+        H(x) = wx+b일 때의 Cost 그래프는 아래와 같이 2차함수 형태입니다.<br/><br/>
        <img src="/assets/photos/20200820_3.png" width="450"><br/>
        <span style = "font-size : 0.8em">Cost 그래프 예시</span><br/><br/>
          선형회귀의 핵심은 U자 개형을 가지는 Cost그래프에서 Cost값이 최저일 때 w값을 찾아내는 것이 목표입니다.<br/><br/>
          저 문장을 바꾸어 말한다면<br/> <b>'Cost그래프를 미분했을 때 0인 지점의 w값을 구하는 것이 목표입니다'.</b> 라고 바꿔 말할 수 있습니다.<br/><br/>
          
-         이것이 경사하강법의 출발점입니다.<br/><br/>
-         경사하강법은 특정 w에서의 순간 기울기를 측정합니다. 그리고 순간 기울기값이 만약 음수라면 w값을 우측으로,<br/>
+         극소값을 찾는 알고리즘으로 경사하강법을 사용해 보겠습니다.<br/>
+         특정 w에서의 순간 기울기를 측정합니다. 그리고 순간 기울기값이 만약 음수라면 w값을 우측으로,<br/>
          순간 기울기 값이 양수라면 w값을 좌측으로 움직입니다.<br/><br/>
          이 모양새가 그래프의 경사면을 따라 주르륵 미끄러지는 것 처럼 보이기 때문에 경사하강법이라고 부릅니다.
          그리고 tensorflow를 통해 경사하강할 때 w가 움직이는 만큼을 rate
