@@ -12,23 +12,21 @@ categories: MachineLearning DataAnalyze
   <div>
     <h3 style = "font-size :1.2em"> 경사하강법이란?</h3><br/>
     <div style = "margin-left : 30px">
-       <table style = "font-size :1.2em" >
-       <tr><td><b>경사하강법은 많은 최소값 탐색 문제에 사용되며 특히 근사값을 구하는 문제에서 많이 사용됩니다.<br/><br/>
-       순간기울기를 통해 극값을 추정하는 방법이며 미분가능한 함수에서 가능합니다.</b></td></tr>
-       </table>
-       <br/><br/>
+       <b>"경사하강법은 많은 최소값 탐색 문제에 사용되며 특히 근사값을 구하는 문제에서 많이 사용됩니다.<br/><br/>
+       순간기울기를 통해 극값을 추정하는 방법이며 미분가능한 함수에서 가능합니다."</b><br/><br/>
        
        어떤 지점의 순간기울기의 부호를 통해 현재 지점보다 낮은 지점으로 가기위해 어느쪽으로 이동해야하는 건지 판단하며<br/>
        최종적으로 순간기울기가 0일때 까지 반복합니다.<br/><br/>
 
        <img src="/assets/photos/gradient-descent-local-minima.png" width="550"><br/>
-       <span style = "font-size : 0.8em">local minima, global minima</span><br/><br/>
+       <span style = "font-size : 0.8em">출처 :: https://bdtechtalks.com</span><br/><br/>
        이때문에 극소값(local minima)이 하나인 그래프에서는 최소값이 하나기 때문에 문제가 없지만<br/>
        극소값이 여러개인 그래프에서는 찾은 곳이 최소값(global minima)이라는 보장을 할 수 없습니다.<br/><br/>
        즉, <b>'어떻게 내려가는지'</b>에 따라 도착한 곳이 바뀌며,<br/>
        어떻게 내려가는지는 <b>'출발지점'</b>이 어딘지에 따라 영향을 크게 받습니다.<br/><br/>
        
     </div>
+    <hr/>
   <div>
     <h3 style = "font-size :1.2em"> 선형회귀에서 경사하강법</h3><br/>
     <div style = "margin-left : 30px">
