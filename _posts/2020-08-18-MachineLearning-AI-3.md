@@ -48,13 +48,13 @@ categories: MachineLearning DataAnalyze
         
          <hr/>
          이번에는 수식을 통해 살펴보겠습니다.<br/><br/>
-         먼저 <img src="https://latex.codecogs.com/png.latex?Cost = \frac{1}{m}\sum_{i=1}^{m}(H(x^{i})-y^{i})^{2}" title="Cost = \frac{1}{m}\sum_{i=1}^{m}(H(x^{i})-y^{i})^{2}" />입니다.<br/><br/>
-         이 식을 미분했을 때 조금 편한 꼴이 되도록 2로 나누어 식을 <img src="https://latex.codecogs.com/png.latex?Cost = \frac{1}{2m}\sum_{i=1}^{m}(H(x^{i})-y^{i})^{2}" title="Cost = \frac{1}{2m}\sum_{i=1}^{m}(H(x^{i})-y^{i})^{2}" />로 변형시키겠습니다.<br/><br/>
+         먼저 <img src="https://latex.codecogs.com/png.latex?Cost = \frac{1}{m}\sum_{i=1}^{m}(W(x^{i})-y^{i})^{2}" title="Cost = \frac{1}{m}\sum_{i=1}^{m}(W(x^{i})-y^{i})^{2}" />입니다.<br/><br/>
+         이 식을 미분했을 때 조금 편한 꼴이 되도록 2로 나누어 식을 <img src="https://latex.codecogs.com/png.latex?Cost = \frac{1}{2m}\sum_{i=1}^{m}(W(x^{i})-y^{i})^{2}" title="Cost = \frac{1}{2m}\sum_{i=1}^{m}(W(x^{i})-y^{i})^{2}" />로 변형시키겠습니다.<br/><br/>
          
          <br/>
          <i style = "font-size : 0.9em">m이 몹시 크기 때문에 2를 나누어 주는 것 정도는 큰 변화가 없습니다.<br/>
          시간복잡도 구할 때 n이 너무 커 상수를 무시하는 것을 생각하시면 되겠습니다.</i><br/><br/><hr/>
-         그리고 gradient 알고리즘을 수식으로 표현하자면 <img src="https://latex.codecogs.com/png.latex?w := w - \alpha \frac{\partial }{\partial x}Cost(w)" title="w := w - \alpha \frac{\partial }{\partial x}Cost(w)" />가 됩니다.<br/><br/>
+         그리고 gradient 알고리즘을 수식으로 표현하자면 <img src="https://latex.codecogs.com/png.latex?w := w - \alpha \frac{\partial }{\partial w}Cost(w)" title="w := w - \alpha \frac{\partial }{\partial w}Cost(w)" />가 됩니다.<br/><br/>
          위식을 설명하자면 다음 w값은 현재 w값에서 Cost(w)의 미분값 x 알파를 빼준 값이라는 뜻입니다.<br/><br/>
          알파값은 우리가 정해주는 값으로 얼마만큼 움직일지이며, 알파 오른쪽 식은 미분표현인 dCost(w)/dw입니다.<br/> d(델타)가 조금 이상하게 표현됬네요..<br/><br/>
           <i style = "font-size : 0.9em">':='은 좌항을 우항으로 대체하라는 표현입니다.<br/>
@@ -63,9 +63,11 @@ categories: MachineLearning DataAnalyze
           따라서 '적당한 값'을 주는 것이 중요합니다.</i><br/><br/><hr/>
 
           이제 식을 정리해보면,<br/>
-         <img src="https://latex.codecogs.com/png.latex?w := w - \alpha \frac{\partial }{\partial x}Cost(w)" title="w := w - \alpha \frac{\partial }{\partial x}Cost(w)" /><br/>
-         <img src="https://latex.codecogs.com/png.latex?w := w - \alpha \frac{\partial }{\partial x}\frac{1}{2m}\sum_{i=1}^{m}(H(x^{i})-y^{i})^{2}" title="w := w - \alpha \frac{\partial }{\partial x}\frac{1}{2m}\sum_{i=1}^{m}(H(x^{i})-y^{i})^{2}" />
-         
+         <img src="https://latex.codecogs.com/png.latex?w := w - \alpha \frac{\partial }{\partial w}Cost(w)" title="w := w - \alpha \frac{\partial }{\partial x}Cost(w)" /><br/>
+         <img src="https://latex.codecogs.com/png.latex?w := w - \alpha \frac{\partial }{\partial w}\frac{1}{2m}\sum_{i=1}^{m}(W(x^{i})-y^{i})^{2}" title="w := w - \alpha \frac{\partial }{\partial w}\frac{1}{2m}\sum_{i=1}^{m}(W(x^{i})-y^{i})^{2}" /><br/>
+         <img src="https://latex.codecogs.com/png.latex?w := w - \alpha \frac{1}{2m}\sum_{i=1}^{m}2(W(x^{i})-y^{i})x^{i}" title="w := w - \alpha \frac{1}{2m}\sum_{i=1}^{m}2(W(x^{i})-y^{i})x^{i}" /><br/>
+         <img src="https://latex.codecogs.com/png.latex?w := w - \alpha \frac{1}{m}\sum_{i=1}^{m}(W(x^{i})-y^{i})x^{i}" title="w := w - \alpha \frac{1}{m}\sum_{i=1}^{m}(W(x^{i})-y^{i})x^{i}" /><br/>
+         이렇게 됩니다.
         
     </div>
   </div>
