@@ -8,14 +8,16 @@ categories: MachineLearning DataAnalyze
 <hr/>
 <div style = "font-size :0.8em">
   <a href = "https://can019.github.io/machinelearning/dataanalyze/MachineLearning-AI-3/">지난 포스팅</a><br/>
-  데이터 분석 및 예측 4는 현재 비공개입니다.<br/><br/>
+  데이터 분석 및 예측 4는 현재 비공개입니다.<br/>
   <div>
-    <h3 style = "font-size :1.2em"> 다항 선형 회귀?</h3><br/>
+    <h3 style = "font-size :1.2em"> 다항 선형 회귀</h3><br/>
     <div style = "margin-left : 30px">
        저번 시간 포스팅했던 선형회귀는 input 변수. 즉 feature가 하나인 경우에 대해 다루었습니다.<br/><br/>
        다항 선형회귀는 feature가 하나가 아닌 둘 이상인 경우입니다.<br/><br/>
        feature가 하나 -> H(x) = wx+b<br/>
-       feature가 셋 ->H(x1,x2,x3) = w1x1 + w2x2 + w3x3<br/> 
+       feature가 셋 ->H(x1,x2,x3) = w1x1 + w2x2 + w3x3<br/><br/>
+
+       이렇게 되면 당연히 Cost함수도 <img src="https://latex.codecogs.com/png.latex?"Cost(W,b) = \frac{1}{m}\sum_{i=1}^{m}(H(x_{1}^{i},x_{2}^{i},x_{3}^{i})-y^{i})^{2}" title="Cost(W,b) = \frac{1}{m}\sum_{i=1}^{m}(H(x_{1}^{i},x_{2}^{i},x_{3}^{i})-y^{i})^{2}" />로 다시 설계됩니다.<br/><br/>
   </div>
  <hr/>
     ***미완성 포스팅***<br/>
