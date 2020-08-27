@@ -14,10 +14,10 @@ categories: MachineLearning DataAnalyze
     <div style = "margin-left : 30px">
        저번 시간 포스팅했던 선형회귀는 input 변수. 즉 feature가 하나인 경우에 대해 다루었습니다.<br/><br/>
        다항 선형회귀는 feature가 하나가 아닌 둘 이상인 경우입니다.<br/><br/>
-       feature가 하나 -> <img src="https://latex.codecogs.com/png.latex?"H(x) = wx+b" title="H(x) = wx+b" /><br/>
-       feature가 셋 -> <img src="https://latex.codecogs.com/png.latex?"H(x_{1},x_{2},x_{3}) = w_{1}x_{1}+w_{2}x_{2}+w_{3}x_{3} + b" title="H(x_{1},x_{2},x_{3}) = w_{1}x_{1}+w_{2}x_{2}+w_{3}x_{3} + b" /><br/>
+       feature가 하나 -> <img src="https://latex.codecogs.com/png.latex?H(x) = wx+b" title="H(x) = wx+b" /><br/>
+       feature가 셋 -> <img src="https://latex.codecogs.com/png.latex?H(x_{1},x_{2},x_{3}) = w_{1}x_{1}+w_{2}x_{2}+w_{3}x_{3} + b" title="H(x_{1},x_{2},x_{3}) = w_{1}x_{1}+w_{2}x_{2}+w_{3}x_{3} + b" /><br/>
 
-       이렇게 되면 당연히 Cost함수도 <img src="https://latex.codecogs.com/png.latex?"Cost(W,b) = \frac{1}{m}\sum_{i=1}^{m}(H(x_{1}^{i},x_{2}^{i},x_{3}^{i})-y^{i})^{2}" title="Cost(W,b) = \frac{1}{m}\sum_{i=1}^{m}(H(x_{1}^{i},x_{2}^{i},x_{3}^{i})-y^{i})^{2}" />로 다시 설계됩니다.<br/><br/>
+       이렇게 되면 당연히 Cost함수도 <img src="https://latex.codecogs.com/png.latex?Cost(W,b) = \frac{1}{m}\sum_{i=1}^{m}(H(x_{1}^{i},x_{2}^{i},x_{3}^{i})-y^{i})^{2}" title="Cost(W,b) = \frac{1}{m}\sum_{i=1}^{m}(H(x_{1}^{i},x_{2}^{i},x_{3}^{i})-y^{i})^{2}" />로 다시 설계됩니다.<br/><br/>
   </div>
  <hr/>
     ***미완성 포스팅***<br/>
