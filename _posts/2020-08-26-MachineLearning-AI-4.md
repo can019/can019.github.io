@@ -34,7 +34,7 @@ categories: MachineLearning DataAnalyze Python Colab
       File > Setting > Project Interpreter로 이동하셔서 디렉토리를 바꿔주시면 됩니다.<br/><br/>
       <img src="/assets/photos/code/pycharm_interpreter_setting.png"><br/>
       프로젝트 생성 후 interpreter를 바꾸는 방법은 다음과 같습니다.<br/><br/>
-     
+      파이썬 설치법과 프로젝트 생성등 기본적인 것은 다루지 않습니다.<br/><br/>
      <hr/>
     
   </div>
