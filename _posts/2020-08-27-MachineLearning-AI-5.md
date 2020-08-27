@@ -21,11 +21,8 @@ categories: MachineLearning DataAnalyze
         <div>
          <h3 style = "font-size :1.2em"> 행렬</h3><br/>
            <div style = "margin-left : 30px">
-           <img src="https://latex.codecogs.com/png.latex?w_{1}x_{1}+w_{2}x_{2}+w_{3}x_{3}" title="w_{1}x_{1}+w_{2}x_{2}+w_{3}x_{3}+..." /><br/><br/>
-           feature가 너무 많아지게 된다면 일일이 풀어 쓰기에 조금 무리가 생깁니다.<br/><br/>
-           
-           그래서  <img src="https://latex.codecogs.com/png.latex?w_{1}x_{1}+w_{2}x_{2}+w_{3}x_{3}" title="w_{1}x_{1}+w_{2}x_{2}+w_{3}x_{3}" /> 이녀석을 <br/><br/>
-            <img src="https://latex.codecogs.com/png.latex?\begin{pmatrix}
+           <img src="https://latex.codecogs.com/png.latex?w_{1}x_{1}+w_{2}x_{2}+w_{3}x_{3}" title="w_{1}x_{1}+w_{2}x_{2}+w_{3}x_{3}" /> 이녀석을 <br/><br/>
+           <img src="https://latex.codecogs.com/png.latex?\begin{pmatrix}
 x_{1} & x_{2} & x_{3} 
 \end{pmatrix}\cdot \begin{pmatrix}
 w_{1}\\ 
@@ -37,8 +34,10 @@ x_{1} & x_{2} & x_{3}
 w_{1}\\ 
 w_{2}\\ 
 w_{3}
-\end{pmatrix} = w_{1}x_{1}+w_{2}x_{2}+w_{3}x_{3}" />의 행렬 곱으로 나타내겠습니다.<br/><br/>
-       
+\end{pmatrix} = w_{1}x_{1}+w_{2}x_{2}+w_{3}x_{3}" />의 행렬 곱으로 나타 낼 수 있습니다.<br/><br/>
+    조금만 생각해보면 <img src="https://latex.codecogs.com/png.latex?x" title="x"/>에 관한 행을 <img src="https://latex.codecogs.com/png.latex?X" title="X" />,<br/><br/>
+    <img src="https://latex.codecogs.com/png.latex?x" title="w" />에 관한 행을 <img src="https://latex.codecogs.com/png.latex?X" title="W />,<br/><br/>로 바꾸어<br/>
+    아래와 같이 가설을 다시 선언 할 수 있습니다.<br/><br/><img src="https://latex.codecogs.com/png.latex?H(X)=WX" title=H(X)=WX" />,<br/><br/>  
   </div>
   </div>
  <hr/>
