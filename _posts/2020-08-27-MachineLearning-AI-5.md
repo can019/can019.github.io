@@ -36,9 +36,9 @@ w_{2}\\
 w_{3}
 \end{pmatrix} = w_{1}x_{1}+w_{2}x_{2}+w_{3}x_{3}" />의 행렬 곱으로 나타 낼 수 있습니다.<br/><br/>
     조금만 생각해보면 <img src="https://latex.codecogs.com/png.latex?x" title="x"/>에 관한 행을 <img src="https://latex.codecogs.com/png.latex?X" title="X"/>,<br/><br/>
-    <img src="https://latex.codecogs.com/png.latex?w" title="w"/>에 관한 행을 <img src="https://latex.codecogs.com/png.latex?X" title="W/>,로 바꾸어<br/>
+    <img src="https://latex.codecogs.com/png.latex?w" title="w"/>에 관한 행을 <img src="https://latex.codecogs.com/png.latex?W" title="W"/>,로 바꾸어<br/>
     아래와 같이 가설을 다시 선언 할 수 있습니다.<br/><br/>
-    <img src="https://latex.codecogs.com/png.latex?H(X)=WX" title=H(X)=WX" />,<br/><br/>
+    <img src="https://latex.codecogs.com/png.latex?H(X)=WX" title="H(X)=WX" />,<br/><br/>
        <div>
          <h3 style = "font-size :1.2em"> 인스턴스</h3><br/>
          <div style = "margin-left : 30px">
