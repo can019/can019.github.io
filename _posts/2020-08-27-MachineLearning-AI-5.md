@@ -18,6 +18,7 @@ categories: MachineLearning DataAnalyze
        feature가 셋 -> <img src="https://latex.codecogs.com/png.latex?H(x_{1},x_{2},x_{3}) = w_{1}x_{1}+w_{2}x_{2}+w_{3}x_{3} + b" title="H(x_{1},x_{2},x_{3}) = w_{1}x_{1}+w_{2}x_{2}+w_{3}x_{3} + b" /><br/><br/>
        이렇게 되면 당연히 Cost함수도<br/>
        <img src="https://latex.codecogs.com/png.latex?Cost(W,b) = \frac{1}{m}\sum_{i=1}^{m}(H(x_{1}^{i},x_{2}^{i},x_{3}^{i})-y^{i})^{2}" title="Cost(W,b) = \frac{1}{m}\sum_{i=1}^{m}(H(x_{1}^{i},x_{2}^{i},x_{3}^{i})-y^{i})^{2}" /> 로 다시 설계됩니다.<br/><br/>
+        <hr/>
         <div>
          <h3 style = "font-size :1.2em"> 행렬</h3><br/>
            <div style = "margin-left : 30px">
@@ -39,6 +40,7 @@ w_{3}
     <img src="https://latex.codecogs.com/png.latex?w" title="w"/>에 관한 행을 <img src="https://latex.codecogs.com/png.latex?W" title="W"/>,로 바꾸어<br/>
     아래와 같이 가설을 다시 선언 할 수 있습니다.<br/><br/>
     <img src="https://latex.codecogs.com/png.latex?H(X)=WX" title="H(X)=WX" />,<br/><br/>
+     <hr/>
        <div>
          <h3 style = "font-size :1.2em"> 인스턴스</h3><br/>
          <div style = "margin-left : 30px">
