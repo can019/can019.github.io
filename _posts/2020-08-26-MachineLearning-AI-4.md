@@ -2,6 +2,7 @@
 title: "[KAIST AI 교육 :: 데이터 분석 및 예측] 4"
 date: 2020-08-26 00:33:15 -0400
 categories: MachineLearning DataAnalyze Python Colab
+published: false
 ---
 # 경사하강법(Gradient Descend Algorithm)과 단순선형회귀에서의 경사하강법 in 파이썬(Python)
 
@@ -38,8 +39,9 @@ categories: MachineLearning DataAnalyze Python Colab
      <hr/>  
   </div>
   <div>
-    <h3 style = "font-size :1.2em"> </h3><br/>
+    <h3 style = "font-size :1.2em">선형회귀</h3><br/>
     <div style = "margin-left : 30px">
+    tf.reduce_mean ::
   </div>
 <a href = "">다음 포스팅</a>은 파이썬 코드로 구현하는 법을 알아보겠습니다.<hr/>
    <blockquote> 공부하며 작성하는 포스팅이기 때문에 수정사항이 생길 수 있습니다. </blockquote>
