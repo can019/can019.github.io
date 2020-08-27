@@ -23,8 +23,8 @@ categories: MachineLearning DataAnalyze Python Colab
      20년 7월 기준으로 텐서플로우 2.3가 업데이트 되었습니다.<br/>
      텐서플로우 2.0 이후 버전은 상관이 없으나 만약 그 아래 버전은 일부 문법이 다르기 때문에<br/>
      다른 블로그를 찾아보시거나 2.3으로 업데이트 하시길 바랍니다.<br/><br/>
-     <img src="/assets/photos/code/tensorflow_version_code.png"><br/>
-     <img src="/assets/photos/code/tensorflow_version_console.png"><br/>
+     <img src="/assets/photos/code/tensorflow_version_code.png"><br/><br/>
+     <img src="/assets/photos/code/tensorflow_version_console.png"><br/><br/>
       텐서플로우 버전은 다음과 같이 확인하면 됩니다.<br/><br/>
       만약 텐서플로우가 없다고 뜬다면 텐서플로우 라이브러리를 설치하셔야 하는데<br/><br/>
       pycharm asset에서 다운로드를 받거나 anaconda를 통하여 설치하시면 됩니다.<br/><br/>
@@ -32,11 +32,14 @@ categories: MachineLearning DataAnalyze Python Colab
       pycharm의 project interpreter가 visual studio나 pycharm등의 디렉토리로 설정되어서 그렇습니다.<br/><br/>
       프로젝트를 생성할 때 interpreter를 anaconda가 있는 위치로 바꾸어 주거나<br/>
       File > Setting > Project Interpreter로 이동하셔서 디렉토리를 바꿔주시면 됩니다.<br/><br/>
-      <img src="/assets/photos/code/pycharm_interpreter_setting.png"><br/>
+      <img src="/assets/photos/code/pycharm_interpreter_setting.png"><br/><br/>
       프로젝트 생성 후 interpreter를 바꾸는 방법은 다음과 같습니다.<br/><br/>
       파이썬 설치법과 프로젝트 생성등 기본적인 것은 다루지 않습니다.<br/><br/>
-     <hr/>
-    
+     <hr/>  
+  </div>
+  <div>
+    <h3 style = "font-size :1.2em"> </h3><br/>
+    <div style = "margin-left : 30px">
   </div>
 <a href = "">다음 포스팅</a>은 파이썬 코드로 구현하는 법을 알아보겠습니다.<hr/>
    <blockquote> 공부하며 작성하는 포스팅이기 때문에 수정사항이 생길 수 있습니다. </blockquote>
