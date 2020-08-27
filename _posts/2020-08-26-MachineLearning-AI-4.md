@@ -30,9 +30,9 @@ categories: MachineLearning DataAnalyze Python Colab
     CPU :: Amd RYZEN9 3900X<br/>
     GPU :: Asus GeFore RTX 2080<br/>
     RAM :: DDR4 8G PC4-21300 x2 (3200Mhz, CL 16)<br/>
-    IDE :: Pycharm
-    Os :: Window 10
-    Anaconda :: version 3
+    IDE :: Pycharm<br/>
+    Os :: Window 10<br/>
+    Anaconda :: version 3<br/>
     tensorflow :: for cpu and gpu<br/>
     <div style = "margin-left : 30px">
        version :: 2.3.0<br/>
