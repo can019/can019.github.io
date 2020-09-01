@@ -160,6 +160,8 @@ published: true
         	      </div>
 
               </div>
+	코드와 dataset은 <a href = "https://github.com/can019/machineLearning/tree/master/Linear%20Regression/Simple%20Linear%20regression">깃허브</a>를 참조하시면 됩니다.
+	
 	<hr/>
         </div>
   </div>
