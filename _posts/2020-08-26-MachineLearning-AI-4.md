@@ -75,8 +75,6 @@ published: true
 		변곡점, 미분값, 미분된 함수 등등.. 다양한 기능을 제공합니다.<br/><br/>
 		
 		line 24 :: w_grad는 w에 대한 미분값, b_grad는 b에대한 미분값입니다.<br/>
-		위에서 tape안에 hypothesis와 cost를 정의했기 때문에 tape.gradient를 통해<br/>
-		미분값을 뽑아낼 수 있습니다.<br/>
 		parameter1은 미분 대상 그래프, parameter2는 미분할 변수입니다.<br/>
 		parameter2는 multiple linear regression 코드를 보면 이해를 바로 하실겁니다.<br/><br/>
 		
