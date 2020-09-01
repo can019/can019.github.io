@@ -1,5 +1,5 @@
 ---
-title: "[KAIST AI 교육 :: 데이터 분석 및 예측] 4"
+title: "[머신러닝4] 단순선형회귀에서의 경사하강법 in 파이썬(Python)"
 date: 2020-08-26 00:33:15 -0400
 categories: MachineLearning DataAnalyze Python Colab
 published: true

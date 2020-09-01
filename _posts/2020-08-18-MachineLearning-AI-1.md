@@ -1,5 +1,5 @@
 ---
-title: "[KAIST AI 교육 :: 데이터 분석 및 예측] 1"
+title: "[[머신러닝1] 머신러닝이란?"
 date: 2020-08-18 20:15:30 -0400
 categories: MachineLearning DataAnalyze
 ---

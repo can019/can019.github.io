@@ -1,5 +1,5 @@
 ---
-title: "[KAIST AI 교육 :: 데이터 분석 및 예측] 2"
+title: "[머신러닝2] 선형회귀(Linear Regression)"
 date: 2020-08-19 01:56:30 -0400
 categories: MachineLearning DataAnalyze
 ---
