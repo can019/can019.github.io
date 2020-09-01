@@ -44,7 +44,7 @@ published: true
        <div>
          <h3 style = "font-size :1.2em">라이브러리 없이 구현</h3><br/>
               <div style = "margin-left : 3%">
-        		<img src="/assets/photos/code/linear_regression_1.png" width="850"><br/><br/>
+        		<img src="/assets/photos/code/linear_regression_1.png" width="850" "margin : auto"><br/><br/>
 		미분과 경사하강을 라이브러리 없이 구현하였습니다.<br/><br/>
 		line 3 :: tensorflow 변수 w를 선언하고 -3으로 초기화합니다. (주석이 잘못되었습니다.)<br/>
 		line 8, line 9 :: for문 안에서 가설을 세우고 cost를 정의해줍니다.<br/><br/>
