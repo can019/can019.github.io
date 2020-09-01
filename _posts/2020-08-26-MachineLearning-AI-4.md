@@ -66,7 +66,7 @@ published: true
         <div>
          <h3 style = "font-size :1.2em">라이브러리로 구현</h3><br/>
               <div style = "margin-left : 30px">
-		<img src="/assets/photos/code/linear_regression_2.png" width="850"><br/>
+		<img src="/assets/photos/code/linear_regression_2.png" width="850"><br/><br/>
         		라이브러리로 구현한 코드입니다. 가설에 y절편이 추가되었습니다.<br/>
 		library를 사용한 부분만 설명하겠습니다.<br/><br/>
 		
@@ -104,7 +104,7 @@ published: true
 		<img src="/assets/photos/code/randonm_number_answer.png" width = "500"><br/><br/>
 		완성된 모델과 실제 dataset을 matplt을 이용해 그래프로 띄워보았습니다.<br/>
 		
-		붉은색이 우리가 추정한 모델이며 파란색은 다 점입니다.
+		붉은색이 우리가 추정한 모델이며 파란색은 dataset으로 점들입니다.
           		   </div>
 	           <hr/>
         	      </div>
