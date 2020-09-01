@@ -39,9 +39,32 @@ published: true
      <hr/>  
   </div>
   <div>
-    <h3 style = "font-size :1.2em">선형회귀</h3><br/>
+    <h3 style = "font-size :1.2em">구현</h3><br/>
     <div style = "margin-left : 30px">
-    tf.reduce_mean ::
+       <div>
+         <h3 style = "font-size :1.2em">라이브러리 없이 구현</h3><br/>
+              <div style = "margin-left : 30px">
+        		<img src="/assets/photos/code/linear_regression_1.png"><br/><br/>
+		미분과 경사하강을 라이브러리 없이 구현하였습니다.<br/><br/>
+		tensorflow 변수를 선언, for문 안에서 가설을 세운 후<br/>
+		cost를 정의해줍니다.<br/><br/>
+		이후 12번째 줄에서 현재 w에서 cost를 미분해주고 그 값을 gradient에 저장,<br/>
+		descent에 다음 w값을 임시로 저장합니다.<br/><br/>
+		그 후 14번줄에서 assign이라는 tensorflow 라이브러리 함수를 통하여 w값을 변경합니다..<br/><br/>
+		
+		w는 tensorflow 변수이기 때문에 사칙연산을 비롯한 모든 연산, 값 update는<br/>
+		tensorflow library 메소드를 통해 해줍니다.<br/><br/>
+		+11번 line에서 alpha값은 for문을 열기전에 선언해 주는것이 맞습니다.<br/><br/>
+
+              </div>
+        </div>
+        <div>
+         <h3 style = "font-size :1.2em">라이브러리로 구현</h3><br/>
+              <div style = "margin-left : 30px">
+        		
+              </div>
+        </div>
+  </div>
   </div>
 <a href = "">다음 포스팅</a>은 파이썬 코드로 구현하는 법을 알아보겠습니다.<hr/>
    <blockquote> 공부하며 작성하는 포스팅이기 때문에 수정사항이 생길 수 있습니다. </blockquote>
