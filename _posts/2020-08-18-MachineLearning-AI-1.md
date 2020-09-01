@@ -3,7 +3,7 @@ title: "[MachineLearning 1] 머신러닝이란?"
 date: 2020-08-18 20:15:30 -0400
 categories: MachineLearning DataAnalyze
 ---
-# 머신러닝이란?
+## 머신러닝이란?
 
 <hr/>
 <div style = "font-size :0.8em">
