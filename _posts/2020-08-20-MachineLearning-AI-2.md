@@ -9,7 +9,7 @@ categories: MachineLearning DataAnalyze
 <div style = "font-size :0.8em">
   <div>
     <h3 style = "font-size :1.2em"> 선형?</h3><br/>
-    <div style = "margin-left : 30px">
+    <div style = "margin-left : 3%">
 
       공대생이라면 절대 모를 리 없는 '선형'이지만 요즘 머신러닝이 인기가 많기에 비전공자들도
       머신러닝을 하기에 조금 설명하자면..<br/><br/>
@@ -31,7 +31,7 @@ categories: MachineLearning DataAnalyze
   </div>
   <div>
     <h3 style = "font-size :1.2em"> 회귀(regression)분석</h3><br/>
-    <div style = "margin-left : 30px">
+    <div style = "margin-left : 3%">
 
 
       회귀분석이란 다양한 data와 label이 존재할 때 label과 data간에 존재하는 상관관계를 식으로 정의하는 기법입니다.<br><br>
@@ -63,12 +63,12 @@ categories: MachineLearning DataAnalyze
 
       <img src="/assets/photos/20200820_1.png" width="450"><br><br>
       위 그래프를 예로 보겠습니다.<br/>
-      파란색 점이 data, label set이라 할 때 이상적인 모델은 파란색 그래프,<br/> 
+      파란색 점이 data, label set이라 할 때 이상적인 모델은 파란색 그래프,<br/>
       주황색과 초록색 그래프는 이상적이지 못한 모델이 됩니다.<br/><br/>
-      
+
       파란색 그래프를 찾아내는 방법으로 가장 먼저 생각할 수 있는 것은 점을 대입하여 w,b 값을 찾아내거나<br/>
       아니면 random한 w, b값을 대입하여 모델은 만들고 그 모델에 다시 data, label을 대입하여 찾아낸 모델이 fit한 모델인지 검사하는 방법이 있겠죠.<br/><br/>
-     
+
       위 방법 두가지 모두 일리있는 말입니다.<br/><br/>
       하지만 현실세계의 데이터들이 모두 하나의 직선위에 있는 이상적은 경우는 없으며<br/>
       저 두가지 방법으로 모델을 찾을 경우 많은 시간이 소요됩니다.<br/><br/>
@@ -80,24 +80,24 @@ categories: MachineLearning DataAnalyze
        <div style = "margin-left : 30px">
         이 방법은 정답을 찾는 것이 아닌 <b style ="color : red">'정답에 가장 가까운 답'</b>을 찾는 것입니다.<br/><br/>
         바로 <b style ="color : red">거리</b>를 이용한 방법입니다.<br/><br/>
-   
+
         <img src="/assets/photos/20200820_2.png" width="450"><br><br>
          검정색 점은 data와 label set, 파란색 직선이 임의로 만들어진 모델이라고 할 때<br/>
          거리의 제곱의 합, 즉 빨간 선분의 제곱의 합을 통해 이상적인 모델을 찾습니다.<br/><br/>
          이 때 빨간 선분의 제곱의 합의 평균을 <b>비용(Cost)</b>라고 합니다.<br/><br/>
-       
+
 
          한 점에서의 거리의 제곱은 <img src="https://latex.codecogs.com/png.latex?(H(x)-y)^{2}" title="(H(x)-y)^{2}" />라고 할 수 있으므로<br/><br/>
          Cost의 정의를 수식으로 나타내면 <img src="https://latex.codecogs.com/png.latex?\frac{1}{m}\sum_{i=1}^{m}(H(x^{i})-y^{i})^{2}" title="\frac{1}{m}\sum_{i=1}^{m}(H(x^{i})-y^{i})^{2}" />가 됩니다.<br/><br/>
           i는 i번째 data, label set을 의미하며 <img src="https://latex.codecogs.com/png.latex?(x^{1},y^{1}),&space;(x^{2},y^{2}),&space;(x^{3},y^{3}),&space;...(x^{1},y^{i})" title="(x^{1},y^{1}), (x^{2},y^{2}), (x^{3},y^{3}), ...(x^{1},y^{i})" /><br/><br/>이 때 m은 data, label set의 갯수를 의미합니다.<br/><br/><br/>
-         
+
           다시 말하면 선형회귀의 목표는 <img src="https://latex.codecogs.com/png.latex?minimize(Cost(w,b))" title="minimize(Cost(w,b))" />가 됩니다.<br/><br/>
          <img src="/assets/photos/20200820_3.png" width="450"><br/>
          <span style = "font-size : 0.8em">Cost 그래프</span><br/><br/>
-        
+
          간혹 용어들과 개념이 잡히지 않아 헷갈리는 포인트가 있는데<br/>
          'x축, y축이 뭐지?'입니다.'<br/><br/>
-       
+
          x축은 일단 w를 의미합니다. 여기까진 실수 안하시는데 그 다음 y축이 무엇이냐..에서 실수를 하십니다.<br/><br/>
 
          w가 1이라고 할 때 H(x) = x, w가 2라면 H(x) = 2x가 됩니다.<br/><br/>
@@ -114,9 +114,9 @@ categories: MachineLearning DataAnalyze
 
          다시 정리하자면<br/>
           x축 : w, y축 : Cost(w).<br/>
-         Cost(w)는 w와 data/label set에 따라 바뀐다. data/label에 따라 바뀌는 경우는 아예 다른 case를 예측하는 것이므로<br/> 같은 case에서 예측하는 것은 w에 대한 변동사항이다.<br/><br/>         
+         Cost(w)는 w와 data/label set에 따라 바뀐다. data/label에 따라 바뀌는 경우는 아예 다른 case를 예측하는 것이므로<br/> 같은 case에서 예측하는 것은 w에 대한 변동사항이다.<br/><br/>
          이해하고 돌이켜서 보면 정말 뻔하지만 막상 배울 땐 혼동이 오는 경우가 있습니다.<br/><br/>
-       
+
 	<hr/>
     </div>
       <br/><br/>
@@ -124,7 +124,7 @@ categories: MachineLearning DataAnalyze
        다음 포스팅에서는 작은 Cost를 찾아내는 방법인 경사하강법(Gradient Descent Algorithm)에 대해 살펴보겠습니다.<br/><br/>
        <a href = "https://can019.github.io/machinelearning/dataanalyze/MachineLearning-AI-3/">경사하강법</a>
 
-      
+
 
 
     </div>

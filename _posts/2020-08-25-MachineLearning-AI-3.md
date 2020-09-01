@@ -11,7 +11,7 @@ categories: MachineLearning DataAnalyze
   오늘 포스팅 :: 선형회귀에서의 경사하강법(Gradient Descend Algorithm)에 대해 알아보자
   <div>
     <h3 style = "font-size :1.2em"> 경사하강법이란?</h3><br/>
-    <div style = "margin-left : 30px">
+    <div style = "margin-left : 3%">
        <b>"경사하강법은 많은 최소값 탐색 문제에 사용되며 특히 근사값을 구하는 문제에서 많이 사용됩니다.<br/><br/>
        순간기울기를 통해 극값을 추정하는 방법이며 미분가능한 함수에서 가능합니다."</b><br/><br/>
        
@@ -38,7 +38,7 @@ categories: MachineLearning DataAnalyze
     
   <div>
     <h3 style = "font-size :1.2em"> 경사하강법 in 선형회귀</h3><br/>
-    <div style = "margin-left : 30px">
+    <div style = "margin-left : 3%">
         
         H(x) = wx+b일 때의 Cost 그래프는 아래와 같이 2차함수 형태입니다.<br/><br/>
        <img src="/assets/photos/20200820_3.png" width="450"><br/>

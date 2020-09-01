@@ -11,15 +11,15 @@ published: true
   <a href = "https://can019.github.io/machinelearning/dataanalyze/MachineLearning-AI-3/">지난 포스팅</a><br/>
   <div>
     <h3 style = "font-size :1.2em"> 환경</h3>
-    <div style = "margin-left : 30px">
+    <div style = "margin-left : 3%">
      colab을 사용할 수도, 아니면 local에서 pycharm으로 할 수 있습니다.<br/>
      본 포스팅은 pycharm으로 했습니다.
-    
+
   </div>
  <hr/>
 <div>
     <h3 style = "font-size :1.2em"> Tensorflow version</h3><br/>
-    <div style = "margin-left : 30px">
+    <div style = "margin-left : 3%">
      20년 7월 기준으로 텐서플로우 2.3가 업데이트 되었습니다.<br/>
      텐서플로우 2.0 이후 버전은 상관이 없으나 만약 그 아래 버전은 일부 문법이 다르기 때문에<br/>
      다른 블로그를 찾아보시거나 2.3으로 업데이트 하시길 바랍니다.<br/><br/>
@@ -35,15 +35,15 @@ published: true
       <img src="/assets/photos/code/pycharm_interpreter_setting.png"><br/><br/>
       프로젝트 생성 후 interpreter를 바꾸는 방법은 다음과 같습니다.<br/><br/>
       파이썬 설치법과 프로젝트 생성등 기본적인 것은 다루지 않습니다.<br/><br/>
-     <hr/>  
+     <hr/>
   </div>
   <div>
     <h3 style = "font-size :1.2em">구현</h3>
-	
-    <div style = "margin-left : 30px">
+
+    <div style = "margin-left : 3%">
        <div>
          <h3 style = "font-size :1.2em">라이브러리 없이 구현</h3><br/>
-              <div style = "margin-left : 30px">
+              <div style = "margin-left : 3%">
         		<img src="/assets/photos/code/linear_regression_1.png" width="850"><br/><br/>
 		미분과 경사하강을 라이브러리 없이 구현하였습니다.<br/><br/>
 		line 3 :: tensorflow 변수 w를 선언하고 -3으로 초기화합니다. (주석이 잘못되었습니다.)<br/>
@@ -52,58 +52,58 @@ published: true
 		<i style = "font-size : 0.9em">+11번 line에서 alpha값은 for문을 열기전에 선언해 주는것이 맞습니다.</i><br/><br/>
 		line 12 :: 현재 w에서 cost를 미분해주고 미분값을 gradient에 저장,<br/>
 		line 13 :: gradient를 토대로 다음 w값을 descent에 저장합니다.<br/><br/>
-		
+
 		line 14 :: assign이라는 tensorflow 라이브러리 함수를 통하여 w값을 변경합니다.<br/><br/>
 		line 17, 18 :: 10단위 sequence일 때 현재 step, cost, w값을 출력합니다<br/>
 		line 19 :: 학습을 마친 후 완성된 모델을 출력합니다<br/><br/>
-	
+
 		w는 tensorflow 변수이기 때문에 사칙연산을 비롯한 모든 연산, 값 update는<br/>
 		tensorflow library 메소드를 통해 해줍니다.<br/><br/>
-		
+
               </div>
 	<hr/>
         </div>
         <div>
          <h3 style = "font-size :1.2em">라이브러리로 구현</h3><br/>
-              <div style = "margin-left : 30px">
+              <div style = "margin-left : 3%">
 		<img src="/assets/photos/code/linear_regression_2.png" width="850"><br/><br/>
         		라이브러리로 구현한 코드입니다. 가설에 y절편이 추가되었습니다.<br/>
 		library를 사용한 부분만 설명하겠습니다.<br/><br/>
-		
+
 		line 20 :: GradientTape라는 tensorflow library를 사용합니다.<br/>
 		GradientTape은 경사하강에 필요한 메소드들을 가지고 있으며<br/>
 		변곡점, 미분값, 미분된 함수 등등.. 다양한 기능을 제공합니다.<br/><br/>
-		
+
 		line 24 :: w_grad는 w에 대한 미분값, b_grad는 b에대한 미분값입니다.<br/>
 		parameter1은 미분 대상 그래프, parameter2는 미분할 변수입니다.<br/>
 		parameter2는 multiple linear regression 코드를 보면 이해를 바로 하실겁니다.<br/><br/>
-		
+
 		line 26, 27 :: w_grad, b_grad 값을 통해 w를 변경합니다.<br/>
 		assign_sub는 tensorflow 라이브러리 함수로 호출한 tensor변수 - parameter값을 tensor변수에 저장합니다.<br/><br/>
 
-		
+
               </div>
 	<hr/>
         </div>
         <div>
         	<h3 style = "font-size :1.2em">Kaggle data set을 통한 실습</h3><br/>
-             <div style = "margin-left : 30px">
+             <div style = "margin-left : 3%">
 	    data set은 보통 엑셀파일이나 txt파일을 사용합니다.<br/><br/>
-	    
+
 	    <div>
         	       <h3 style = "font-size :1.2em">1. Random number</h3><br/>
-            	<div style = "margin-left : 30px">
+            	<div style = "margin-left : 3%">
 		random number라 했지만 사실 하나의 직선상에 있는 점들과<br/>
 		극값 하나가 포함된 dataset입니다.<br/><br/>
 		<img src="/assets/photos/code/linear_regression_2.png"><br/><br/>
 		data set은 다음과 같습니다.<br/><br/>
-		
+
 
 		<img src="/assets/photos/code/randonm_number_console.png"><br/><br/>
 		console 출력은 다음과 같습니다.<br/><br/>
 		<img src="/assets/photos/code/randonm_number_answer.png" width = "500"><br/><br/>
 		완성된 모델과 실제 dataset을 matplt을 이용해 그래프로 띄워보았습니다.<br/>
-		
+
 		붉은색이 우리가 추정한 모델이며 파란색은 dataset으로 점들입니다.
           		   </div>
 	           <hr/>
@@ -111,16 +111,16 @@ published: true
 
 	    <div>
         	       <h3 style = "font-size :1.2em">2. Height & Weight</h3><br/>
-            	<div style = "margin-left : 30px">
-			
+            	<div style = "margin-left : 3%">
+
           		   </div>
 	           <hr/>
         	      </div>
-	
+
 	   <div>
         	       <h3 style = "font-size :1.2em">3. Salary & Experience</h3><br/>
-            	<div style = "margin-left : 30px">
-			
+            	<div style = "margin-left : 3%">
+
           		   </div>
 	           <hr/>
         	      </div>
@@ -147,7 +147,7 @@ published: true
     Os :: Window 10<br/>
     Anaconda :: version 3<br/>
     tensorflow :: for cpu and gpu<br/>
-    <div style = "margin-left : 30px">
+    <div style = "margin-left : 3%">
        version :: 2.3.0<br/>
     </div>
   </blockquote>

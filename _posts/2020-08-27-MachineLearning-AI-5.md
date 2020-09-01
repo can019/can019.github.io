@@ -10,7 +10,7 @@ categories: MachineLearning DataAnalyze
   <a href = "https://can019.github.io/machinelearning/dataanalyze/MachineLearning-AI-3/">지난 포스팅</a><br/>
   <div>
     <h3 style = "font-size :1.2em"> 다항 선형 회귀</h3><br/>
-    <div style = "margin-left : 30px">
+    <div style = "margin-left : 3%">
        저번 시간 포스팅했던 선형회귀는 input 변수. 즉 feature가 하나인 경우에 대해 다루었습니다.<br/><br/>
        다항 선형회귀는 feature가 하나가 아닌 둘 이상인 경우입니다.<br/><br/>
        feature가 하나 -> <img src="https://latex.codecogs.com/png.latex?H(x) = wx+b" title="H(x) = wx+b" /><br/><br/>
@@ -20,7 +20,7 @@ categories: MachineLearning DataAnalyze
         <hr/>
         <div>
          <h3 style = "font-size :1.2em"> 행렬</h3><br/>
-           <div style = "margin-left : 30px">
+           <div style = "margin-left : 3%">
            <img src="https://latex.codecogs.com/png.latex?w_{1}x_{1}+w_{2}x_{2}+w_{3}x_{3}" title="w_{1}x_{1}+w_{2}x_{2}+w_{3}x_{3}" /> 이녀석을 <br/><br/>
            <img src="https://latex.codecogs.com/png.latex?\begin{pmatrix}
 x_{1} & x_{2} & x_{3}
@@ -42,7 +42,7 @@ w_{3}
      <hr/>
        <div>
          <h3 style = "font-size :1.2em"> 인스턴스</h3><br/>
-         <div style = "margin-left : 30px">
+         <div style = "margin-left : 3%">
          </div>
        </div>
      </div>
