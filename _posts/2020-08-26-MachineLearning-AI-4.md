@@ -14,7 +14,6 @@ published: true
     <div style = "margin-left : 30px">
      colab을 사용할 수도, 아니면 local에서 pycharm으로 할 수 있습니다.<br/>
      본 포스팅은 pycharm으로 했습니다.
-     <hr/>
     
   </div>
  <hr/>
@@ -39,12 +38,12 @@ published: true
      <hr/>  
   </div>
   <div>
-    <h3 style = "font-size :1.2em">구현</h3><br/>
+    <h3 style = "font-size :1.2em">구현</h3>
     <div style = "margin-left : 30px">
        <div>
          <h3 style = "font-size :1.2em">라이브러리 없이 구현</h3><br/>
               <div style = "margin-left : 30px">
-        		<img src="/assets/photos/code/linear_regression_1.png" width="700"><br/><br/>
+        		<img src="/assets/photos/code/linear_regression_1.png" width="850"><br/><br/>
 		미분과 경사하강을 라이브러리 없이 구현하였습니다.<br/><br/>
 		tensorflow 변수를 선언, for문 안에서 가설을 세운 후<br/>
 		cost를 정의해줍니다.<br/><br/>
