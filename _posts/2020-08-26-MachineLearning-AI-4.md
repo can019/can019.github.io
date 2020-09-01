@@ -85,6 +85,37 @@ published: true
               </div>
 	<hr/>
         </div>
+        <div>
+        	<h3 style = "font-size :1.2em">Kaggle data set을 통한 실습</h3><br/>
+             <div style = "margin-left : 30px">
+
+	    <div>
+        	       <h3 style = "font-size :1.2em">1. Random number</h3><br/>
+            	<div style = "margin-left : 30px">
+			
+          		   </div>
+	           <hr/>
+        	      </div>
+
+	    <div>
+        	       <h3 style = "font-size :1.2em">2. Height & Weight</h3><br/>
+            	<div style = "margin-left : 30px">
+			
+          		   </div>
+	           <hr/>
+        	      </div>
+	
+	   <div>
+        	       <h3 style = "font-size :1.2em">3. Salary & Experience</h3><br/>
+            	<div style = "margin-left : 30px">
+			
+          		   </div>
+	           <hr/>
+        	      </div>
+
+              </div>
+	<hr/>
+        </div>
   </div>
   </div>
 <a href = "">다음 포스팅</a>은 파이썬 코드로 구현하는 법을 알아보겠습니다.<hr/>
