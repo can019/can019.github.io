@@ -1,5 +1,5 @@
 ---
-title: "[머신러닝5] 다항 선형 회귀(Multiple Linear Regreesion)"
+title: "[MachineLearning 5] 다항 선형 회귀(Multiple Linear Regreesion)"
 date: 2020-08-20 21:00:15 -0400
 categories: MachineLearning DataAnalyze
 ---

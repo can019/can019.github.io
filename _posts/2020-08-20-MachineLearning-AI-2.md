@@ -1,5 +1,5 @@
 ---
-title: "[머신러닝2] 선형회귀(Linear Regression)"
+title: "[MachineLearning 2] 선형회귀(Linear Regression)"
 date: 2020-08-19 01:56:30 -0400
 categories: MachineLearning DataAnalyze
 ---

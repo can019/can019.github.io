@@ -1,5 +1,5 @@
 ---
-title: "[[머신러닝1] 머신러닝이란?"
+title: "[MachineLearning 1] 머신러닝이란?"
 date: 2020-08-18 20:15:30 -0400
 categories: MachineLearning DataAnalyze
 ---

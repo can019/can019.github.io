@@ -1,5 +1,5 @@
 ---
-title: "[머신러닝3] 경사하강법(Gradient Descend Algorithm)과 단순선형회귀에서의 경사하강법"
+title: "[MachineLearning 3] 경사하강법(Gradient Descend Algorithm)과 단순선형회귀에서의 경사하강법"
 date: 2020-08-20 21:00:15 -0400
 categories: MachineLearning DataAnalyze
 ---
