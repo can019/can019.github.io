@@ -9,7 +9,7 @@ categories: MachineLearning DataAnalyze
 <div style = "font-size :0.8em">
   <div>
     <h3 style = "font-size :1.2em"> 머신러닝이란?</h3><br/>
-    <div style = "margin-left : 30px">
+    <div style = "margin-left : 10%">
       우리말로 하자면 기계학습으로 경험(학습)을 통해 자동으로 개선시키는 컴퓨터 알고리즘입니다.<br/>
       크게 지도학습, 비지도 학습, 강화학습 3가지로 분류됩니다.<br/><br/>
       <i style = "font-size : 0.9em">강화학습을 지도학습의 하위 개념으로 보아 지도학습, 비지도학습 2개의 분류로 보기도 합니다.</i>
@@ -18,7 +18,7 @@ categories: MachineLearning DataAnalyze
 
   <div>
     <h3 style = "font-size :1.2em"> 1. 지도학습(supervised learning)</h3><br/>
-    <div style = "margin-left : 30px">
+    <div style = "margin-left : 5%">
       <b>data와 label을 모두 제공하여 학습시킨다.</b><br/><br/>
 
       x값과 y값을 모두 제공. 이 때 x는 data, y는 label이라 합니다.<br/><br/>
@@ -27,7 +27,7 @@ categories: MachineLearning DataAnalyze
       <i style = "font-size : 0.9em">대부분 분류와 회귀로 나뉘지만 object detection, sequence generator과 같은 변종도 존재합니다.</i><br/><br/>
 
       <b>- 회귀(Regression)</b><br/><br/>
-      <div style = "margin-left : 30px">
+      <div style = "margin-left : 5%">
         학습한 data를 바탕으로 연속된 값을 추정하는 방식입니다.<br/><br/>
         학습으로 얻어진 H(x)를 통해 특정 x일 때 y를 예측하고자 할 때 사용합니다.<br/>
         ex :: 내가 3만원을 벌려면 몇시간 일해야하니?  뛰어서 3km가려면 얼마나 걸리니? 와 같은 문제를 해결하고자 할 때 사용합니다.<br/><br/>
@@ -35,11 +35,11 @@ categories: MachineLearning DataAnalyze
         회귀의 종류에는 linear regression, linear regression을 sigmoid(시그모이드)와 결합하여 보완한 logisitic regression 등이 있습니다.<br/><br/>
       </div>
       <b>- 분류(Classification)</b><br/><br/>
-        <div style = "margin-left : 30px">
+        <div style = "margin-left : 5%">
         말 그대로 분류를 하는 겁니다.
         이 분류는 다시 Binary Classification(이진 분류)와 Multi-label Classification(다중 분류)로 나뉩니다.<br/><br/>
         <b>- Binary Classification(이진 분류)</b><br/><br/>
-        <div style = "margin-left : 30px">
+        <div style = "margin-left : 5%">
           Binary. 말 그 대로 Yes or No 입니다.<br/>
           Q : 이거 강아지니?  <br/>
           A : 예 아니오 <br/><br/>
@@ -48,7 +48,7 @@ categories: MachineLearning DataAnalyze
           <i>강아지니 아니니 이 문제의 output이 0.4775 0.677..등으로 나옵니다. 이 때 0.5를 기준으로 위는 1로 아래는 0으로 때립니다. </i><br/><br/>
         </div>
         <b>- Multi-label Classification(다중 분류)</b><br/><br/>
-        <div style = "margin-left : 30px">
+        <div style = "margin-left : 5%">
           이진 분류에서 case가 여러가지로 나뉜 것입니다.<br/><br/>
           대표적인 예로  이 학생의 성적이 A인지 B인지 C인지 분류하는 경우가 있습니다.
 
@@ -58,7 +58,7 @@ categories: MachineLearning DataAnalyze
 </div>
 <div>
   <h3 style = "font-size :1.2em"> 2. 비지도학습(unsupervised learning)</h3>
-  <div style = "margin-left : 30px">
+  <div style = "margin-left : 5%">
     <b>data만 제공하여 학습시킨다.</b><br/><br/>
     data만 존재하고 label이 존재하지 않는 경우입니다.<br><br>
 
@@ -74,14 +74,14 @@ categories: MachineLearning DataAnalyze
   <div>
     <h3 style = "font-size :1.2em"> 3. 강화학습(reinforcement learning)</h3>
     <b>이득은 최대로, 손해는 최소로</b><br/><br/>
-      <div style = "margin-left : 30px"></div>
+      <div style = "margin-left : 5%"></div>
       이득과 손해 두가지 reward를 두며 이득은 최대로, 손해는 최소로 두는 학습법입니다.<br><br>
       reward의 가중치를 최대로 하는 것이 목표이며 최적의 동작을 찾고자 하는 분야에서 사용합니다.
       대표적인 예는 알파고입니다.
   </div>
   <div>
     <h3 style = "font-size :1.2em"> 준지도학습(semi-supervised learning)</h3>
-    <div style = "margin-left : 30px">
+    <div style = "margin-left : 5%">
       <b>지도학습과 비지도학습을 섞는다</b><br/>
       하이브리드 입니다.
 
