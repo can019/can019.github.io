@@ -10,7 +10,8 @@ published: true
 <div style = "font-size :0.8em">
   <a href = "https://can019.github.io/machinelearning/dataanalyze/MachineLearning-AI-3/">지난 포스팅</a><br/>
   <div>
-    <h3 style = "font-size :1.2em"> 환경</h3><br/>
+    <h3 style = "font-size :1.2em"> 환경</h3>
+	<hr/>
     <div style = "margin-left : 30px">
      colab을 사용할 수도, 아니면 local에서 pycharm으로 할 수 있습니다.<br/>
      본 포스팅은 pycharm으로 했습니다.
@@ -39,6 +40,7 @@ published: true
   </div>
   <div>
     <h3 style = "font-size :1.2em">구현</h3>
+	<hr/>
     <div style = "margin-left : 30px">
        <div>
          <h3 style = "font-size :1.2em">라이브러리 없이 구현</h3><br/>
@@ -60,6 +62,7 @@ published: true
 		tensorflow library 메소드를 통해 해줍니다.<br/><br/>
 		
               </div>
+	<hr/>
         </div>
         <div>
          <h3 style = "font-size :1.2em">라이브러리로 구현</h3><br/>
