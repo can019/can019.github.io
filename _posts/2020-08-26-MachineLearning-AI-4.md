@@ -45,16 +45,20 @@ published: true
               <div style = "margin-left : 30px">
         		<img src="/assets/photos/code/linear_regression_1.png" width="850"><br/><br/>
 		미분과 경사하강을 라이브러리 없이 구현하였습니다.<br/><br/>
-		tensorflow 변수를 선언, for문 안에서 가설을 세운 후<br/>
-		cost를 정의해줍니다.<br/><br/>
-		이후 12번째 줄에서 현재 w에서 cost를 미분해주고 그 값을 gradient에 저장,<br/>
-		descent에 다음 w값을 임시로 저장합니다.<br/><br/>
-		그 후 14번줄에서 assign이라는 tensorflow 라이브러리 함수를 통하여 w값을 변경합니다..<br/><br/>
+		line 3 :: tensorflow 변수 w를 선언하고 -3으로 초기화합니다. (주석이 잘못되었습니다.)<br/>
+		line 8, line 9 :: for문 안에서 가설을 세우고 cost를 정의해줍니다.<br/><br/>
+		line 11 :: 경사하강 알고리즘 공식의 alpha값을 정해줍니다. 보통 learning_rate로 선언합니다.<br/>
+		<i style = "font-size : 0.9em">+11번 line에서 alpha값은 for문을 열기전에 선언해 주는것이 맞습니다.</i><br/><br/>
+		line 12 :: 현재 w에서 cost를 미분해주고 미분값을 gradient에 저장,<br/>
+		line 13 :: gradient를 토대로 다음 w값을 descent에 저장합니다.<br/><br/>
 		
+		line 14 :: assign이라는 tensorflow 라이브러리 함수를 통하여 w값을 변경합니다.<br/><br/>
+		line 17, 18 :: 10단위 sequence일 때 현재 step, cost, w값을 출력합니다<br/>
+		line 19 :: 학습을 마친 후 완성된 모델을 출력합니다<br/><br/>
+	
 		w는 tensorflow 변수이기 때문에 사칙연산을 비롯한 모든 연산, 값 update는<br/>
 		tensorflow library 메소드를 통해 해줍니다.<br/><br/>
-		<i style = "font-size : 0.9em">+11번 line에서 alpha값은 for문을 열기전에 선언해 주는것이 맞습니다.</i><br/><br/>
-
+		
               </div>
         </div>
         <div>
