@@ -1,6 +1,6 @@
 ---
 title: "[MachineLearning 6] 다항 선형 회귀 tensorflow"
-date: 2020-08-20 21:00:15 -0400
+date: 2020-09-02 21:00:15 -0400
 categories: MachineLearning DataAnalyze
 ---
 # 다항 선형 회귀 (Multiple Linear Regreesion) in python code
