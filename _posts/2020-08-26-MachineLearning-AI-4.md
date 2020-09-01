@@ -96,12 +96,13 @@ published: true
             	<div style = "margin-left : 3%">
 		random number라 했지만 사실 하나의 직선상에 있는 점들과<br/>
 		극값 하나가 포함된 dataset입니다.<br/><br/>
-		<img src="/assets/photos/code/randonm_number_code.png"><br/><br/>
+		<img src="/assets/photos/code/random_number_dataset.png"><br/><br/>
+		
 		data set은 다음과 같습니다.<br/><br/><br/>
 		
 
-		코드를 살펴보겠습니다.<br>/<br/>
-		<img src="/assets/photos/code/random_number_dataset.png"><br/><br/>
+		코드를 살펴보겠습니다.<br/><br/>
+		<img src="/assets/photos/code/randonm_number_code.png"><br/><br/>
 		data set 추가와 learning rate, 그리고 line 27~30 그래프를 띄워주는 것 이외에는<br/>
 		차이점이 없습니다.<br/><br/>
 		
