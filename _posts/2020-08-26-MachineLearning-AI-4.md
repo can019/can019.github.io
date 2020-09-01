@@ -149,7 +149,7 @@ published: true
 		<img src="/assets/photos/code/Salary_Experience_console.png"><br/><br/>
 		console 출력은 다음과 같습니다.<br/><br/>
 		
-		<img src="/assets/photos/code/Salary_Experience__answer.png" width = "500"><br/><br/>
+		<img src="/assets/photos/code/Salary_Experience_answer.png" width = "500"><br/><br/>
 		
 		붉은색이 우리가 추정한 모델이며 파란색은 dataset으로 점들입니다.<br/>
 		learning rate와 max epoch를 줄여주어도 될 것 같습니다.<br/><br/>
