@@ -97,7 +97,6 @@ published: true
 		random number라 했지만 사실 하나의 직선상에 있는 점들과<br/>
 		극값 하나가 포함된 dataset입니다.<br/><br/>
 		<img src="/assets/photos/code/random_number_dataset.png"><br/><br/>
-		
 		data set은 다음과 같습니다.<br/><br/><br/>
 		
 
@@ -120,6 +119,19 @@ published: true
 	    <div>
         	       <h3 style = "font-size :1.2em">2. Height & Weight</h3><br/>
             	<div style = "margin-left : 3%">
+
+		<img src="/assets/photos/code/Height_Weight_dataset.png"><br/><br/>
+		data set은 다음과 같습니다.<br/><br/><br/>
+		
+		<img src="/assets/photos/code/Height_Weight_code.png"><br/><br/>
+		코드입니다.<br/><br/>
+
+		<img src="/assets/photos/code/Height_Weight_console.png"><br/><br/>
+		console 출력은 다음과 같습니다.<br/><br/>
+
+		<img src="/assets/photos/code/Height_Weight_answer.png" width = "500"><br/><br/>
+		
+		붉은색이 우리가 추정한 모델이며 파란색은 dataset으로 점들입니다.
 
           		   </div>
 	           <hr/>
