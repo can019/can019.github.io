@@ -89,12 +89,12 @@ published: true
         	<h3 style = "font-size :1.2em">Kaggle data set을 통한 실습</h3><br/>
              <div style = "margin-left : 30px">
 	    data set은 보통 엑셀파일이나 txt파일을 사용합니다.<br/><br/>
-	    deep learning 수준의 
+	    
 	    <div>
         	       <h3 style = "font-size :1.2em">1. Random number</h3><br/>
             	<div style = "margin-left : 30px">
 		random number라 했지만 사실 하나의 직선상에 있는 점들과<br/>
-		극값 하나가 포함된 dataset입니다.<br/<br/>
+		극값 하나가 포함된 dataset입니다.<br/><br/>
 		<img src="/assets/photos/code/linear_regression_2.png"><br/><br/>
 		data set은 다음과 같습니다.<br/><br/>
 		
