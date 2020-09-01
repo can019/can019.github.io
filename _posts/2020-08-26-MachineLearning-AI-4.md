@@ -53,7 +53,7 @@ published: true
 		
 		w는 tensorflow 변수이기 때문에 사칙연산을 비롯한 모든 연산, 값 update는<br/>
 		tensorflow library 메소드를 통해 해줍니다.<br/><br/>
-		+11번 line에서 alpha값은 for문을 열기전에 선언해 주는것이 맞습니다.<br/><br/>
+		<i style = "font-size : 0.9em">+11번 line에서 alpha값은 for문을 열기전에 선언해 주는것이 맞습니다.</i><br/><br/>
 
               </div>
         </div>
