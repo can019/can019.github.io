@@ -101,7 +101,7 @@ published: true
 
 		<img src="/assets/photos/code/randonm_number_console.png"><br/><br/>
 		console 출력은 다음과 같습니다.<br/><br/>
-		<img src="/assets/photos/code/randonm_number_answer.png"><br/><br/>
+		<img src="/assets/photos/code/randonm_number_answer.png" width = "500"><br/><br/>
 		완성된 모델과 실제 dataset을 matplt을 이용해 그래프로 띄워보았습니다.<br/>
 		
 		붉은색이 우리가 추정한 모델이며 파란색은 다 점입니다.
