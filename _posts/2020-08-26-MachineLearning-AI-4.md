@@ -4,7 +4,7 @@ date: 2020-08-26 00:33:15 -0400
 categories: MachineLearning DataAnalyze Python Colab
 published: true
 ---
-# 경사하강법(Gradient Descend Algorithm)과 단순선형회귀에서의 경사하강법 in 파이썬(Python)
+# 단순선형회귀에서의 경사하강법 in 파이썬(Python)
 
 <hr/>
 <div style = "font-size :0.8em">
