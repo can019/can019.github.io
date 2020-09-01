@@ -3,7 +3,7 @@ title: "[MachineLearning 2] 선형회귀"
 date: 2020-08-19 01:56:30 -0400
 categories: MachineLearning DataAnalyze
 ---
-# 선형회귀(Linear Regression)
+## 선형회귀(Linear Regression)
 
 <hr/>
 <div style = "font-size :0.8em">

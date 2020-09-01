@@ -3,12 +3,10 @@ title: "[MachineLearning 1] 머신러닝이란?"
 date: 2020-08-18 20:15:30 -0400
 categories: MachineLearning DataAnalyze
 ---
-## 머신러닝이란?
 
-<hr/>
 <div style = "font-size :0.8em">
   <div>
-    <h3 style = "font-size :1.2em"> 머신러닝이란?</h3><br/>
+    <h3 style = "font-size :1.2em"> 머신러닝</h3><br/>
     <div style = "margin-left : 3%">
       우리말로 하자면 기계학습으로 경험(학습)을 통해 자동으로 개선시키는 컴퓨터 알고리즘입니다.<br/>
       크게 지도학습, 비지도 학습, 강화학습 3가지로 분류됩니다.<br/><br/>

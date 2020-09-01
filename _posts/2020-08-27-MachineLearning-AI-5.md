@@ -3,7 +3,7 @@ title: "[MachineLearning 5] 다항 선형 회귀"
 date: 2020-08-27 21:00:15 -0400
 categories: MachineLearning DataAnalyze
 ---
-# 다항 선형 회귀(Multiple Linear Regreesion)
+## 다항 선형 회귀(Multiple Linear Regreesion)
 
 <hr/>
 <div style = "font-size :0.8em">
