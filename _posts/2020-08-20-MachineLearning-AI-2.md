@@ -5,7 +5,7 @@ categories: MachineLearning DataAnalyze
 ---
 ## 선형회귀(Linear Regression)
 
-<hr/>
+
 <div style = "font-size :0.8em">
   <div>
     <h3 style = "font-size :1.2em"> 선형?</h3><br/>

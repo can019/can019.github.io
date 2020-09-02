@@ -5,7 +5,7 @@ categories: MachineLearning DataAnalyze
 ---
 ## 다항 선형 회귀 (Multiple Linear Regreesion) in python code
 
-<hr/>
+
 <div style = "font-size :0.8em">
   <a href = "https://can019.github.io/machinelearning/dataanalyze/MachineLearning-AI-3/">지난 포스팅</a><br/>
   <div>
