@@ -22,6 +22,12 @@ categories: MachineLearning DataAnalyze
   
 	 g(z) = 1/(1+e^-z), H(x) = g(z), z= WX <br/>
 	 H(x) = 1/1+e^-w^tX  -> (w^T)X+b하는 이유 : 원래 XW인데 행렬곱을 위해 W을 transpose 함.
+	<div>
+    		<h3 style = "font-size :1.2em"> 시그모이드(Sigmoid)</h3><br/>
+    		<div style = "margin-left : 3%">
+			
+		</div>
+	  </div>
 	  <div>
     		<h3 style = "font-size :1.2em"> 비용함수</h3><br/>
     		<div style = "margin-left : 3%">
