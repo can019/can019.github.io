@@ -47,6 +47,15 @@ categories: MachineLearning DataAnalyze
 
 		</div>
 	   </div>
+	    <div>
+    		<h3 style = "font-size :1.2em"> 완성된 모델을 통한 분류</h3><br/>
+    		<div style = "margin-left : 3%">
+			완성된 학습으로 sample을 넣을 경우 0~1의 값이 반환됩니다<br/><br/>
+			이때 0.5이상이라면 1, 0.5 아래라면 0으로 판별합니다.
+
+
+		</div>
+	   </div>
       	</div>
      </div>
   </div>
