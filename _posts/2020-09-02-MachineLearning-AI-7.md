@@ -1,5 +1,5 @@
 ---
-title: "[MachineLearning 6] 이진 분류 "
+title: "[MachineLearning 7] 이진 분류 "
 date: 2020-09-04 11:14:15 -0400
 categories: MachineLearning DataAnalyze
 ---
