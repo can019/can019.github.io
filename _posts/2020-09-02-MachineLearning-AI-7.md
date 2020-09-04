@@ -39,7 +39,10 @@ categories: MachineLearning DataAnalyze
 			y = 0일 때 -log(1-z)는 오른쪽에서 떨어지는 곡선<br/><br/>
 
 			이분화된 식을 하나의 식으로 합치면<br/>
-			c(H(x),y) = -ylog(H(x)) - (1-y)log(1-H(x))
+			c(H(x),y) = -ylog(H(x)) - (1-y)log(1-H(x))<br/><br/>
+			Cost(W) = -1/m * sigma(-ylog(H(x)) - (1-y)log(1-H(x)))<br/><br/>
+			w := w- alpha*cost(w)미분<br/><br/>
+
 
 
 		</div>
