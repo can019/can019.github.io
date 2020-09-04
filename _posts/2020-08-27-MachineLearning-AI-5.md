@@ -11,8 +11,8 @@ categories: MachineLearning DataAnalyze
   <div>
     <h3 style = "font-size :1.2em"> 다항 선형 회귀</h3><br/>
     <div style = "margin-left : 3%">
-       저번 시간 포스팅했던 선형회귀는 input 변수. 즉 feature가 하나인 경우에 대해 다루었습니다.<br/><br/>
-       다항 선형회귀는 feature가 하나가 아닌 둘 이상인 경우입니다.<br/><br/>
+       저번 시간 포스팅했던 선형 회귀는 input 변수. 즉 feature가 하나인 경우에 대해 다루었습니다.<br/><br/>
+       다항 선형 회귀는 feature가 하나가 아닌 둘 이상인 경우입니다.<br/><br/>
        feature가 하나 -> <img src="https://latex.codecogs.com/png.latex?H(x) = wx+b" title="H(x) = wx+b" /><br/><br/>
        feature가 셋 -> <img src="https://latex.codecogs.com/png.latex?H(x_{1},x_{2},x_{3}) = w_{1}x_{1}+w_{2}x_{2}+w_{3}x_{3} + b" title="H(x_{1},x_{2},x_{3}) = w_{1}x_{1}+w_{2}x_{2}+w_{3}x_{3} + b" /><br/><br/>
        이렇게 되면 당연히 Cost함수도<br/>
@@ -57,9 +57,8 @@ categories: MachineLearning DataAnalyze
 	a4 & b4 & c4 & y4\\
 	a5 & b5 & c5 & y5
 	\end{pmatrix}"/><br/><br/>
-	다음과 같은 dataSet이 있을 때 a, b, c는 data, y는 라벨이 됩니다.<br/><br/>
-	이 때 a1, b1, c1, y1 :: 첫번째 instance a2, b2 ,c2 ,y2 :: 두번째 instance .... 가됩니다.<br/><br/>
-
+	a, b, c는 data, y는 라벨입니다.<br/><br/>
+	이 때 a1, b1, c1,  :: 첫번째 instance a2, b2 ,c2 :: 두번째 instance .... 가됩니다.<br/><br/>
          </div>
        </div>
      </div>
@@ -68,6 +67,10 @@ categories: MachineLearning DataAnalyze
    <div>
      <h3 style = "font-size :1.2em">Cost함수</h3><br/>
        <div style = "margin-left : 3%">
+        단순 선형 회귀의 cost는 <img src="https://latex.codecogs.com/png.latex?Cost = \frac{1}{m}\sum_{i=1}^{m}(W(x^{i})-y^{i})^{2}" title="Cost = \frac{1}{m}\sum_{i=1}^{m}(W(x^{i})-y^{i})^{2}" />입니다.<br/><br/>
+        다중 선형 회귀의 cost는 단순히 변수만 더 늘어난 꼴로 <img src="https://latex.codecogs.com/png.latex?Cost = \frac{1}{m}\sum_{i=1}^{m}(W(x1^{i}+x2^{i}+x3^{i}...)-y^{i})^{2}
+" title="Cost = \frac{1}{m}\sum_{i=1}^{m}(W(x1^{i}+x2^{i}+x3^{i}...)-y^{i})^{2}
+" />입니다.<br/><br/>
       </div>
    </div>
 </div>
