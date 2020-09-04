@@ -15,8 +15,10 @@ categories: MachineLearning DataAnalyze
        다항 선형 회귀는 feature가 하나가 아닌 둘 이상인 경우입니다.<br/><br/>
        feature가 하나 -> <img src="https://latex.codecogs.com/png.latex?H(x) = wx+b" title="H(x) = wx+b" /><br/><br/>
        feature가 셋 -> <img src="https://latex.codecogs.com/png.latex?H(x_{1},x_{2},x_{3}) = w_{1}x_{1}+w_{2}x_{2}+w_{3}x_{3} + b" title="H(x_{1},x_{2},x_{3}) = w_{1}x_{1}+w_{2}x_{2}+w_{3}x_{3} + b" /><br/><br/>
-       이렇게 되면 당연히 Cost함수도<br/>
-       <img src="https://latex.codecogs.com/png.latex?Cost(W,b) = \frac{1}{m}\sum_{i=1}^{m}(H(x_{1}^{i},x_{2}^{i},x_{3}^{i})-y^{i})^{2}" title="Cost(W,b) = \frac{1}{m}\sum_{i=1}^{m}(H(x_{1}^{i},x_{2}^{i},x_{3}^{i})-y^{i})^{2}" /> 로 다시 설계됩니다.<br/><br/>
+      
+       y값은 역시 하나 이상일 수 있으며 y는 target이라합니다.<br/><br/>
+       <i style = "font-size : 0.9em">정확하게는 x축의 개수가 feature, y축의 개수가 targer입니다.</i>
+        
         <hr/>
         <div>
          <h3 style = "font-size :1.2em"> 행렬</h3><br/>
@@ -76,7 +78,7 @@ categories: MachineLearning DataAnalyze
 </div>
   </div>
  <hr/>
-    ***미완성 포스팅***<br/>
+   <a hreft = "https://can019.github.io/machinelearning/dataanalyze/MachineLearning-AI-6/">다음 포스팅</a><br/>은 다항 선형 회귀 구현입니다.<br/>
    <blockquote> 공부하며 작성하는 포스팅이기 때문에 수정사항이 생길 수 있습니다. </blockquote>
   <blockquote>해당 포스팅은 KAIST교육을 바탕으로 하며 이해에 필요한 추가적인 정보를 덧붙였습니다.<br/>
   영상과 강의자료는 배포가 불가하기에 공유가 불가하면 포스팅에 사용한 자료와 이미지는 개인적으로 복습하며 만들었습니다. </blockquote>
