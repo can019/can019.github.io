@@ -23,18 +23,18 @@ categories: MachineLearning DataAnalyze
            <div style = "margin-left : 3%">
            <img src="https://latex.codecogs.com/png.latex?w_{1}x_{1}+w_{2}x_{2}+w_{3}x_{3}" title="w_{1}x_{1}+w_{2}x_{2}+w_{3}x_{3}" /> 이녀석을 <br/><br/>
            <img src="https://latex.codecogs.com/png.latex?\begin{pmatrix}
-x_{1} & x_{2} & x_{3}
-\end{pmatrix}\cdot \begin{pmatrix}
-w_{1}\\
-w_{2}\\
-w_{3}
-\end{pmatrix} = w_{1}x_{1}+w_{2}x_{2}+w_{3}x_{3}" title="\begin{pmatrix}
-x_{1} & x_{2} & x_{3}
-\end{pmatrix}\cdot \begin{pmatrix}
-w_{1}\\
-w_{2}\\
-w_{3}
-\end{pmatrix} = w_{1}x_{1}+w_{2}x_{2}+w_{3}x_{3}" />의 행렬 곱으로 나타 낼 수 있습니다.<br/><br/>
+           x_{1} & x_{2} & x_{3}
+           \end{pmatrix}\cdot \begin{pmatrix}
+           w_{1}\\
+           w_{2}\\
+           w_{3}
+           \end{pmatrix} = w_{1}x_{1}+w_{2}x_{2}+w_{3}x_{3}" title="\begin{pmatrix}
+           x_{1} & x_{2} & x_{3}
+           \end{pmatrix}\cdot \begin{pmatrix}
+           w_{1}\\
+           w_{2}\\
+          w_{3}
+            \end{pmatrix} = w_{1}x_{1}+w_{2}x_{2}+w_{3}x_{3}" />의 행렬 곱으로 나타 낼 수 있습니다.<br/><br/>
     조금만 생각해보면 <img src="https://latex.codecogs.com/png.latex?x" title="x"/>에 관한 행을 <img src="https://latex.codecogs.com/png.latex?X" title="X"/><br/><br/>
     <img src="https://latex.codecogs.com/png.latex?w" title="w"/>에 관한 행을 <img src="https://latex.codecogs.com/png.latex?W" title="W"/>,로 바꾸어<br/>
     아래와 같이 가설을 다시 선언 할 수 있습니다.<br/><br/>
@@ -45,24 +45,30 @@ w_{3}
          <div style = "margin-left : 3%">
 	dataSet을 행렬로 취급할 때 하나의 행 단위를 인스턴스라고 부릅니다.<br/><br/>
 	<img src="https://latex.codecogs.com/png.latex?\begin{pmatrix}
-	a1 & b1 & c1 & y1\\ 
-	a2 & b2 & c2 & y2\\ 
-	a3 & b3 & c3 & y3\\ 
-	a4 & b4 & c4 & y4\\ 
+	a1 & b1 & c1 & y1\\
+	a2 & b2 & c2 & y2\\
+	a3 & b3 & c3 & y3\\
+	a4 & b4 & c4 & y4\\
 	a5 & b5 & c5 & y5
 	\end{pmatrix}" title="\begin{pmatrix}
-	a1 & b1 & c1 & y1\\ 
-	a2 & b2 & c2 & y2\\ 
-	a3 & b3 & c3 & y3\\ 
-	a4 & b4 & c4 & y4\\ 
+	a1 & b1 & c1 & y1\\
+	a2 & b2 & c2 & y2\\
+	a3 & b3 & c3 & y3\\
+	a4 & b4 & c4 & y4\\
 	a5 & b5 & c5 & y5
 	\end{pmatrix}"/><br/><br/>
 	다음과 같은 dataSet이 있을 때 a, b, c는 data, y는 라벨이 됩니다.<br/><br/>
-	이 때 a1, b1, c1, y1 :: 첫번째 instance a2, b2 ,c2 ,y2 :: 두번째 instance .... 가됩니다.<br/<br/>
-			
+	이 때 a1, b1, c1, y1 :: 첫번째 instance a2, b2 ,c2 ,y2 :: 두번째 instance .... 가됩니다.<br/><br/>
+
          </div>
        </div>
      </div>
+      <hr/>
+   </div>
+   <div>
+     <h3 style = "font-size :1.2em">Cost함수</h3><br/>
+       <div style = "margin-left : 3%">
+      </div>
    </div>
 </div>
   </div>
