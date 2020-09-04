@@ -1,14 +1,25 @@
 ---
-title: "[MachineLearning 6] 다항 선형 회귀 tensorflow"
-date: 2020-09-02 21:00:15 -0400
+title: "[MachineLearning 6] 이진 분류 "
+date: 2020-09-04 11:14:15 -0400
 categories: MachineLearning DataAnalyze
 ---
-## 다항 선형 회귀 (Multiple Linear Regreesion) in python code
+## 이진 분류(binary classification)
 
 
 <div style = "font-size :0.8em">
-  <a href = "https://can019.github.io/machinelearning/dataanalyze/MachineLearning-AI-3/">지난 포스팅</a><br/>
+  <a href = "https://can019.github.io/machinelearning/dataanalyze/MachineLearning-AI-6/">지난 포스팅</a><br/>
   <div>
+      <div>
+    	<h3 style = "font-size :1.2em"> 이진 분류</h3><br/>
+    	<div style = "margin-left : 3%">
+	 참과 거짓. 0 또는 1의 결과값을 가지는 회귀분석법입니다.<br/><br/>
+	 선형회귀의 연장선으로 어떠한 선형식을 추론한 뒤<br/>
+	 이 선형식을 다시 어떠한 함수에 대입하여 0, 1의 값으로 인코딩합니다<br/<br/>
+
+	간결하게 말하면 z = wx+b, g(z) = 0~1 라고 말할 수 있으며<br/>
+	z는 시그모이드(sigmoid)라는 논리함수를 사용하게 됩니다.<br/><br/>
+  
+      </div>
   </div>
  <hr/>
     ***미완성 포스팅***<br/>
