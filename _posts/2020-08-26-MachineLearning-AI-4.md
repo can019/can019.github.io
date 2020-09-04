@@ -166,7 +166,7 @@ published: true
   </div>
   </div>
 <a href = "https://can019.github.io/machinelearning/dataanalyze/python/colab/MachineLearning-AI-5/">다음 포스팅</a>은 다중 선형 회귀 이론입니다.<hr/>
-<div  "font-size :0.8em">
+<div style = "font-size :0.8em">
 <blockquote> 공부하며 작성하는 포스팅이기 때문에 수정사항이 생길 수 있습니다. </blockquote>
   <blockquote>해당 포스팅은 KAIST교육을 바탕으로 하며 이해에 필요한 추가적인 정보를 덧붙였습니다.<br/>
   영상과 강의자료는 배포가 불가하기에 공유가 불가하면 포스팅에 사용한 자료와 이미지는 개인적으로 복습하며 만들었습니다. </blockquote>
