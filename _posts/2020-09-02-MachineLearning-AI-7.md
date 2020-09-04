@@ -16,10 +16,36 @@ categories: MachineLearning DataAnalyze
 	 선형회귀의 연장선으로 어떠한 선형식을 추론한 뒤<br/>
 	 이 선형식을 다시 어떠한 함수에 대입하여 0, 1의 값으로 인코딩합니다<br/<br/>
 
-	간결하게 말하면 z = wx+b, g(z) = 0~1 라고 말할 수 있으며<br/>
-	z는 시그모이드(sigmoid)라는 논리함수를 사용하게 됩니다.<br/><br/>
+	 간결하게 말하면 z = wx+b, g(z) = 0~1 라고 말할 수 있으며<br/>
+	 z는 시그모이드(sigmoid)라는 논리함수를 사용하게 됩니다.<br/><br/>
+	 그래프 개형이 'S'자와 같아 시그모이드라는 이름이 붙게 되었습니다.<br/><br/>
   
-      </div>
+	 g(z) = 1/(1+e^-z), H(x) = g(z), z= WX <br/>
+	 H(x) = 1/1+e^-w^tX  -> (w^T)X+b하는 이유 : 원래 XW인데 행렬곱을 위해 W을 transpose 함.
+	  <div>
+    		<h3 style = "font-size :1.2em"> 비용함수</h3><br/>
+    		<div style = "margin-left : 3%">
+			H(x)가 변경되었으므로 비용함수 역시 형태가 변경됩니다.<br/><br/>
+			선형회귀법과 같이 거리의 제곱으로 cost함수를 만드게 된다면<br/>
+			그래프가 포도송이모양으로 형성되는데<br/>
+			local minima가 여러번 생기기 때문에 경사하강법을 사용하기 어렵습니다.<br/><br/>
+			
+			그래서 논리값을 위해 새로운 비용 함수를 설계합니다.<br/><br/>
+			 H(x) = 1/1+e^-w^tX  -> (w^T)X+b<br/><br/>
+			cost(W) = 1/m * sigma c(H(x),y)<br/><br/>
+			c(H(x),y) = -log(H(x))  : y=1 ,  -log(1-H(x))  : y=0<br/><br/>
+
+			y = 1일 때 -log(z)는 왼쪽에서 떨어지는 곡선<br/>
+			y = 0일 때 -log(1-z)는 오른쪽에서 떨어지는 곡선<br/><br/>
+
+			이분화된 식을 하나의 식으로 합치면<br/>
+			c(H(x),y) = -ylog(H(x)) - (1-y)log(1-H(x))
+
+
+		</div>
+	   </div>
+      	</div>
+     </div>
   </div>
  <hr/>
     ***미완성 포스팅***<br/>
