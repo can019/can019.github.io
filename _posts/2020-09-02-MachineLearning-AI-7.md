@@ -12,7 +12,7 @@ categories: MachineLearning DataAnalyze
       <h3 style = "font-size :1.2em">이진 분류</h3><!--title of major1-->
       <div style = "margin-left : 3%"><!--Article of major1-->
         참과 거짓. 0 또는 1의 결과값을 가지는 회귀분석법입니다. <br><br>
-        <img src="/assets/photos/machinelearning7/conversion.png"><<br><br>
+        <img src="/assets/photos/machineLearning7/conversion.png"><br><br>
         선형식 z를 sigmoid 함수로 인코딩하여 0, 1 사이의 결과값을 얻어냅니다. <br><br>
         <img src="https://latex.codecogs.com/png.latex?z = wx+b" title="z = wx+b"/>, <img src="https://latex.codecogs.com/png.latex?g(z) = 0~1 " title="g(z) = 0~1 "/><br>
 
