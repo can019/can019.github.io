@@ -12,10 +12,13 @@ categories: MachineLearning DataAnalyze
     <h3 style = "font-size :1.2em"> 다중 선형 회귀</h3>
     	<div style = "margin-left : 3%">
 		      <div><!--chapter2-->
-    	       <h3 style = "font-size :1.2em"> 기본적인 다중 선형 회귀 구현</h3><br/>
+    	       <h3 style = "font-size :1.2em">기본 구현</h3><br/>
     				 <div style = "margin-left : 3%">
+               <div><!--chapter3-->
+                  <h3 style = "font-size :1.2em">withoud 행렬</h3><br/>
+                  <div style = "margin-left : 3%">
                     다중 선형 회귀 역시 단순 선형 회귀 코드와 비슷합니다.<br/><br/>
-					          <img src="/assets/photos/machineLearning6/multiple_linear_regression_code.png"><br/><br/>
+                    <img src="/assets/photos/machineLearning6/multiple_linear_regression_code.png"><br/><br/>
                     line 2~5 :: dataSet <br><br>
                     line 8~10 :: temsorflow 변수추가 <br>
                     tf.random.normal()은 난수를 발생하는 라이브러리 함수입니다.<br><br>
@@ -24,6 +27,14 @@ categories: MachineLearning DataAnalyze
                     line 15~24 :: train <br>
                     range(10000+1)인 이유는 10000번째 epoch의 cost출력을 위함입니다.<br><br>
                     line 26~27 :: cost 출력 <br>
+                  </div>
+                </div><!--chapter3-->
+                <div><!--chapter3-->
+                   <h3 style = "font-size :1.2em">with 행렬</h3><br/>
+                   <div style = "margin-left : 3%">
+                     
+                   </div>
+                 </div><!--chapter3-->
   			     </div>
   		  </div><!--chapter2-->
 	   </div>
