@@ -13,21 +13,17 @@ categories: MachineLearning DataAnalyze
       <div style = "margin-left : 3%"><!--Article of major1-->
         참과 거짓. 0 또는 1의 결과값을 가지는 회귀분석법입니다. <br><br>
 
-        선형회귀의 연장선으로 어떠한 선형식을 추론한 뒤 <br>
-        이 선형식을 어떠한 함수로 인코딩하여 0, 1 두개의 값만 가지게 합니다. <br><br>
-
-        수식과 함께 설명하면 z = wx+b, g(z) = 0~1 <br>
-        z는 시그모이드(sigmoid) <br>
-
-        그래프 개형이 'S'자와 같아 시그모이드라는 이름이 붙게 되었습니다. <br><br>
-
-        g(z) = 1/(1+e^-z), H(x) = g(z), z = WX <br>
-        H(x) = 1/(1+e^-w^Tx) - > 원래 XW인데 행렬곱을 위해 W를 transpose함.
+        <img src="/assets/photos/machineLearning6/multiple_linear_regression_without_matrix_code.png"> <br><br>
+        선형식 z를 sigmoid 함수로 인코딩하여 0, 1 사이의 결과값을 얻어냅니다. <br><br>
+        z = wx+b, g(z) = 0~1 <br>
 
         <div><!--child1 of major1-->
           <h3 style = "font-size :1.2em">시그모이드</h3><!--title of child1 of major1-->
           <div style = "margin-left : 3%"><!--article of child1 of major1-->
+            그래프 개형이 'S'자와 같아 시그모이드라는 이름이 붙게 되었습니다. <br><br>
 
+            g(x) = 1/(1+e^-x), H(x) = g(z), z = WX <br>
+            H(x) = 1/(1+e^-w^Tx) - > 원래 XW인데 행렬곱을 위해 W를 transpose함.
           </div><!--article of child1 of major1-->
         </div><!--child1 of major1-->
 
