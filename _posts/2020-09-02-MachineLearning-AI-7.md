@@ -40,7 +40,8 @@ categories: MachineLearning DataAnalyze
             local minima가 여러번 생기기 때문에 경사하강법을 사용하기 어렵습니다.<br/><br/>
             그래서 논리값을 위해 새로운 비용 함수를 설계합니다.<br/><br/>
             H(x) = 1/1+e^-w^tX  -> (w^T)X+b<br/><br/>
-            cost(W) = 1/m * sigma c(H(x),y)<br/><brc(H(x),y) = -log(H(x))  : y=1 ,  -log(1-H(x))  : y=0<br/><br/>
+            cost(W) = 1/m * sigma c(H(x),y)<br/><br>
+            c(H(x),y) = -log(H(x))  : y=1 ,  -log(1-H(x))  : y=0<br/><br/>
 
             y = 1일 때 -log(z)는 왼쪽에서 떨어지는 곡선<br/>
             y = 0일 때 -log(1-z)는 오른쪽에서 떨어지는 곡선<br/><br/>
