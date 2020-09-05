@@ -15,14 +15,20 @@ categories: MachineLearning DataAnalyze
 
         <img src="/assets/photos/machineLearning6/multiple_linear_regression_without_matrix_code.png"> <br><br>
         선형식 z를 sigmoid 함수로 인코딩하여 0, 1 사이의 결과값을 얻어냅니다. <br><br>
-        z = wx+b, g(z) = 0~1 <br>
+        <img src="https://latex.codecogs.com/png.latex?z = wx+b" title="z = wx+b"/>, <img src="https://latex.codecogs.com/png.latex?g(z) = 0~1 " title="g(z) = 0~1 "/><br>
 
         <div><!--child1 of major1-->
           <h3 style = "font-size :1.2em">시그모이드</h3><!--title of child1 of major1-->
           <div style = "margin-left : 3%"><!--article of child1 of major1-->
             그래프 개형이 'S'자와 같아 시그모이드라는 이름이 붙게 되었습니다. <br><br>
 
-            g(x) = 1/(1+e^-x), H(x) = g(z), z = WX <br>
+            <img src="https://latex.codecogs.com/png.latex?z = WX" title="z = WX"/><br>
+            <img src="https://latex.codecogs.com/png.latex?g(x) = \frac{1}{1+e^{-x}}" title="g(x) = \frac{1}{1+e^{-x}}"/><br>
+            <img src="https://latex.codecogs.com/png.latex?H(x) = g(z)" title="H(x) = g(z)"/><br>
+
+
+            <img src="https://latex.codecogs.com/png.latex?H(X) = \frac{1}{1+e^{-W^{T}X}}" title="H(X) = \frac{1}{1+e^{-W^{T}X}}"/><br>
+            <img src="https://latex.codecogs.com/png.latex?-W^{T}X" title="-W^{T}X"/><br>
             H(x) = 1/(1+e^-w^Tx) - > 원래 XW인데 행렬곱을 위해 W를 transpose함.
           </div><!--article of child1 of major1-->
         </div><!--child1 of major1-->
