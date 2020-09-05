@@ -36,8 +36,8 @@ categories: MachineLearning DataAnalyze
 
             이러한 이유로 선형식을 그대로 사용하지 않고 sigmoid라는 활성함수로 한번 인코딩 해주는 것입니다.<br><br>
             (활성함수는 비선형함수를 사용합니다.)
-            <img src="/assets/photos/machineLearning7/sigmoid.png"><br><br>
-            시그모이드 함수<br>
+            <img src="/assets/photos/machineLearning7/sigmoid.png"><br>
+            <span style = "0.8em">     시그모이드 함수</span><br>
 
             시그모이드는 <img src="https://latex.codecogs.com/png.latex?g(x) = \frac{1}{1+e^{-x}}" title="g(x) = \frac{1}{1+e^{-x}}"/>입니다.<br><br>
             데이터가 X, 이진 분류 모델을 H(X)라고 할 때 <img src="https://latex.codecogs.com/png.latex?H(X) = g(z)" title="H(X) = g(z)"/>라고 할 수 있습니다. <br><br>
