@@ -10,6 +10,7 @@ categories: MachineLearning DataAnalyze
   <a href = "https://can019.github.io/machinelearning/dataanalyze/MachineLearning-AI-5/">지난 포스팅</a><br/>
   <div><!--chapter1-->
     <h3 style = "font-size :1.2em"> 다중 선형 회귀</h3>
+    <hr/>
     	<div style = "margin-left : 3%">
 		      <div><!--chapter2-->
     	       <h3 style = "font-size :1.2em">기본 구현</h3>
@@ -28,6 +29,7 @@ categories: MachineLearning DataAnalyze
                     range(10000+1)인 이유는 10000번째 epoch의 cost출력을 위함입니다.<br><br>
                     line 26~27 :: cost 출력 <br>
                   </div>
+                  <hr/>
                 </div><!--chapter3-->
                 <div><!--chapter3-->
                    <h3 style = "font-size :1.2em">with 행렬</h3><br/>
@@ -56,6 +58,7 @@ categories: MachineLearning DataAnalyze
                    </div>
                  </div><!--chapter3-->
   			     </div>
+             <hr/>
   		  </div><!--chapter2-->
         <div><!--chapter4-->
            <h3 style = "font-size :1.2em">with keggle</h3>
@@ -88,6 +91,7 @@ categories: MachineLearning DataAnalyze
                    line 34, 35 :: 1000단위 epoch 별 cost 출력 <br><br>
 
                 </div>
+                <hr/>
               </div><!--chapter3-->
            </div>
       </div><!--chapter4-->
