@@ -57,6 +57,17 @@ categories: MachineLearning DataAnalyze
                  </div><!--chapter3-->
   			     </div>
   		  </div><!--chapter2-->
+        <div><!--chapter4-->
+           <h3 style = "font-size :1.2em">with keggle</h3>
+           <div style = "margin-left : 3%">
+             <div><!--chapter3-->
+                <h3 style = "font-size :1.2em">1. HousePrice</h3><br/>
+                <div style = "margin-left : 3%">
+
+                </div>
+              </div><!--chapter3-->
+           </div>
+      </div><!--chapter4-->
 	   </div>
   </div><!--chapter1-->
  <hr/>
