@@ -12,7 +12,7 @@ categories: MachineLearning DataAnalyze
     <h3 style = "font-size :1.2em"> 다중 선형 회귀</h3>
     	<div style = "margin-left : 3%">
 		      <div><!--chapter2-->
-    	       <h3 style = "font-size :1.2em">기본 구현</h3><br/>
+    	       <h3 style = "font-size :1.2em">기본 구현</h3>
     				 <div style = "margin-left : 3%">
                <div><!--chapter3-->
                   <h3 style = "font-size :1.2em">without 행렬</h3><br/>
