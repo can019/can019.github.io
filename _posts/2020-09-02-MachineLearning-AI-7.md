@@ -74,18 +74,16 @@ categories: MachineLearning DataAnalyze
             local minima가 여러번 생기기 때문에 경사하강법을 사용하기 어렵습니다.<br/><br/>
             그래서 논리값을 위해 새로운 비용 함수를 설계합니다.<br/><br/>
 
-            <img src="https://latex.codecogs.com/png.latex?H(X) = \frac{1}{1+e^{-W^{T}X}}" title="H(X) = \frac{1}{1+e^{-W^{T}X}}"/><br><br>
-            <img src="https://latex.codecogs.com/png.latex?c(H(x),y) =\left\{\begin{matrix}-log(H(x)) : y=1\\ -log(1-H(x)) : y=0\end{matrix}\right." title="c(H(x),y) =\left\{\begin{matrix}-log(H(x)) : y=1\\ -log(1-H(x)) : y=0\end{matrix}\right."/><br><br>
-            c(H(x),y) = -log(H(x))  : y=1 ,  -log(1-H(x))  : y=0<br/><br/>
-            cost(W) = 1/m * sigma c(H(x),y)<br/><br>
-
-            y = 1일 때 -log(z)는 왼쪽에서 떨어지는 곡선<br/>
-            y = 0일 때 -log(1-z)는 오른쪽에서 떨어지는 곡선으로 합치게 되면 2차함수 꼴의 부드러운 함수가 됩니다.<br/><br/>
-
+            <img src="https://latex.codecogs.com/png.latex?H(X) = \frac{1}{1+e^{-W^{T}X}}" title="H(X) = \frac{1}{1+e^{-W^{T}X}}"/>일 때<br><br>
+            한점에서의 cost는 <img src="https://latex.codecogs.com/png.latex?c(H(x),y) =\left\{\begin{matrix}-log(H(x)) : y=1\\ -log(1-H(x)) : y=0\end{matrix}\right." title="c(H(x),y) =\left\{\begin{matrix}-log(H(x)) : y=1\\ -log(1-H(x)) : y=0\end{matrix}\right."/>이므로<br><br>
             이분화된 식을 하나의 식으로 합치면<br/>
-            c(H(x),y) = -ylog(H(x)) - (1-y)log(1-H(x))<br/><br/>
-            Cost(W) = -1/m * sigma(-ylog(H(x)) - (1-y)log(1-H(x)))<br/><br/>
-            w := w- alpha*cost(w)미분<br/><br/>
+            <img src="https://latex.codecogs.com/png.latex?c(H(x),y) = -ylog(H(x)) - (1-y)log(1-H(x))" title="c(H(x),y) = -ylog(H(x)) - (1-y)log(1-H(x))"/>가 됩니다. <br><br>
+
+            따라서 cost의 평균은 <img src="https://latex.codecogs.com/png.latex?cost(w) = \frac{1}{m}\sum_{1}^{m}(-ylog(H(x)) - (1-y)log(1-H(x)))" title="cost(w) = \frac{1}{m}\sum_{1}^{m}(-ylog(H(x)) - (1-y)log(1-H(x)))"/>가 됩니다.<br><br>
+
+            <i style = "font-size : 0.9em"> y = 1일 때 -log(z)는 왼쪽에서 떨어지는 곡선<br/>
+            y = 0일 때 -log(1-z)는 오른쪽에서 떨어지는 곡선으로 합치게 되면 2차함수 꼴의 부드러운 함수가 됩니다.</i><br/><br/>
+
           </div><!--article of child2 of major1-->
         </div><!--child2 of major1-->
         <hr>
