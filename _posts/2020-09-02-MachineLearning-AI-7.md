@@ -19,7 +19,7 @@ categories: MachineLearning DataAnalyze
         활성화 함수는 나중에 신경망에서 이야기 할 예정이니 지금은 가볍게 '변환기' 느낌으로 생각하시면 됩니다.<br><br>
         그리고 data(x값)을 추론된 모델에 대입하여 나온 y값이 0.5이상이라면 1, 이하라면 0으로 내려 참과 거짓을 판별합니다.<br><br>
         <img src="https://latex.codecogs.com/png.latex?z = wx+b" title="z = wx+b"/>, <img src="https://latex.codecogs.com/png.latex?0\leq g(x)\leq 1 " title="0\leq g(x)\leq 1"/><br>
-
+        <hr>
         <div><!--child1 of major1-->
           <h3 style = "font-size :1.2em">시그모이드(sigmoid)</h3><!--title of child1 of major1-->
           <div style = "margin-left : 3%"><!--article of child1 of major1-->
@@ -38,7 +38,7 @@ categories: MachineLearning DataAnalyze
             (활성함수는 비선형함수를 사용합니다.)
             <img src="/assets/photos/machineLearning7/sigmoid.png"><br><br>
             시그모이드 함수<br>
-            
+
             시그모이드는 <img src="https://latex.codecogs.com/png.latex?g(x) = \frac{1}{1+e^{-x}}" title="g(x) = \frac{1}{1+e^{-x}}"/>입니다.<br><br>
             데이터가 X, 이진 분류 모델을 H(X)라고 할 때 <img src="https://latex.codecogs.com/png.latex?H(X) = g(z)" title="H(X) = g(z)"/>라고 할 수 있습니다. <br><br>
             이 때   <img src="https://latex.codecogs.com/png.latex?z = WX" title="z = WX"/>이므로 식을 다시 쓰면 <br><br>
@@ -49,7 +49,7 @@ categories: MachineLearning DataAnalyze
 
           </div><!--article of child1 of major1-->
         </div><!--child1 of major1-->
-
+        <hr>
         <div><!--child2 of major1-->
           <h3 style = "font-size :1.2em">비용함수</h3><!--title of child2 of major1-->
           <div style = "margin-left : 3%"><!--article of child2 of major1-->
@@ -71,7 +71,7 @@ categories: MachineLearning DataAnalyze
             w := w- alpha*cost(w)미분<br/><br/>
           </div><!--article of child2 of major1-->
         </div><!--child2 of major1-->
-
+        <hr>
       </div><!--Article of major1-->
   </div><!--main-->
 
