@@ -68,7 +68,24 @@ categories: MachineLearning DataAnalyze
                    21개의 column이 있지만 kaggle 의 compact에 설명된 7개의 column을 사용합니다. <br><br>
 
                    <img src="/assets/photos/machineLearning6/multiple_linear_regression_HousePrice_code.png"><br/><br/>
-                   
+
+                   line 6~13 :: data 전처리 <br>
+                   전처리라고 하기에도 허접합니다. 필요한 column을 추출합니다.<br><br>
+
+                   line 16, 17 :: tensorflow 변수를 선언합니다. <br><br>
+
+                   line 18 :: w 형태 출력 <br>
+                   w가 어떤 꼴인지 알기 위해 출력한 디버그 코드입니다. 실수로 안지웠네요 <br><br>
+
+                   line 19, 20 :: 행렬곱 함수 선언 <br><br>
+
+                   line 22 :: learning rate 설정 <br><br>
+
+                   line 14 :: max epoch 설정 <br><br>
+
+                   line 25~32 :: train <br><br>
+
+                   line 34, 35 :: 1000단위 epoch 별 cost 출력 <br><br>
 
                 </div>
               </div><!--chapter3-->
@@ -77,7 +94,7 @@ categories: MachineLearning DataAnalyze
 	   </div>
   </div><!--chapter1-->
  <hr/>
-    ***미완성 포스팅***<br/>
+    <a href="https://can019.github.io/machinelearning/dataanalyze/MachineLearning-AI-5/">다음 포스팅 :: 이진 분류</a><br/>
    <div style = "font-size :0.8em"><!--blockquote-->
    <blockquote> 공부하며 작성하는 포스팅이기 때문에 수정사항이 생길 수 있습니다. </blockquote>
    <blockquote>해당 포스팅은 KAIST교육을 바탕으로 하며 이해에 필요한 추가적인 정보를 덧붙였습니다.<br/>
