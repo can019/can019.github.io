@@ -23,30 +23,45 @@ categories: MachineLearning DataAnalyze
         <div><!--child1 of major1-->
           <h3 style = "font-size :1.2em">시그모이드(sigmoid)</h3><!--title of child1 of major1-->
           <div style = "margin-left : 3%"><!--article of child1 of major1-->
-            그래프 개형이 'S'자와 같아 시그모이드라는 이름이 붙게 되었습니다. <br><br>
-            시그모이드를 사용하는 이유는 다음과 같습니다. <br><br>
-            **가중치는 계산 및 훈련으로 얻어진 것이 아닌 극단적인 비교를 위한 임의의 값입니다**<br><br>
-            <img src="/assets/photos/machineLearning7/wx+b_1.png"><br><br>
-            훈련 결과로 H(x) = 0.15x라는 선형모델을 얻었습니다. <br>
-            H(1) = 0.15 H(2) = 0.3 H(3) = 0.45 => false, H(6) = 0.9 H(7) = 1.05 => true로 잘 분류가 됩니다.<br><br>
-            <img src="/assets/photos/machineLearning7/wx+b_2.png"><br><br>
-            그런데 새로운 data가 들어오며 선형모델이 H(x) = 0.0525x로 변경되었습니다.<br><br>
-            이 때 6과 7은 true이므로 H(6), H(7)은 0.5이상이 나와야하나 <br>
-            H(6) = 0.315 H(7) = 0.3675 => 0.5이하로 둘 다 false로 분류되었습니다<br><br>
+            <div><!--grandchild1 of major1-->
+              <h3 style = "font-size :1.2em">시그모이드를 사용하는 이유</h3><!--title of grandchild1 of major1-->
+              <div style = "margin-left : 3%"><!--article of grandchild1 of major1-->
+                그래프 개형이 'S'자와 같아 시그모이드라는 이름이 붙게 되었습니다. <br><br>
+                시그모이드를 사용하는 이유는 다음과 같습니다. <br><br>
+                **가중치는 계산 및 훈련으로 얻어진 것이 아닌 극단적인 비교를 위한 임의의 값입니다**<br><br>
+                <img src="/assets/photos/machineLearning7/wx+b_1.png"><br><br>
+                훈련 결과로 H(x) = 0.15x라는 선형모델을 얻었습니다. <br>
+                H(1) = 0.15 H(2) = 0.3 H(3) = 0.45 => false, H(6) = 0.9 H(7) = 1.05 => true로 잘 분류가 됩니다.<br><br>
+                <img src="/assets/photos/machineLearning7/wx+b_2.png"><br><br>
+                그런데 새로운 data가 들어오며 선형모델이 H(x) = 0.0525x로 변경되었습니다.<br><br>
+                이 때 6과 7은 true이므로 H(6), H(7)은 0.5이상이 나와야하나 <br>
+                H(6) = 0.315 H(7) = 0.3675 => 0.5이하로 둘 다 false로 분류되었습니다<br><br>
 
-            이러한 이유로 선형식을 그대로 사용하지 않고 sigmoid라는 활성함수로 한번 인코딩 해주는 것입니다.<br><br>
-            (활성함수는 비선형함수를 사용합니다.)
-            <img src="/assets/photos/machineLearning7/sigmoid.png"><br>
-            <span style = "0.8em">     시그모이드 함수</span><br>
+                <img src="/assets/photos/machineLearning7/sigmoid.png"><br>
+                이러한 이유로 선형식을 그대로 사용하지 않고 sigmoid라는 활성함수로 한번 인코딩 해주는 것입니다.<br><br>
+                (활성함수는 비선형함수를 사용합니다.)
 
-            시그모이드는 <img src="https://latex.codecogs.com/png.latex?g(x) = \frac{1}{1+e^{-x}}" title="g(x) = \frac{1}{1+e^{-x}}"/>입니다.<br><br>
-            데이터가 X, 이진 분류 모델을 H(X)라고 할 때 <img src="https://latex.codecogs.com/png.latex?H(X) = g(z)" title="H(X) = g(z)"/>라고 할 수 있습니다. <br><br>
-            이 때   <img src="https://latex.codecogs.com/png.latex?z = WX" title="z = WX"/>이므로 식을 다시 쓰면 <br><br>
-            <img src="https://latex.codecogs.com/png.latex?H(X) = \frac{1}{1+e^{-W^{T}X}}" title="H(X) = \frac{1}{1+e^{-W^{T}X}}"/>가 됩니다.<br><br>
+              </div><!--article of grandchild1 of major1-->
+            </div><!--grandchild1 of major1-->
+            <div><!--grandchild2 of major1-->
+              <h3 style = "font-size :1.2em">유도</h3><!--title of grandchild2 of major1-->
+              <div style = "margin-left : 3%"><!--article of grandchild2 of major1-->
+                시그모이드는 '비율'에 관한 함수입니다.<br>
+                이 함수를 odd(p)라고 하며 odd(p) = p/1-p 로 정의됩니다. <br><br>
+                그리고 odd(p)의 범위가 0~+inf이므로 <br><br>
+                -inf~+inf로 변환해주기 위해 log를 취해줍니다. <br>
+                이후 식을 p에대해 정리해주면 <img src="https://latex.codecogs.com/png.latex?p(x) = \frac{1}{1+e^{-x}}" title="p(x) = \frac{1}{1+e^{-x}}"/><br><br>
+                <img src="https://latex.codecogs.com/png.latex?sigmoid = g(x) = \frac{1}{1+e^{-x}}" title="sigmoid = g(x) = \frac{1}{1+e^{-x}}"/><br><br>
 
-            <img src="https://latex.codecogs.com/png.latex?-W^{T}X" title="-W^{T}X"/>에서 T는 Transpose이며, 행렬곱을 위해 바꿔줍니다. <br><br>
-            다중 선형 회귀에서 행렬곱을 위해 XW해주었던 것을 생각하면 되겠습니다.<br><br>
+                분류로 돌아오겠습니다.<br>
+                데이터가 X, 이진 분류 모델을 H(X)라고 할 때 <img src="https://latex.codecogs.com/png.latex?H(X) = g(z)" title="H(X) = g(z)"/>라고 할 수 있습니다. <br><br>
+                이 때   <img src="https://latex.codecogs.com/png.latex?z = WX" title="z = WX"/>이므로 식을 다시 쓰면 <br><br>
+                <img src="https://latex.codecogs.com/png.latex?H(X) = \frac{1}{1+e^{-W^{T}X}}" title="H(X) = \frac{1}{1+e^{-W^{T}X}}"/>가 됩니다.<br><br>
+                <img src="https://latex.codecogs.com/png.latex?-W^{T}X" title="-W^{T}X"/>에서 T는 Transpose이며, 행렬곱을 위해 바꿔줍니다. <br><br>
+                다중 선형 회귀에서 행렬곱을 위해 XW해주었던 것을 생각하면 되겠습니다.<br><br>
 
+              </div><!--article of grandchild2 of major1-->
+            </div><!--grandchild2 of major1-->
           </div><!--article of child1 of major1-->
         </div><!--child1 of major1-->
         <hr>
