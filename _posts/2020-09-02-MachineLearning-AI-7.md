@@ -70,9 +70,10 @@ categories: MachineLearning DataAnalyze
           <div style = "margin-left : 3%"><!--article of child2 of major1-->
             H(x)가 변경되었으므로 비용함수 역시 형태가 변경됩니다.<br/><br/>
             선형회귀법과 같이 거리의 제곱으로 cost함수를 만드게 된다면<br/>
-            그래프가 포도송이모양으로 형성되는데<br/>
-            local minima가 여러번 생기기 때문에 경사하강법을 사용하기 어렵습니다.<br/><br/>
-            그래서 논리값을 위해 새로운 비용 함수를 설계합니다.<br/><br/>
+            <img src="/assets/photos/machineLearning7/sigmoid_mse.png" width="550px"><br/>
+            이 그래프 처럼 local minima가 2개이상 발생되며 <br>
+            심한경우 그래프가 포도송이모양으로 형성되기도 합니다.<br/><br/>
+            이 경우 경사하강법을 사용하기 어렵기 때문에 새로운 비용 함수를 설계합니다.<br/><br/>
 
             <img src="https://latex.codecogs.com/png.latex?H(X) = \frac{1}{1+e^{-W^{T}X}}" title="H(X) = \frac{1}{1+e^{-W^{T}X}}"/>일 때<br><br>
             한점에서의 cost는 <img src="https://latex.codecogs.com/png.latex?c(H(x),y) =\left\{\begin{matrix}-log(H(x)) : y=1\\ -log(1-H(x)) : y=0\end{matrix}\right." title="c(H(x),y) =\left\{\begin{matrix}-log(H(x)) : y=1\\ -log(1-H(x)) : y=0\end{matrix}\right."/>이므로<br><br>
