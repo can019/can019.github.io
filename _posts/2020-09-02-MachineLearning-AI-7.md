@@ -12,7 +12,7 @@ categories: MachineLearning DataAnalyze
       <h3 style = "font-size :1.2em">이진 분류</h3><!--title of major1-->
       <div style = "margin-left : 3%"><!--Article of major1-->
         두 집단을 나누는 최적의 식을 찾아내는 것이 이진 분류입니다. <br><br>
-        <img src="/assets/photos/machineLearning7/conversion.png"><br><br>
+        <img src="/assets/photos/machineLearning7/conversion.png" width="550px"><br><br>
         선형식 z를 sigmoid 함수로 인코딩하여 0, 1 사이의 결과값을 얻어냅니다. <br><br>
 
         그리고 위와 같이 어떠한 식을 인코딩해주는 함수를 활성화함수라고 합니다.<br><br>
@@ -29,15 +29,15 @@ categories: MachineLearning DataAnalyze
                 그래프 개형이 'S'자와 같아 시그모이드라는 이름이 붙게 되었습니다. <br><br>
                 시그모이드를 사용하는 이유는 다음과 같습니다. <br><br>
                 **가중치는 계산 및 훈련으로 얻어진 것이 아닌 극단적인 비교를 위한 임의의 값입니다**<br><br>
-                <img src="/assets/photos/machineLearning7/wx+b_1.png"><br><br>
+                <img src="/assets/photos/machineLearning7/wx+b_1.png" width="550px"><br><br>
                 훈련 결과로 H(x) = 0.15x라는 선형모델을 얻었습니다. <br>
                 H(1) = 0.15 H(2) = 0.3 H(3) = 0.45 => false, H(6) = 0.9 H(7) = 1.05 => true로 잘 분류가 됩니다.<br><br>
-                <img src="/assets/photos/machineLearning7/wx+b_2.png"><br><br>
+                <img src="/assets/photos/machineLearning7/wx+b_2.png" width="550px"><br><br>
                 그런데 새로운 data가 들어오며 선형모델이 H(x) = 0.0525x로 변경되었습니다.<br><br>
                 이 때 6과 7은 true이므로 H(6), H(7)은 0.5이상이 나와야하나 <br>
                 H(6) = 0.315 H(7) = 0.3675 => 0.5이하로 둘 다 false로 분류되었습니다<br><br>
 
-                <img src="/assets/photos/machineLearning7/sigmoid.png"><br>
+                <img src="/assets/photos/machineLearning7/sigmoid.png" width="550px"><br>
                 이러한 이유로 선형식을 그대로 사용하지 않고 sigmoid라는 활성함수로 한번 인코딩 해주는 것입니다.<br><br>
                 (활성함수는 비선형함수를 사용합니다.)
 
