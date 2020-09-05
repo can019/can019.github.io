@@ -18,7 +18,7 @@ categories: MachineLearning DataAnalyze
                   <h3 style = "font-size :1.2em">withoud 행렬</h3><br/>
                   <div style = "margin-left : 3%">
                     다중 선형 회귀 역시 단순 선형 회귀 코드와 비슷합니다.<br/><br/>
-                    <img src="/assets/photos/machineLearning6/multiple_linear_regression_code.png"><br/><br/>
+                    <img src="/assets/photos/machineLearning6/multiple_linear_regression_without_matrix_code.png"><br/><br/>
                     line 2~5 :: dataSet <br><br>
                     line 8~10 :: temsorflow 변수추가 <br>
                     tf.random.normal()은 난수를 발생하는 라이브러리 함수입니다.<br><br>
@@ -32,7 +32,9 @@ categories: MachineLearning DataAnalyze
                 <div><!--chapter3-->
                    <h3 style = "font-size :1.2em">with 행렬</h3><br/>
                    <div style = "margin-left : 3%">
-                     
+                     행렬 연산을 사용한 코드입니다.<br><br>
+                     <img src="/assets/photos/machineLearning6/multiple_linear_regression_with_matrix_code.png"><br/><br/>
+
                    </div>
                  </div><!--chapter3-->
   			     </div>
