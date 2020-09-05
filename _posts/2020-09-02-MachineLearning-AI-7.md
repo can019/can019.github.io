@@ -21,13 +21,15 @@ categories: MachineLearning DataAnalyze
           <div style = "margin-left : 3%"><!--article of child1 of major1-->
             그래프 개형이 'S'자와 같아 시그모이드라는 이름이 붙게 되었습니다. <br><br>
 
-            <img src="https://latex.codecogs.com/png.latex?z = WX" title="z = WX"/><br>
-            <img src="https://latex.codecogs.com/png.latex?g(x) = \frac{1}{1+e^{-x}}" title="g(x) = \frac{1}{1+e^{-x}}"/><br>
-            <img src="https://latex.codecogs.com/png.latex?H(x) = g(z)" title="H(x) = g(z)"/><br>
 
-            <img src="https://latex.codecogs.com/png.latex?H(X) = \frac{1}{1+e^{-W^{T}X}}" title="H(X) = \frac{1}{1+e^{-W^{T}X}}"/><br>
-            <img src="https://latex.codecogs.com/png.latex?-W^{T}X" title="-W^{T}X"/><br>
-            H(x) = 1/(1+e^-w^Tx) - > 원래 XW인데 행렬곱을 위해 W를 transpose함.
+            시그모이드는 <img src="https://latex.codecogs.com/png.latex?g(x) = \frac{1}{1+e^{-x}}" title="g(x) = \frac{1}{1+e^{-x}}"/>입니다.<br><br>
+            데이터가 X, 이진 분류 모델을 H(X)라고 할 때 <img src="https://latex.codecogs.com/png.latex?H(X) = g(z)" title="H(X) = g(z)"/>라고 할 수 있습니다. <br><br>
+            이 때   <img src="https://latex.codecogs.com/png.latex?z = WX" title="z = WX"/>이므로 식을 다시 쓰면 <br><br>
+            <img src="https://latex.codecogs.com/png.latex?H(X) = \frac{1}{1+e^{-W^{T}X}}" title="H(X) = \frac{1}{1+e^{-W^{T}X}}"/>가 됩니다.<br><br>
+
+            <img src="https://latex.codecogs.com/png.latex?-W^{T}X" title="-W^{T}X"/>에서 T는 Transpose이며, 행렬곱을 위해 바꿔줍니다. <br><br>
+            다중 선형 회귀에서 행렬곱을 위해 XW해주었던 것을 생각하면 되겠습니다.<br><br>
+            
           </div><!--article of child1 of major1-->
         </div><!--child1 of major1-->
 
