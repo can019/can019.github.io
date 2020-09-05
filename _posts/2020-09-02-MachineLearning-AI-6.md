@@ -34,6 +34,24 @@ categories: MachineLearning DataAnalyze
                    <div style = "margin-left : 3%">
                      행렬 연산을 사용한 코드입니다.<br><br>
                      <img src="/assets/photos/machineLearning6/multiple_linear_regression_with_matrix_code.png"><br/><br/>
+                     line 3~10 :: dataSet 준비<br>
+                     일반적으로 dataSet은 다음과 같은 형태를 띕니다.<br><br>
+
+                     line 13, 14 :: data와 label을 분리합니다.<br/><br/>
+
+                     line 16, 17 :: tensorflow 변수 선언 <br>
+                     행렬곱을 사용할 것이므로 다음과 같이 선언합니다. <br><br>
+
+                     line 18, 19 :: 행렬곱 함수 선언 <br>
+                     행렬곱 결과를 return해주는 함수를 선언합니다. <br>
+                     곱을 위해서는 WX가 아닌 XW을 해주어야 하므로 순서에 주의하여야 합니다.<br>
+                     matmul은 행렬곱을 하는 tf 라이브러리 함수입니다. <br><br>
+
+                     line 21~23 :: learning rate, max epoch 설정 <br><br>
+
+                     line 25~32 :: train <br><br>
+
+                     line 34, 35 :: cost 출력 <br><br>
 
                    </div>
                  </div><!--chapter3-->
