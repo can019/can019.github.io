@@ -73,12 +73,14 @@ categories: MachineLearning DataAnalyze
             그래프가 포도송이모양으로 형성되는데<br/>
             local minima가 여러번 생기기 때문에 경사하강법을 사용하기 어렵습니다.<br/><br/>
             그래서 논리값을 위해 새로운 비용 함수를 설계합니다.<br/><br/>
-            H(x) = 1/1+e^-w^tX  -> (w^T)X+b<br/><br/>
-            cost(W) = 1/m * sigma c(H(x),y)<br/><br>
+
+            <img src="https://latex.codecogs.com/png.latex?H(X) = \frac{1}{1+e^{-W^{T}X}}" title="H(X) = \frac{1}{1+e^{-W^{T}X}}"/><br><br>
+            <img src="https://latex.codecogs.com/png.latex?c(H(x),y) =\left\{\begin{matrix}-log(H(x)) : y=1\\ -log(1-H(x)) : y=0\end{matrix}\right." title="c(H(x),y) =\left\{\begin{matrix}-log(H(x)) : y=1\\ -log(1-H(x)) : y=0\end{matrix}\right."/><br><br>
             c(H(x),y) = -log(H(x))  : y=1 ,  -log(1-H(x))  : y=0<br/><br/>
+            cost(W) = 1/m * sigma c(H(x),y)<br/><br>
 
             y = 1일 때 -log(z)는 왼쪽에서 떨어지는 곡선<br/>
-            y = 0일 때 -log(1-z)는 오른쪽에서 떨어지는 곡선<br/><br/>
+            y = 0일 때 -log(1-z)는 오른쪽에서 떨어지는 곡선으로 합치게 되면 2차함수 꼴의 부드러운 함수가 됩니다.<br/><br/>
 
             이분화된 식을 하나의 식으로 합치면<br/>
             c(H(x),y) = -ylog(H(x)) - (1-y)log(1-H(x))<br/><br/>
@@ -98,7 +100,7 @@ categories: MachineLearning DataAnalyze
     </blockquote>
     <blockquote>
       해당 포스팅은 KAIST교육을 바탕으로 하며 이해에 필요한 추가적인 정보를 덧붙였습니다.<br/>
-      영상과 강의자료는 배포가 불가하기에 공유가 불가하면 포스팅에 사용한 자료와 이미지는 개인적으로 복습하며 만들었습니다.
+      영상과 강의자료는 배포가 불가하기에 공유가 불가하며 포스팅에 사용한 자료와 이미지는 개인적으로 복습하며 만들었습니다.
     </blockquote>
   	<blockquote>
       공학이 뭐 그렇듯 용어들은 보통 영어로 기술합니다.<br/>
