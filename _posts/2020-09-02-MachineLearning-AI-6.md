@@ -15,7 +15,7 @@ categories: MachineLearning DataAnalyze
     	       <h3 style = "font-size :1.2em">기본 구현</h3><br/>
     				 <div style = "margin-left : 3%">
                <div><!--chapter3-->
-                  <h3 style = "font-size :1.2em">withoud 행렬</h3><br/>
+                  <h3 style = "font-size :1.2em">without 행렬</h3><br/>
                   <div style = "margin-left : 3%">
                     다중 선형 회귀 역시 단순 선형 회귀 코드와 비슷합니다.<br/><br/>
                     <img src="/assets/photos/machineLearning6/multiple_linear_regression_without_matrix_code.png"><br/><br/>
