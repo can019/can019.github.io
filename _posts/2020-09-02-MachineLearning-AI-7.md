@@ -11,16 +11,30 @@ categories: MachineLearning DataAnalyze
     <div><!--major1-->
       <h3 style = "font-size :1.2em">이진 분류</h3><!--title of major1-->
       <div style = "margin-left : 3%"><!--Article of major1-->
-        참과 거짓. 0 또는 1의 결과값을 가지는 회귀분석법입니다. <br><br>
+        두 집단을 나누는 최적의 식을 찾아내는 것이 이진 분류입니다. <br><br>
         <img src="/assets/photos/machineLearning7/conversion.png"><br><br>
         선형식 z를 sigmoid 함수로 인코딩하여 0, 1 사이의 결과값을 얻어냅니다. <br><br>
+
+        그리고 위와 같이 어떠한 식을 인코딩해주는 함수를 활성화함수라고 합니다.<br><br>
+        활성화 함수는 나중에 신경망에서 이야기 할 예정이니 지금은 가볍게 '변환기' 느낌으로 생각하시면 됩니다.<br><br>
+        그리고 data(x값)을 추론된 모델에 대입하여 나온 y값이 0.5이상이라면 1, 이하라면 0으로 내려 참과 거짓을 판별합니다.<br><br>
         <img src="https://latex.codecogs.com/png.latex?z = wx+b" title="z = wx+b"/>, <img src="https://latex.codecogs.com/png.latex?g(z) = 0~1 " title="g(z) = 0~1 "/><br>
 
         <div><!--child1 of major1-->
           <h3 style = "font-size :1.2em">시그모이드</h3><!--title of child1 of major1-->
           <div style = "margin-left : 3%"><!--article of child1 of major1-->
             그래프 개형이 'S'자와 같아 시그모이드라는 이름이 붙게 되었습니다. <br><br>
+            시그모이드를 사용하는 이유는 다음과 같습니다. <br><br>
+            **가중치는 계산 및 훈련으로 얻어진 것이 아닌 극단적인 비교를 위한 임의의 값입니다**<br><br>
+            <img src="/assets/photos/machineLearning7/wx+b_1.png"><br><br>
+            훈련 결과로 H(x) = 0.15x라는 선형모델을 얻었습니다. <br>
+            H(1) = 0.15 H(2) = 0.3 H(3) = 0.45 => false, H(6) = 0.9 H(7) = 1.05 => true로 잘 분류가 됩니다.<br><br>
+            <img src="/assets/photos/machineLearning7/wx+b_2.png"><br><br>
+            그런데 새로운 data가 들어오며 선형모델이 H(x) = 0.0525x로 변경되었습니다.<br><br>
+            이 때 6과 7은 true이므로 H(6), H(7)은 0.5이상이 나와야하나 <br>
+            H(6) = 0.315 H(7) = 0.3675 => 0.5이하로 둘 다 false로 분류되었습니다<br><br>
 
+            이러한 이유로 선형식을 그대로 사용하지 않고 sigmoid라는 활성함수로 한번 인코딩 해주는 것입니다.<br><br>
 
             시그모이드는 <img src="https://latex.codecogs.com/png.latex?g(x) = \frac{1}{1+e^{-x}}" title="g(x) = \frac{1}{1+e^{-x}}"/>입니다.<br><br>
             데이터가 X, 이진 분류 모델을 H(X)라고 할 때 <img src="https://latex.codecogs.com/png.latex?H(X) = g(z)" title="H(X) = g(z)"/>라고 할 수 있습니다. <br><br>
@@ -29,7 +43,7 @@ categories: MachineLearning DataAnalyze
 
             <img src="https://latex.codecogs.com/png.latex?-W^{T}X" title="-W^{T}X"/>에서 T는 Transpose이며, 행렬곱을 위해 바꿔줍니다. <br><br>
             다중 선형 회귀에서 행렬곱을 위해 XW해주었던 것을 생각하면 되겠습니다.<br><br>
-            
+
           </div><!--article of child1 of major1-->
         </div><!--child1 of major1-->
 
