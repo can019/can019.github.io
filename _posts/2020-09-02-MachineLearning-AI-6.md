@@ -63,6 +63,12 @@ categories: MachineLearning DataAnalyze
              <div><!--chapter3-->
                 <h3 style = "font-size :1.2em">1. HousePrice</h3><br/>
                 <div style = "margin-left : 3%">
+                   <img src="/assets/photos/machineLearning6/multiple_linear_regression_HousePrice_dataInfo.png"><br/><br/>
+                   데이터 개요입니다. <br>
+                   21개의 column이 있지만 kaggle 의 compact에 설명된 7개의 column을 사용합니다. <br><br>
+
+                   <img src="/assets/photos/machineLearning6/multiple_linear_regression_HousePrice_code.png"><br/><br/>
+                   
 
                 </div>
               </div><!--chapter3-->
