@@ -1,15 +1,24 @@
 ---
-title: "[MachineLearning 6] 다항 선형 회귀 tensorflow"
+title: "[MachineLearning 6] 다중 선형 회귀 tensorflow"
 date: 2020-09-02 21:00:15 -0400
 categories: MachineLearning DataAnalyze
 ---
-## 다항 선형 회귀 (Multiple Linear Regreesion) in python code
+## 다중 선형 회귀 (Multiple Linear Regreesion) in python code
 
 
 <div style = "font-size :0.8em"><!--Largest-->
   <a href = "https://can019.github.io/machinelearning/dataanalyze/MachineLearning-AI-5/">지난 포스팅</a><br/>
   <div><!--chapter1-->
-
+    <h3 style = "font-size :1.2em"> 다중 선형 회귀</h3><br/>
+    	<div style = "margin-left : 3%">
+		      <div><!--chapter2-->
+    	       <h3 style = "font-size :1.2em"> 기본적인 다중 선형 회귀 구현</h3><br/>
+    				 <div style = "margin-left : 3%">
+                    다중 선형 회귀 역시 단순 선형 회귀 코드와 비슷합니다.<br/><br/>
+					          <img src="/assets/photos/machineLearning6/multiple_linear_regression_code.png"><br/><br/>
+  			     </div>
+  		  </div><!--chapter2-->
+	   </div>
   </div><!--chapter1-->
  <hr/>
     ***미완성 포스팅***<br/>
