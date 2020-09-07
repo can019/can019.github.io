@@ -15,7 +15,7 @@ categories: MachineLearning DataAnalyze
         <img src="/assets/photos/machineLearning7/conversion.png" width="550px"><br><br>
         선형식 z를 sigmoid 함수로 인코딩하여 0, 1 사이의 결과값을 얻어냅니다. <br><br>
 
-        그리고 위와 같이 어떠한 식을 인코딩해주는 함수를 활성화함수라고 합니다.<br><br>
+        그리고 위와 같이 어떠한 식을 인코딩해주는 함수를 <b>활성화함수</b>라고 합니다.<br><br>
         활성화 함수는 나중에 신경망에서 이야기 할 예정이니 지금은 가볍게 '변환기' 느낌으로 생각하시면 됩니다.<br><br>
         그리고 data(x값)을 추론된 모델에 대입하여 나온 y값이 0.5이상이라면 1, 이하라면 0으로 내려 참과 거짓을 판별합니다.<br><br>
         <img src="https://latex.codecogs.com/png.latex?z = wx+b" title="z = wx+b"/>, <img src="https://latex.codecogs.com/png.latex?0\leq g(x)\leq 1 " title="0\leq g(x)\leq 1"/><br>
