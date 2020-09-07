@@ -27,11 +27,15 @@ categories: MachineLearning DataAnalyze
           <div><!--major1-->
             <h3 style = "font-size :1.2em">소프트맥스(soft-max)</h3><!--title of child1 of major1-->
               <div style = "margin-left : 3%"><!--Article of child1 of major1-->
-                소프트맥스 n차원 data에서 해당 data들이 정답일 확률을 모두 더한 값이 1이되는 함수입니다.<br>
+                소프트맥스는 시그모이드를 일반화한 함수로 <br>
+                n차원 data에서 해당 data들이 정답일 확률을 모두 더한 값이 1이되는 함수입니다.<br>
                 쉽게 말하면 'feature가 n개인 dataSet이 있을 때 <br>
                 각 <b>feature가 정답일 확률을 더한 값이 1</b>이되는 함수'라고 말할 수 있습니다.<br><br>
 
-
+                수식으로 살펴보겠습니다.<br><br>
+                <img src="https://latex.codecogs.com/png.latex?p_{i} = \frac{e^{z_{i}}}{\sum_{j}^{k}e^{z_{j}}}" title="p_{i} = \frac{e^{x_{i}}}{\sum_{j}^{k}e^{x_{j}}}"/><br><br>
+                <img src="https://latex.codecogs.com/png.latex?z=w^{x}" title="z=W^{T}X"/>이므로 <img src="https://latex.codecogs.com/png.latex?z_{i}" title="z_{i}">는 <br>
+                연산된 행렬곱에서 i번째 값을 말합니다. <br><br>
               </div><!--article of child1 of major1-->
               <hr>
             </div><!--child1 of major1-->
@@ -40,18 +44,15 @@ categories: MachineLearning DataAnalyze
                 <div style = "margin-left : 3%"><!--Article of child1 of major1-->
                   시그모이드와 마찬가지로 소프트맥스를 통한 비용함수 역시 <b>Cross Entropy</b>를 사용합니다.<br><br>
                   <img src="https://latex.codecogs.com/png.latex?D(S,L) = -\sum_{i}^{}L_{i}log(s_{i}) \: \: S = S(y),\,L = Y " title="D(S,L) = -\sum_{i}^{}L_{i}log(s_{i}) \: \: S = S(y),\,L = Y " /><br><br>
-                  <img src="https://latex.codecogs.com/png.latex?S(y)" title="S(y)"/>는 소프트맥스를 거져 변환된 probability <br><br>
-                  <img src="https://latex.codecogs.com/png.latex?L=y" title="L=y" />는 1 or 0의 값으로 label값입니다.<br><br>
-                  비용 함수를 완벽하게 표현하면 아래 식과 같습니다. <br><br>
-
+                  <img src="https://latex.codecogs.com/png.latex?S(y)" title="S(y)"/>는 소프트맥스를 거져 변환된 probability, 즉 <img src="https://latex.codecogs.com/png.latex?\hat{y}" title="\hat{y}"/>이며<br><br>
+                  <img src="https://latex.codecogs.com/png.latex?L=y" title="L=y"/>는 1 or 0의 값으로 label값입니다.<br><br>
                 </div><!--article of child1 of major1-->
               </div><!--child1 of major1-->
         </div><!--article of major1-->
       </div><!--major1-->
   </div><!--main-->
-
   <hr>
-  ***미완성 포스팅*** <br>
+  <br>
   <div><!--<blockquote-->
     <blockquote>
       공부하며 작성하는 포스팅이기 때문에 수정사항이 생길 수 있습니다.
