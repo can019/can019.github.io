@@ -49,9 +49,11 @@ categories: MachineLearning DataAnalyze
                 시그모이드는 '비율'에 관한 함수입니다.<br>
                 이 함수를 odd(p)라고 하며 odd(p) = p/1-p 로 정의됩니다. <br><br>
                 그리고 odd(p)의 범위가 0~+inf이므로 <br><br>
-                -inf~+inf로 변환해주기 위해 log를 취해줍니다. <br>
+                -inf~+inf로 변환해주기 위해 ln를 취해줍니다. <br>
+                ln(p(x)) = wx+b <br>
                 이후 식을 p에대해 정리해주면 <img src="https://latex.codecogs.com/png.latex?p(x) = \frac{1}{1+e^{-x}}" title="p(x) = \frac{1}{1+e^{-x}}"/><br><br>
                 <img src="https://latex.codecogs.com/png.latex?sigmoid = g(x) = \frac{1}{1+e^{-x}}" title="sigmoid = g(x) = \frac{1}{1+e^{-x}}"/><br><br>
+                <i style = "font-size : 0.9em">또한 통계에서 근사값을 구하는 경우 통상 ln을 취한다고 합니다. - 통계학과 친구 -</i><br><br>
 
                 분류로 돌아오겠습니다.<br>
                 데이터가 X, 이진 분류 모델을 H(X)라고 할 때 <img src="https://latex.codecogs.com/png.latex?H(X) = g(z)" title="H(X) = g(z)"/>라고 할 수 있습니다. <br><br>
