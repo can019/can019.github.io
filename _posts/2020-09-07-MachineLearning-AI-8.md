@@ -16,8 +16,8 @@ categories: MachineLearning DataAnalyze
           <img src="/assets/photos/machineLearning8/linear_divide.png" width="400px"> <br>
           위 그림처럼 3개의 그룹이 있다면 3개의 선이 찾아지는 것이죠. <br><br>
           <img src="/assets/mathmatical notation/multiple classification with sigmoid matrix.png"><br><br>
-          위 수식처럼 이진 분류와 같은 방법으로 행렬 연산값 각각을 sigmoid로 변환할 수 있지만, <br><br>
-          <img src="/assets/mathmatical notation/multiple classification with softmax.png">
+          이진 분류와 같은 방법으로 행렬 연산값 각각을 sigmoid로 변환할 수 있지만, <br><br>
+          <img src="/assets/mathmatical notation/multiple classification with softmax.png"> <br><br>
           각각에 식에 sigmoid를 취하는 대신 소프트맥스(soft-max)라는 함수로 한꺼번에 인코딩을 해줍니다. <br>
 
           <div><!--major1-->
