@@ -24,11 +24,19 @@ categories: MachineLearning DataAnalyze
           <div><!--major1-->
             <h3 style = "font-size :1.2em">소프트맥스(soft-max)</h3><!--title of child1 of major1-->
               <div style = "margin-left : 3%"><!--Article of child1 of major1-->
-
+                시그모이드와 마찬가지로 소프트맥스
 
               </div><!--article of child1 of major1-->
               <hr>
             </div><!--child1 of major1-->
+            <div><!--major1-->
+              <h3 style = "font-size :1.2em">비용함수</h3><!--title of child1 of major1-->
+                <div style = "margin-left : 3%"><!--Article of child1 of major1-->
+                  시그모이드와 마찬가지로 소프트맥스를 통한 비용함수 역시 Cross Entropy를 사용합니다.
+
+                </div><!--article of child1 of major1-->
+                <hr>
+              </div><!--child1 of major1-->
 
         </div><!--article of major1-->
         <hr>
