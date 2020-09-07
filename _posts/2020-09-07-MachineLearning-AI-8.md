@@ -18,20 +18,26 @@ categories: MachineLearning DataAnalyze
           <img src="/assets/mathmatical notation/multiple classification with sigmoid matrix.png"><br><br>
           이진 분류와 같은 방법으로 행렬 연산값 각각을 sigmoid로 변환할 수 있지만, <br><br>
           <img src="/assets/mathmatical notation/multiple classification with softmax.png"> <br><br>
-          각각의 식에 sigmoid를 취하는 대신 소프트맥스(soft-max)라는 함수로 한꺼번에 인코딩을 해줍니다. <br>
+          각각의 식에 sigmoid를 취하는 대신 소프트맥스(soft-max)라는 함수로 한꺼번에 인코딩을 해줍니다. <br><br>
+          인코딩 후 나온 probability를 <b>'ONE-HOT' Encoding</b>를 통하여 1이나 0으로 인코딩해줍니다. <br>
+           <i style = "font-size : 0.9em">ONE-HOT Encoding은 probability중 가장 높은 값을 1로, 나머지 값을 0으로 인코딩합니다. </i>
           <hr>
           <div><!--major1-->
             <h3 style = "font-size :1.2em">소프트맥스(soft-max)</h3><!--title of child1 of major1-->
               <div style = "margin-left : 3%"><!--Article of child1 of major1-->
-                시그모이드와 마찬가지로 소프트맥스
 
               </div><!--article of child1 of major1-->
-
+              <hr>
             </div><!--child1 of major1-->
             <div><!--major1-->
               <h3 style = "font-size :1.2em">비용함수</h3><!--title of child1 of major1-->
                 <div style = "margin-left : 3%"><!--Article of child1 of major1-->
-                  시그모이드와 마찬가지로 소프트맥스를 통한 비용함수 역시 Cross Entropy를 사용합니다.
+                  시그모이드와 마찬가지로 소프트맥스를 통한 비용함수 역시 Cross Entropy를 사용합니다.<br>
+                  <img src="https://latex.codecogs.com/png.latex?D(S,L) = -\sum_{i}^{}L_{i}log(s_{i}) \: \: S = S(y),\,L = Y " title="D(S,L) = -\sum_{i}^{}L_{i}log(s_{i}) \: \: S = S(y),\,L = Y " /><br><br>
+                  <img src="https://latex.codecogs.com/png.latex?S(y)" title="S(y)"/>는 소프트맥스를 거져 변환된 probability <br>
+                  <img src="https://latex.codecogs.com/png.latex?L=y" title="L=y" />는 1 or 0의 값으로 label값입니다.<br><br>
+                  비용 함수를 완벽하게 표현하면 아래 식과 같습니다. <br><br>
+
                 </div><!--article of child1 of major1-->
               </div><!--child1 of major1-->
         </div><!--article of major1-->
