@@ -84,7 +84,9 @@ categories: MachineLearning DataAnalyze
         <img src="/assets/photos/20200820_2.png" width="450"><br><br>
          검정색 점은 data와 label set, 파란색 직선이 임의로 만들어진 모델이라고 할 때<br/>
          거리의 제곱의 합, 즉 빨간 선분의 제곱의 합을 통해 이상적인 모델을 찾습니다.<br/><br/>
-         이 때 빨간 선분의 제곱의 합의 평균을 <b>비용(Cost)</b>라고 합니다.<br/><br/>
+         이 때 빨간 선분의 제곱의 합의 평균을 <b>비용(Cost)</b>이라고 하며 <br/>
+         <b>MSE(거리 제곱의 평균)</b>라고 합니다<br/><br>
+         <i style = "font-size : 0.9em">MSE = Mean Squared Error</i><br><br>
 
 
          한 점에서의 거리의 제곱은 <img src="https://latex.codecogs.com/png.latex?(H(x)-y)^{2}" title="(H(x)-y)^{2}" />라고 할 수 있으므로<br/><br/>
