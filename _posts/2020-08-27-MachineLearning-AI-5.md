@@ -7,7 +7,7 @@ categories: MachineLearning DataAnalyze
 
 
 <div style = "font-size :0.8em">
-  <a href = "https://can019.github.io/machinelearning/dataanalyze/MachineLearning-AI-3/">지난 포스팅</a><br/>
+  <a href = "https://can019.github.io/machinelearning/dataanalyze/MachineLearning-AI-4/">지난 포스팅</a><br/>
   <div>
     <h3 style = "font-size :1.2em"> 다중 선형 회귀</h3><br/>
     <div style = "margin-left : 3%">
