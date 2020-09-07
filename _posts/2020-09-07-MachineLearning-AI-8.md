@@ -13,14 +13,55 @@ categories: MachineLearning DataAnalyze
         <div style = "margin-left : 3%"><!--Article of major1-->
           이름에서 알 수 있듯 다중 분류는 dataSet을 여러가지 set으로 분류하는 것입니다. <br><br>
 
-          이진 분류의 연장선으로 생각하자면 <br>
-          data를 n개의 그룹으로 분류하고자 할 때 n개의 이진 분류 모델을 사용하는 방법이 있습니다. <br><br>
+          <img src="/assets/photos/machineLearning8/linear_divide.png" width="400px"> <br>
+          위 그림처럼 3개의 그룹이 있다면 3개의 선이 찾아지는 것이죠. <br><br>
+          <img src="https://latex.codecogs.com/png.latex?\begin{bmatrix}w_{A1}& w_{A2} &w_{A3} \\
+w_{B1}&  w_{B2}& w_{B3}\\
+ w_{C1}& w_{C2} & w_{C3}
+\end{bmatrix}
+\begin{bmatrix}
+x_{1}\\
+x_{2}\\
+x_{3}
+\end{bmatrix} = \begin{bmatrix}
+ w_{A1}x_{1}+w_{A2}x_{1} +w_{A3}x_{1} \\
+ w_{B1}x_{2}+ w_{B2}x_{2}+ w_{B3}x_{2}\\
+ w_{C1}x_{3}+ w_{C2}x_{3} +w_{C3}x_{3}
+\end{bmatrix}
+=\begin{bmatrix}
+\hat{Y}_{A}\\
+\hat{Y}_{B}\\
+\hat{Y}_{C}
+\end{bmatrix}\begin{matrix}
+\rightarrow & <sigmoid>&\rightarrow  lineA\\
+\rightarrow & <sigmoid>&\rightarrow lineB\\
+\rightarrow & <sigmoid>&\rightarrow lineC
+\end{matrix}" title="\begin{bmatrix}
+ w_{A1}& w_{A2} &w_{A3} \\
+ w_{B1}&  w_{B2}& w_{B3}\\
+ w_{C1}& w_{C2} & w_{C3}
+\end{bmatrix}
+\begin{bmatrix}
+x_{1}\\
+x_{2}\\
+x_{3}
+\end{bmatrix} = \begin{bmatrix}
+ w_{A1}x_{1}+w_{A2}x_{1} +w_{A3}x_{1} \\
+ w_{B1}x_{2}+ w_{B2}x_{2}+ w_{B3}x_{2}\\
+ w_{C1}x_{3}+ w_{C2}x_{3} +w_{C3}x_{3}
+\end{bmatrix}
+=\begin{bmatrix}
+\hat{Y}_{A}\\
+\hat{Y}_{B}\\
+\hat{Y}_{C}
+\end{bmatrix}\begin{matrix}
+\rightarrow & <sigmoid>&\rightarrow  lineA\\
+\rightarrow & <sigmoid>&\rightarrow lineB\\
+\rightarrow & <sigmoid>&\rightarrow lineC
+\end{matrix}"/><br>
+          위 수식처럼 이진 분류와 같은 방법으로 행렬 연산값 각각을 sigmoid로 변환할 수 있지만, <br><br>
+          각각에 식에 sigmoid를 취하는 대신 소프트맥스(soft-max)라는 함수로 한꺼번에 인코딩을 해줍니다. <br>
 
-          하지만 다중 분류에서는 이렇게 n개의 이진 분류 모델을 사용하는 대신 하나의 함수를 사용하여 <br>
-          모델을 추론해내며 그 함수는 소프트맥스(soft-max)함수힙니다. <br><br>
-
-          또한 다중 선형 회귀에서 행렬을 사용한 것과 마찬가지로 <br>
-          다중 분류에서 역시 행렬을 사용합니다. <br><br>
           <div><!--major1-->
             <h3 style = "font-size :1.2em">소프트맥스(soft-max)</h3><!--title of child1 of major1-->
               <div style = "margin-left : 3%"><!--Article of child1 of major1-->
