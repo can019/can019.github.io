@@ -70,17 +70,16 @@ categories: MachineLearning DataAnalyze
         <div><!--child2 of major1-->
           <h3 style = "font-size :1.2em">비용함수</h3><!--title of child2 of major1-->
           <div style = "margin-left : 3%"><!--article of child2 of major1-->
+            H(x)가 변경되었으므로 비용함수 역시 형태가 변경됩니다.<br/><br/>
+            선형회귀법과 같이 MSE(거리의 제곱)로 cost함수를 만들게 된다면<br/>
+            <img src="/assets/photos/machineLearning7/cost_mse.png" width="550px"><br/>
+            이 그래프 처럼 local minima가 2개이상 발생되며 <br>
+            심한경우 그래프가 포도송이모양으로 형성되기도 합니다.<br/><br/>
+
+            이 경우경사하강법을 사용하기 어렵기 때문에 비용함수의 설계는 <b>Cross Entropy</b>를 사용합니다.<br/>
             <div><!--garndChild1 of child2 of major1-->
               <h3 style = "font-size :1.2em">Cross Entropy</h3><!--title of garndChild1 of child2 of major1-->
               <div style = "margin-left : 3%"><!--article of garndChild1 of child2 of major1-->
-                H(x)가 변경되었으므로 비용함수 역시 형태가 변경됩니다.<br/><br/>
-                선형회귀법과 같이 MSE(거리의 제곱)로 cost함수를 만들게 된다면<br/>
-                <img src="/assets/photos/machineLearning7/cost_mse.png" width="550px"><br/>
-                이 그래프 처럼 local minima가 2개이상 발생되며 <br>
-                심한경우 그래프가 포도송이모양으로 형성되기도 합니다.<br/><br/>
-
-                이 경우경사하강법을 사용하기 어렵기 때문에 비용함수의 설계는 <b>Cross Entropy</b>를 사용합니다.<br/><br/>
-
                 <img src="https://latex.codecogs.com/png.latex?H(X) = \frac{1}{1+e^{-W^{T}X}}" title="H(X) = \frac{1}{1+e^{-W^{T}X}}"/>일 때<br><br>
                 한점에서의 cost는 <img src="https://latex.codecogs.com/png.latex?c(H(x),y) =\left\{\begin{matrix}-log(H(x)) : y=1\\ -log(1-H(x)) : y=0\end{matrix}\right." title="c(H(x),y) =\left\{\begin{matrix}-log(H(x)) : y=1\\ -log(1-H(x)) : y=0\end{matrix}\right."/>이므로<br><br>
                 이분화된 식을 하나의 식으로 합치면<br/>
