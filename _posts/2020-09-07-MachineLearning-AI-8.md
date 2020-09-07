@@ -14,17 +14,23 @@ categories: MachineLearning DataAnalyze
           이름에서 알 수 있듯 다중 분류는 dataSet을 여러가지 set으로 분류하는 것입니다. <br><br>
 
           <img src="/assets/photos/machineLearning8/linear_divide.png" width="400px"> <br>
-          위 그림처럼 3개의 그룹이 있다면 3개의 선이 찾아지는 것이죠. <br><br>
+          위 그림처럼 3개의 그룹이 있다면 3개의 선이 찾아지는 것이죠. <br>
+          <i style = "font-size : 0.9em">편의를 위해 직선으로 표현했지만 실제론 직선이 아닌 식이 도출됩니다.<br>
+          로지스틱 회귀를 안다면 당연한 소리겠지만요</i><br><br>
           <img src="/assets/mathmatical notation/multiple classification with sigmoid matrix.png"><br><br>
           이진 분류와 같은 방법으로 행렬 연산값 각각을 sigmoid로 변환할 수 있지만, <br><br>
           <img src="/assets/mathmatical notation/multiple classification with softmax.png"> <br><br>
           각각의 식에 sigmoid를 취하는 대신 소프트맥스(soft-max)라는 함수로 한꺼번에 인코딩을 해줍니다. <br><br>
-          인코딩 후 나온 probability를 <b>'ONE-HOT' Encoding</b>를 통하여 1이나 0으로 인코딩해줍니다. <br>
+          인코딩 후 나온 probability를 <b>'ONE-HOT' Encoding</b>을 통하여 1이나 0으로 인코딩해줍니다. <br>
            <i style = "font-size : 0.9em">ONE-HOT Encoding은 probability중 가장 높은 값을 1로, 나머지 값을 0으로 인코딩합니다. </i>
           <hr>
           <div><!--major1-->
             <h3 style = "font-size :1.2em">소프트맥스(soft-max)</h3><!--title of child1 of major1-->
               <div style = "margin-left : 3%"><!--Article of child1 of major1-->
+                소프트맥스 n차원 data에서 해당 data들이 정답일 확률을 모두 더한 값이 1이되는 함수입니다.<br>
+                쉽게 말하면 'feature가 n개인 dataSet이 있을 때 <br>
+                각 <b>feature가 정답일 확률을 더한 값이 1</b>이되는 함수'라고 말할 수 있습니다.<br><br>
+
 
               </div><!--article of child1 of major1-->
               <hr>
@@ -32,9 +38,9 @@ categories: MachineLearning DataAnalyze
             <div><!--major1-->
               <h3 style = "font-size :1.2em">비용함수</h3><!--title of child1 of major1-->
                 <div style = "margin-left : 3%"><!--Article of child1 of major1-->
-                  시그모이드와 마찬가지로 소프트맥스를 통한 비용함수 역시 Cross Entropy를 사용합니다.<br>
+                  시그모이드와 마찬가지로 소프트맥스를 통한 비용함수 역시 <b>Cross Entropy</b>를 사용합니다.<br><br>
                   <img src="https://latex.codecogs.com/png.latex?D(S,L) = -\sum_{i}^{}L_{i}log(s_{i}) \: \: S = S(y),\,L = Y " title="D(S,L) = -\sum_{i}^{}L_{i}log(s_{i}) \: \: S = S(y),\,L = Y " /><br><br>
-                  <img src="https://latex.codecogs.com/png.latex?S(y)" title="S(y)"/>는 소프트맥스를 거져 변환된 probability <br>
+                  <img src="https://latex.codecogs.com/png.latex?S(y)" title="S(y)"/>는 소프트맥스를 거져 변환된 probability <br><br>
                   <img src="https://latex.codecogs.com/png.latex?L=y" title="L=y" />는 1 or 0의 값으로 label값입니다.<br><br>
                   비용 함수를 완벽하게 표현하면 아래 식과 같습니다. <br><br>
 
