@@ -44,7 +44,7 @@ categories: MachineLearning DataAnalyze
           <div>
             <h3 style = "font-size :1.2em"> 바이어스와 분산</h3><br/>
             <div style = "margin-left : 3%">
-              <img src = "/assets/photos/machineLearning1/bias_dispersion.png" >
+              <img src = "/assets/photos/machineLearning1/bias_dispersion.png" width="350px" ><br><br>
               바이어스는 예측값이 정답과 가까울수록 낮고,
               분산은 예측값들이 몰려있을수록 높습니다. <br><br>
 
@@ -75,6 +75,16 @@ categories: MachineLearning DataAnalyze
 
           <b>  훈련 -> 검증 -> 모델선택 -> 테스트 </b><br>
           <hr>
+          <div>
+            <h3 style = "font-size :1.2em"> UnderFitting(과소적합), OverFitting(과잉적합)</h3><br/>
+            <div style = "margin-left : 3%">
+              과소 적합은 너무 단순한 모델을 사용하여 데이터를 잘 설명하지 못하는 경우,<br>
+              과잉 적합은 너무 높은 모델을 채택하여 훈련 집합에는 높은 정답률을 보이나 <br>
+              테스트 집합이나 실세계 데이터에 대해 낮은 정답률을 보이는 경우를 말합니다. <br><br>
+
+            </div>
+            <hr>
+          </div>
           <div>
             <h3 style = "font-size :1.2em">검증 집합을 사용한 모델링</h3>
             <div style = "margin-left : 3%">
