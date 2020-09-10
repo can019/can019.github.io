@@ -119,6 +119,8 @@ categories: MachineLearning DataAnalyze
                 <div style = "margin-left : 3%">
                   <b>주어진 데이터가 극한으로 적은 상황</b><br>
 
+                  cross validation은 데이터를 n개의 집합으로 나누고 하나를 검증 집합, 나머지를 훈련 집합으로 채택하였습니다.<br><br>
+                  Leave-one-out cross validation은 집합을 나누지 않고 <b>단 하나의 데이터를 검증 집합, 나머지를 훈련집합으로 채택</b>합니다.
 
 
                 </div>
