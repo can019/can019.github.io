@@ -3,8 +3,9 @@ title: "[MachineLearning 1] 머신러닝이란?"
 date: 2020-08-18 20:15:30 -0400
 categories: MachineLearning DataAnalyze
 ---
+
 ## 머신러닝
-<hr>
+
 <div style = "font-size :0.8em">
   <div>
     <h3 style = "font-size :1.2em"> 머신러닝</h3><br/>
@@ -39,7 +40,7 @@ categories: MachineLearning DataAnalyze
             <li>'모델(또는 모델 함수)로 1차함수를 선택했다'</li>
             <li>'모델집합에서 1번 모델이 적합한 것 같다'</li>
           </ul>
-          <br>
+          <hr>
           <div>
             <h3 style = "font-size :1.2em"> 바이어스와 분산</h3><br/>
             <div style = "margin-left : 3%">
@@ -55,7 +56,6 @@ categories: MachineLearning DataAnalyze
               따라서 바이어스의 희생을 최소로 유지하며 분산을 최대로 낮추는 방향으로 모델을 짜야합니다.<br><br>
 
             </div>
-            <hr>
           </div>
 
         </div>
@@ -99,7 +99,7 @@ categories: MachineLearning DataAnalyze
 
                 훈련 집합을 n개의 집합으로 등분합니다. <br><br>
                 여기서 k개의 집합을 훈련 집합, n-k개의 집합을 검증 집합으로 잡습니다.<br><br>
-                
+
               <ol>
                 <li>모델을 훈련집합으로 학습</li>
                 <li>검증 집합으로 학습된 모델의 성능 측정</li>
