@@ -14,7 +14,7 @@ categories: MachineLearning DataAnalyze
     <div style = "margin-left : 3%">
        <b>"경사하강법은 많은 최소값 탐색 문제에 사용되며 특히 근사값을 구하는 문제에서 많이 사용됩니다.<br/><br/>
        순간기울기를 통해 극값을 추정하는 방법이며 미분가능한 함수에서 가능합니다."</b><br/><br/>
-       
+
        어떤 지점의 순간기울기의 부호를 통해 현재 지점보다 낮은 지점으로 가기위해 어느쪽으로 이동해야하는 건지 판단하며<br/>
        최종적으로 순간기울기가 0일때 까지 반복합니다.<br/><br/>
 
@@ -24,7 +24,7 @@ categories: MachineLearning DataAnalyze
        극소값이 여러개인 그래프에서는 찾은 곳이 최소값(global minima)이라는 보장을 할 수 없습니다.<br/><br/>
        그리고 경사하강법을 통한 극값 추정시 <b>'내려가는 루트'</b>에 따라 도착한 곳이 바뀌며,<br/>
        내려가는 루트는 <b>'출발지점'</b>이 어딘지에 따라 영향을 크게 받습니다.<br/><br/>
-       
+
        <hr/>
        알고리즘을 수식으로 표현할 경우 <br/><img src="https://latex.codecogs.com/png.latex?w := w - \alpha \frac{\partial }{\partial w}Cost(w)" title="w := w - \alpha \frac{\partial }{\partial w}Cost(w)" />가 됩니다.<br/><br/>
        위식을 설명하자면 다음 w값은 현재 w값에서 Cost(w)의 미분값 x 알파를 빼준 값이라는 뜻입니다.<br/><br/>
@@ -35,11 +35,11 @@ categories: MachineLearning DataAnalyze
        따라서 '적당한 값'을 주는 것이 중요합니다.</i><br/><br/><hr/>
        또한 경사하강법은 Cost함수가 컨벡스함수인경우 사용가능합니다.<br/><hr/>
     </div>
-    
+
   <div>
     <h3 style = "font-size :1.2em"> 경사하강법 in 선형회귀</h3><br/>
     <div style = "margin-left : 3%">
-        
+
         H(x) = wx+b일 때의 Cost 그래프는 아래와 같이 2차함수 형태입니다.<br/><br/>
        <img src="/assets/photos/20200820_3.png" width="450"><br/>
        <span style = "font-size : 0.8em">Cost 그래프 예시</span><br/><br/>
@@ -50,20 +50,18 @@ categories: MachineLearning DataAnalyze
          1. 시작점인 A에서 H'(A)가 음수므로 A에서 우측으로 간다면 극소값이 있을 것이라 추정됩니다.<br/>
           따라서 우측으로 조금 움직여 B지점으로 이동합니다.<br/><br/>
          2. 마찬가지로 B에서 H'(B)가 음수므로 B에서 우측으로 간다면 극소값이 있을 것이라 추정됩니다.<br/>
-          우측으로 조금 움직이겠습니다.<br/> <br/> 
+          우측으로 조금 움직이겠습니다.<br/> <br/>
          3. 조금 움직여 C 지점으로 왔습니다. H'(C)가 0이므로 Cost(w)는 w=C일 때 최소값을 가집니다.<br/>
             구한 최적의 모델은 H(x) = Cx가 됩니다. <br/><br/>
          <i style = "font-size : 0.9em">찾는 모양새가 그래프의 경사면을 따라 주르륵 미끄러져 내려가는 것 처럼 보이기 때문에 경사하강법이라고 부릅니다.</i><br/><br/>
-        
+
          <hr/>
          이번에는 수식을 통해 살펴보겠습니다.<br/><br/>
          먼저 <img src="https://latex.codecogs.com/png.latex?Cost = \frac{1}{m}\sum_{i=1}^{m}(W(x^{i})-y^{i})^{2}" title="Cost = \frac{1}{m}\sum_{i=1}^{m}(W(x^{i})-y^{i})^{2}" />입니다.<br/><br/>
-         이 식을 미분했을 때 조금 편한 꼴이 되도록 2로 나누어 식을 <img src="https://latex.codecogs.com/png.latex?Cost = \frac{1}{2m}\sum_{i=1}^{m}(W(x^{i})-y^{i})^{2}" title="Cost = \frac{1}{2m}\sum_{i=1}^{m}(W(x^{i})-y^{i})^{2}" />로 변형시키겠습니다.<br/><br/>
-         
-         <br/>
-         <i style = "font-size : 0.9em">m이 몹시 크기 때문에 2를 나누어 주는 것 정도는 큰 변화가 없습니다.<br/>
-         시간복잡도 구할 때 n이 너무 커 상수를 무시하는 것을 생각하시면 되겠습니다.</i><br/><br/><hr/>
-        
+
+
+        <hr/>
+
          경사하강법 알고리즘이 <img src="https://latex.codecogs.com/png.latex?w := w - \alpha \frac{\partial }{\partial w}Cost(w)" title="w := w - \alpha \frac{\partial }{\partial w}Cost(w)" />이므로<br/><br/>
          식을 정리해보면,<br/><br/>
          <img src="https://latex.codecogs.com/png.latex?w := w - \alpha \frac{\partial }{\partial w}Cost(w)" title="w := w - \alpha \frac{\partial }{\partial x}Cost(w)" /><br/><br/>
@@ -71,7 +69,7 @@ categories: MachineLearning DataAnalyze
          <img src="https://latex.codecogs.com/png.latex?w := w - \alpha \frac{1}{2m}\sum_{i=1}^{m}2(W(x^{i})-y^{i})x^{i}" title="w := w - \alpha \frac{1}{2m}\sum_{i=1}^{m}2(W(x^{i})-y^{i})x^{i}" /><br/><br/>
          <img src="https://latex.codecogs.com/png.latex?w := w - \alpha \frac{1}{m}\sum_{i=1}^{m}(W(x^{i})-y^{i})x^{i}" title="w := w - \alpha \frac{1}{m}\sum_{i=1}^{m}(W(x^{i})-y^{i})x^{i}" /><br/><br/>
          이렇게 됩니다.
-        
+
     </div>
   </div>
  </div>
