@@ -4,6 +4,7 @@ date: 2020-08-18 20:15:30 -0400
 categories: MachineLearning DataAnalyze
 ---
 ## 머신러닝
+<hr>
 <div style = "font-size :0.8em">
   <div>
     <h3 style = "font-size :1.2em"> 머신러닝</h3><br/>
