@@ -75,6 +75,10 @@ categories: MachineLearning DataAnalyze
           <b>  훈련 -> 검증 -> 모델선택 -> 테스트 </b><br>
           <hr>
           <div>
+            <h3 style = "font-size :1.2em">검증 집합을 사용한 모델링</h3><br/>
+            <div style = "margin-left : 3%">
+
+          <div>
             <h3 style = "font-size :1.2em"> 검증 집합을 이용한 모델 선택</h3><br/>
             <div style = "margin-left : 3%">
               <b>훈련 집합, 테스트 집합과 다른 별도의 검증 집합을 가진 상황</b>
@@ -144,7 +148,8 @@ categories: MachineLearning DataAnalyze
             </div>
             <hr>
           </div>
-
+        </div>
+      </div>
         </div>
         <hr>
       </div>
