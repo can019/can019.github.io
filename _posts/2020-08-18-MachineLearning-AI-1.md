@@ -154,13 +154,14 @@ categories: MachineLearning DataAnalyze
 
 
 
-      크게 지도학습, 비지도 학습, 강화학습 3가지로 분류됩니다.<br/><br/>
-      <i style = "font-size : 0.9em">강화학습을 지도학습의 하위 개념으로 보아 지도학습, 비지도학습 2개의 분류로 보기도 합니다.</i>
+
     </div>
   </div>
   <div>
-    <h3 style = "font-size :1.2em"> 머신러닝의 종류</h3><br/>
+    <h3 style = "font-size :1.2em"> 머신러닝의 종류</h3>
     <div style = "margin-left : 3%">
+      크게 지도학습, 비지도 학습, 강화학습 3가지로 분류됩니다.<br/><br/>
+      <i style = "font-size : 0.9em">강화학습을 지도학습의 하위 개념으로 보아 지도학습, 비지도학습 2개의 분류로 보기도 합니다.</i><br>
       <div>
         <h3 style = "font-size :1.2em"> 1. 지도학습(supervised learning)</h3><br/>
         <div style = "margin-left : 3%">
