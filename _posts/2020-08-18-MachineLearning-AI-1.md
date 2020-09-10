@@ -120,7 +120,12 @@ categories: MachineLearning DataAnalyze
                   <b>주어진 데이터가 극한으로 적은 상황</b><br>
 
                   cross validation은 데이터를 n개의 집합으로 나누고 하나를 검증 집합, 나머지를 훈련 집합으로 채택하였습니다.<br><br>
-                  Leave-one-out cross validation은 집합을 나누지 않고 <b>단 하나의 데이터를 검증 집합, 나머지를 훈련집합으로 채택</b>합니다.
+                  Leave-one-out cross validation은 집합을 나누지 않고 <b>단 하나의 데이터를 검증 집합, 나머지를 훈련집합으로 채택</b>합니다.<br><br>
+
+                  현재는 수집된 데이터가 많고 구하기 쉽기 때문에 <br>
+                  Leave-one-out cross validation을 채택하는 경우는 거의 없으나, <br><br>
+
+                  초창기때에는 데이터가 부족하여 Leave-one-out cross validation을 많이 사용하였습니다.<br><br>
 
 
                 </div>
