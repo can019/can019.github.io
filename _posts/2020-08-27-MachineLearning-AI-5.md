@@ -17,7 +17,7 @@ categories: MachineLearning DataAnalyze
        feature가 셋 -> <img src="https://latex.codecogs.com/png.latex?H(x_{1},x_{2},x_{3}) = w_{1}x_{1}+w_{2}x_{2}+w_{3}x_{3} + b" title="H(x_{1},x_{2},x_{3}) = w_{1}x_{1}+w_{2}x_{2}+w_{3}x_{3} + b" /><br/><br/>
       
        y값은 역시 하나 이상일 수 있으며 y는 target이라합니다.<br/><br/>
-       <i style = "font-size : 0.9em">정확하게는 x축의 개수가 feature, y축의 개수가 targer입니다.</i>
+       <i style = "font-size : 0.9em">정확하게는 x축의 개수가 feature, y축의 개수가 target입니다.</i>
         
         <hr/>
         <div>
