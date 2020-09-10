@@ -79,7 +79,7 @@ categories: MachineLearning DataAnalyze
             <div style = "margin-left : 3%">
 
           <div>
-            <h3 style = "font-size :1.2em"> 검증 집합을 이용한 모델 선택</h3><br/>
+            <h3 style = "font-size :1.2em"> 1. 검증 집합을 이용한 모델 선택</h3><br/>
             <div style = "margin-left : 3%">
               <b>훈련 집합, 테스트 집합과 다른 별도의 검증 집합을 가진 상황</b>
 
@@ -96,7 +96,7 @@ categories: MachineLearning DataAnalyze
             <hr>
           </div>
           <div>
-            <h3 style = "font-size :1.2em"> 교차 검증(cross validation)</h3><br/>
+            <h3 style = "font-size :1.2em"> 2. 교차 검증(cross validation)</h3><br/>
             <div style = "margin-left : 3%">
               <b>별도의 검증 집합이 없는 상황</b><br>
               <b>훈련 집합을 등분, 학습과 평과 과정을 여러번 반복한 후 평균 사용</b><br><br>
@@ -119,7 +119,7 @@ categories: MachineLearning DataAnalyze
               <i style = "font-size : 0.9em">1, 2, 3은 하나의 모델을 모델링하는 과정.</i><br>
               <hr>
               <div>
-                <h3 style = "font-size :1.2em"> Leave-one-out cross validation</h3><br/>
+                <h3 style = "font-size :1.2em"> 2-1. Leave-one-out cross validation</h3><br/>
                 <div style = "margin-left : 3%">
                   <b>주어진 데이터가 극한으로 적은 상황</b><br>
 
@@ -139,7 +139,7 @@ categories: MachineLearning DataAnalyze
             <hr>
           </div>
           <div>
-            <h3 style = "font-size :1.2em"> 부트스트랩(boot strap)</h3><br/>
+            <h3 style = "font-size :1.2em"> 3. 부트스트랩(boot strap)</h3><br/>
             <div style = "margin-left : 3%">
               <b>별도의 검증 집합이 없는 상황</b><br>
               <b>난수를 이용한 샘플링 반복</b>
