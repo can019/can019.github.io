@@ -75,9 +75,8 @@ categories: MachineLearning DataAnalyze
           <b>  훈련 -> 검증 -> 모델선택 -> 테스트 </b><br>
           <hr>
           <div>
-            <h3 style = "font-size :1.2em">검증 집합을 사용한 모델링</h3><br/>
+            <h3 style = "font-size :1.2em">검증 집합을 사용한 모델링</h3>
             <div style = "margin-left : 3%">
-
               <div>
                 <h3 style = "font-size :1.2em"> 1. 검증 집합을 이용한 모델 선택</h3><br/>
                 <div style = "margin-left : 3%">
