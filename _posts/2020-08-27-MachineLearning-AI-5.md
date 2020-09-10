@@ -44,7 +44,7 @@ categories: MachineLearning DataAnalyze
           <div>
             <h3 style = "font-size :1.2em"> 바이어스와 분산</h3><br/>
             <div style = "margin-left : 3%">
-              <img src = "/assets/photos/machineLearning1/bias_dispersion.png" width="200px" ><br><br>
+              <img src = "/assets/photos/machineLearning1/bias_dispersion.png" width="350px" ><br><br>
               바이어스는 예측값이 정답과 가까울수록 낮고,
               분산은 예측값들이 몰려있을수록 높습니다. <br><br>
 
