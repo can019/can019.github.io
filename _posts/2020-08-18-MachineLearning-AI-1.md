@@ -129,43 +129,34 @@ categories: MachineLearning DataAnalyze
                     Leave-one-out cross validation을 채택하는 경우는 거의 없으나, <br><br>
 
                     초창기때에는 데이터가 부족하여 Leave-one-out cross validation을 많이 사용하였습니다.<br><br>
-
+                    </div>
                   </div>
                 </div>
-
+                <hr>
               </div>
-              <hr>
+              <div>
+                <h3 style = "font-size :1.2em"> 3. 부트스트랩(boot strap)</h3>
+                <div style = "margin-left : 3%">
+                  <b>별도의 검증 집합이 없는 상황</b><br>
+                  <b>난수를 이용한 샘플링 반복</b>
+
+                  cross validation과 비슷합니다.<br><br>
+                  차이는 훈련 집합을 Random하게 뽑는 것과, 반복 횟수를 정하는것 외엔 없습니다.
+
+                  <ol>
+                    <li>훈련 집합 'X'에서 n개의 데이터를 뽑아 새로운 훈련 집합 'X1'으로 삼음. 'X1'에는 중복된 데이터가 존재 가능.</li>
+                    <li>'X1'을 훈련모델로 채택하여 T번 학습. </li>
+                    <li>T개의 성능의 평균을 해당 모델의 성능으로 함.</li>
+                    <li>가장 높은 성능을 보인 모델을 선택.</li>
+                    <li>테스트 집합으로 선택된 모델의 성능 측정.</li>
+                  </ol>
+                </div>
+              </div>
             </div>
-          <div>
-            <h3 style = "font-size :1.2em"> 3. 부트스트랩(boot strap)</h3>
-            <div style = "margin-left : 3%">
-              <b>별도의 검증 집합이 없는 상황</b><br>
-              <b>난수를 이용한 샘플링 반복</b>
-
-              cross validation과 비슷합니다.<br><br>
-              차이는 훈련 집합을 Random하게 뽑는 것과, 반복 횟수를 정하는것 외엔 없습니다.
-
-              <ol>
-                <li>훈련 집합 'X'에서 n개의 데이터를 뽑아 새로운 훈련 집합 'X1'으로 삼음. 'X1'에는 중복된 데이터가 존재 가능.</li>
-                <li>'X1'을 훈련모델로 채택하여 T번 학습. </li>
-                <li>T개의 성능의 평균을 해당 모델의 성능으로 함.</li>
-                <li>가장 높은 성능을 보인 모델을 선택.</li>
-                <li>테스트 집합으로 선택된 모델의 성능 측정.</li>
-              </ol>
-
-
-            </div>
-            <hr>
           </div>
-        </div>
-      </div>
         </div>
         <hr>
       </div>
-
-
-
-
     </div>
   </div>
   <div>
