@@ -137,10 +137,21 @@ categories: MachineLearning DataAnalyze
               <hr>
             </div>
           <div>
-            <h3 style = "font-size :1.2em"> 3. 부트스트랩(boot strap)</h3><br/>
+            <h3 style = "font-size :1.2em"> 3. 부트스트랩(boot strap)</h3>
             <div style = "margin-left : 3%">
               <b>별도의 검증 집합이 없는 상황</b><br>
               <b>난수를 이용한 샘플링 반복</b>
+
+              cross validation과 비슷합니다.<br><br>
+              차이는 훈련 집합을 Random하게 뽑는 것과, 반복 횟수를 정하는것 외엔 없습니다.
+
+              <ol>
+                <li>훈련 집합 'X'에서 n개의 데이터를 뽑아 새로운 훈련 집합 'X1'으로 삼으며, 'X1'에는 중복된 데이터가 존재할 수 있습니다.</li>
+                <li>i번째 그룹을 검증 집합, 나머지를 (n-i)개 그룹을 훈련 집합으로 선택. 이 때 i = 1 ~ n, i++ </li>
+                <li>n개의 성능의 <b>평균</b>을 해당 모델의 성능으로 함.</li>
+                <li>모델 중 가장 높은 성능을 보인 모델을 선택</li>
+                <li>테스트 집합으로 선택된 모델의 성능 측정</li>
+              </ol>
 
 
             </div>
