@@ -112,8 +112,17 @@ categories: MachineLearning DataAnalyze
                 <li>테스트 집합으로 선택된 모델의 성능 측정</li>
               </ol>
 
-              <i style = "font-size : 0.9em">1, 2, 3은 하나의 모델을 모델링하는 과정.</i>
+              <i style = "font-size : 0.9em">1, 2, 3은 하나의 모델을 모델링하는 과정.</i><br>
+              <hr>
+              <div>
+                <h3 style = "font-size :1.2em"> Leave-one-out cross validation</h3><br/>
+                <div style = "margin-left : 3%">
+                  <b>주어진 데이터가 극한으로 적은 상황</b><br>
 
+
+
+                </div>
+              </div>
 
             </div>
             <hr>
