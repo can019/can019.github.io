@@ -78,66 +78,65 @@ categories: MachineLearning DataAnalyze
             <h3 style = "font-size :1.2em">검증 집합을 사용한 모델링</h3><br/>
             <div style = "margin-left : 3%">
 
-          <div>
-            <h3 style = "font-size :1.2em"> 1. 검증 집합을 이용한 모델 선택</h3><br/>
-            <div style = "margin-left : 3%">
-              <b>훈련 집합, 테스트 집합과 다른 별도의 검증 집합을 가진 상황</b>
-
-              모든 자원이 충분하므로 고려할 점이 없는 경우입니다. <br><br>
-              <ol>
-                <li>모델을 훈련집합으로 학습</li>
-                <li>검증 집합으로 학습된 모델의 성능 측정</li>
-                <li>1, 2를 반복하여 생성된 모델 집합들 중 가장 높은 성능을 보인 모델 선택</li>
-                <li>테스트 집합으로 선택된 모델의 성능 측정</li>
-              </ol>
-              <br>
-
-            </div>
-            <hr>
-          </div>
-          <div>
-            <h3 style = "font-size :1.2em"> 2. 교차 검증(cross validation)</h3><br/>
-            <div style = "margin-left : 3%">
-              <b>별도의 검증 집합이 없는 상황</b><br>
-              <b>훈련 집합을 등분, 학습과 평과 과정을 여러번 반복한 후 평균 사용</b><br><br>
-                cross validation은 모든 데이터가 1회 이상 훈련 집합, 검증 집합으로 사용됩니다. <br><br>
-
-                훈련 집합을 n개의 집합으로 등분합니다. <br><br>
-                n개의 집합 중 1번째 집합을 검증 집합, 나머지를 훈련 집합으로 선택한 후 훈련합니다.<br><br>
-                그다음 2번째 집합을 검증 집합, 나머지를 훈련집합으로 선택한 후 훈련합니다. <br><br>
-                이러한 방식으로 k번째 집합을 검증 집합으로 한 훈련까지 모두 진행했다면 모델 성능을 측정하고 <br>
-                모델 선택, 그 후 테스트 집합으로 모델 성능을 측정합니다. <br><br><br>
-
-              <ol>
-                <li>훈련 집합을 n개의 그룹으로 등분</li>
-                <li>i번째 그룹을 검증 집합, 나머지를 (n-i)개 그룹을 훈련 집합으로 선택. 이 때 i = 1 ~ n, i++ </li>
-                <li>n개의 성능의 <b>평균</b>을 해당 모델의 성능으로 함.</li>
-                <li>모델 중 가장 높은 성능을 보인 모델을 선택</li>
-                <li>테스트 집합으로 선택된 모델의 성능 측정</li>
-              </ol>
-
-              <i style = "font-size : 0.9em">1, 2, 3은 하나의 모델을 모델링하는 과정.</i><br>
-              <hr>
               <div>
-                <h3 style = "font-size :1.2em"> 2-1. Leave-one-out cross validation</h3><br/>
+                <h3 style = "font-size :1.2em"> 1. 검증 집합을 이용한 모델 선택</h3><br/>
                 <div style = "margin-left : 3%">
-                  <b>주어진 데이터가 극한으로 적은 상황</b><br>
+                  <b>훈련 집합, 테스트 집합과 다른 별도의 검증 집합을 가진 상황</b>
 
-                  cross validation은 데이터를 n개의 집합으로 나누고 하나를 검증 집합, 나머지를 훈련 집합으로 채택하였습니다.<br><br>
-                  Leave-one-out cross validation은 집합을 나누지 않고 <b>단 하나의 데이터를 검증 집합, 나머지를 훈련집합으로 채택</b>합니다.<br><br>
-
-                  현재는 수집된 데이터가 많고 구하기 쉽기 때문에 <br>
-                  Leave-one-out cross validation을 채택하는 경우는 거의 없으나, <br><br>
-
-                  초창기때에는 데이터가 부족하여 Leave-one-out cross validation을 많이 사용하였습니다.<br><br>
-
+                  모든 자원이 충분하므로 고려할 점이 없는 경우입니다. <br><br>
+                  <ol>
+                    <li>모델을 훈련집합으로 학습</li>
+                    <li>검증 집합으로 학습된 모델의 성능 측정</li>
+                    <li>1, 2를 반복하여 생성된 모델 집합들 중 가장 높은 성능을 보인 모델 선택</li>
+                    <li>테스트 집합으로 선택된 모델의 성능 측정</li>
+                  </ol>
+                  <br>
 
                 </div>
+                <hr>
               </div>
+              <div>
+                <h3 style = "font-size :1.2em"> 2. 교차 검증(cross validation)</h3><br/>
+                <div style = "margin-left : 3%">
+                  <b>별도의 검증 집합이 없는 상황</b><br>
+                  <b>훈련 집합을 등분, 학습과 평과 과정을 여러번 반복한 후 평균 사용</b><br><br>
+                  cross validation은 모든 데이터가 1회 이상 훈련 집합, 검증 집합으로 사용됩니다. <br><br>
 
+                  훈련 집합을 n개의 집합으로 등분합니다. <br><br>
+                  n개의 집합 중 1번째 집합을 검증 집합, 나머지를 훈련 집합으로 선택한 후 훈련합니다.<br><br>
+                  그다음 2번째 집합을 검증 집합, 나머지를 훈련집합으로 선택한 후 훈련합니다. <br><br>
+                  이러한 방식으로 k번째 집합을 검증 집합으로 한 훈련까지 모두 진행했다면 모델 성능을 측정하고 <br>
+                  모델 선택, 그 후 테스트 집합으로 모델 성능을 측정합니다. <br><br><br>
+
+                  <ol>
+                    <li>훈련 집합을 n개의 그룹으로 등분</li>
+                    <li>i번째 그룹을 검증 집합, 나머지를 (n-i)개 그룹을 훈련 집합으로 선택. 이 때 i = 1 ~ n, i++ </li>
+                    <li>n개의 성능의 <b>평균</b>을 해당 모델의 성능으로 함.</li>
+                    <li>모델 중 가장 높은 성능을 보인 모델을 선택</li>
+                    <li>테스트 집합으로 선택된 모델의 성능 측정</li>
+                  </ol>
+
+                  <i style = "font-size : 0.9em">1, 2, 3은 하나의 모델을 모델링하는 과정.</i><br>
+                  <hr>
+                  <div>
+                    <h3 style = "font-size :1.2em"> 2-1. Leave-one-out cross validation</h3><br/>
+                    <div style = "margin-left : 3%">
+                    <b>주어진 데이터가 극한으로 적은 상황</b><br>
+
+                    cross validation은 데이터를 n개의 집합으로 나누고 하나를 검증 집합, 나머지를 훈련 집합으로 채택하였습니다.<br><br>
+                    Leave-one-out cross validation은 집합을 나누지 않고 <b>단 하나의 데이터를 검증 집합, 나머지를 훈련집합으로 채택</b>합니다.<br><br>
+
+                    현재는 수집된 데이터가 많고 구하기 쉽기 때문에 <br>
+                    Leave-one-out cross validation을 채택하는 경우는 거의 없으나, <br><br>
+
+                    초창기때에는 데이터가 부족하여 Leave-one-out cross validation을 많이 사용하였습니다.<br><br>
+
+                  </div>
+                </div>
+
+              </div>
+              <hr>
             </div>
-            <hr>
-          </div>
           <div>
             <h3 style = "font-size :1.2em"> 3. 부트스트랩(boot strap)</h3><br/>
             <div style = "margin-left : 3%">
