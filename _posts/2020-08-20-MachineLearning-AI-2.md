@@ -87,6 +87,16 @@ categories: MachineLearning DataAnalyze
          이 때 빨간 선분의 제곱의 합의 평균을 <b>비용(Cost)</b>이라고 하며 <br/>
          <b>MSE(거리 제곱의 평균)</b>라고 합니다<br/><br>
          <i style = "font-size : 0.9em">MSE = Mean Squared Error</i><br><br>
+         <hr>
+         
+         거리의 제곱 대신절대값을 사용하여 cost를 구하는 방식은 MAE(평균 절대 오차)라 합니다.
+         MAE를 통한 cost 함수는 보통 미분이 불가능하여 경사하강을 사용할 수 없습니다.<br><br>
+         또한 미분이 가능한 경우에도 cost가 줄어드는 비율이 일정하여 <br>
+         경사하강시 진동하여 극소점을 찾지 못하는 경우가 발생합니다. <br> <br>
+         하지만 특정 상황에서는 MAE를 사용한 경우 MSE 보다 효율이 좋다는 논문도 있습니다.<br><br>
+
+
+         <i style = "font-size : 0.9em">MAE = Mean Absolute Error</i><br><br>
 
 
          한 점에서의 거리의 제곱은 <img src="https://latex.codecogs.com/png.latex?(H(x)-y)^{2}" title="(H(x)-y)^{2}" />라고 할 수 있으므로<br/><br/>
