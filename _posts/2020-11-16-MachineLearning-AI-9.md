@@ -3,7 +3,7 @@ title: "[MachineLearning 9] K-NN Classifier "
 date: 2020-11-16 16:19:50 -0400
 categories: MachineLearning DataAnalyze
 ---
-## K-NN cluster
+## K-NN Classifier
 
 <div style = "font-size : 0.8em"><!--biggest-->
   <a href="https://can019.github.io/machinelearning/dataanalyze/MachineLearning-AI-8/">지난 포스팅</a>
