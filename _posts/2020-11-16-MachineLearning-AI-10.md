@@ -51,11 +51,12 @@ categories: MachineLearning DataAnalyze
                   <i style = "font-size : 0.9em">0대신 임의의 상수 c를 줘도 같은 결정초평면입니다.</i><br><br>
 
                   여기서 W는 초평면의 법선 벡터, b는 위치를 나타내며<br>
-                  임의의 점 x에서 초평면 까지의 거리 h = |d(x)/||w||입니다.<br><br>
+                  임의의 점 x에서 초평면 까지의 거리 h = |d(x)|/||w||입니다.<br><br>
 
                   통상 d(x)가 +1, -1 사이 범위는 outlier로 판단, 버려주며<br><br>
                   이렇기에 margin의 영역은 2/||w||로 표현이 됩니다. <br><br>
-                  
+                  margin의 영역이 커질 수록 새로운 data에 대한 예측률은 올라가며,<br>
+                  학습 data에 대한 예측률은 줄어듭니다. <br>
 
               </div><!--article of child1 of major1-->
             </div><!--child1 of major1-->
@@ -64,7 +65,9 @@ categories: MachineLearning DataAnalyze
         <div><!--child1 of major1-->
           <h3 style = "font-size :1.2em">비선형 SVM</h3><!--title of child2 of major1-->
             <div style = "margin-left : 3%"><!--Article of child2 of major1-->
-
+              비선형 SVM의 경우 단순히 결정초평면이 비선형인 경우입니다.<br><br>
+              비선형 SVM은 매우 복잡하고 어려우며 이것만 따로 구현하는 기업들이 있을 정도기에<br><br>
+              자세히 다루지는 않겠습니다.<br>
 
             </div><!--article of child2 of major1-->
           </div><!--child2 of major1-->
