@@ -17,20 +17,32 @@ categories: MachineLearning DataAnalyze
           둘의 결합에 대한 연구가 많이 진행되고 있습니다. <br><br>
 
           SVM의 초점은 '여백'입니다.<br><br>
-          통상 신경망의 경우 loss가 최저가 되도록 유도가 되는데,<br><br>
-          점들과 완성된 모델과의 거리가 좁은 경우 일반화 능력이 떨어지기 때문에 <br><br>
+          훈련으로 class와 class를 분류하는 모델, 즉, 하나의 식이 도출됩니다.<br><br>
+          
+          이 식은 2차원에서는 선, 3차원은 평면, 4차원 이상은 초평면이 되지만 <br><br>
+          통상 이 식/면을 결정 초평면이라고 부릅니다.<br><br>
 
-          모델을 어느정도 떨어뜨려 높은 일반화 성능을 뽑아내고자 하는 것이죠. <br><br>
+          이 때 뽑아낸 결정 초평면과 각 class간 최소 거리가 되는 점(x,label)을 <br><br>
 
-          <img src="/assets/photos/machineLearning10/svm_overfit.jpg">
+          <b>Support Vector</b>라고 부릅니다. <br><br>
+
+          이 Support Vector와 결정 초평면의 거리가 좁다면, <br>
+          <i style = "font-size : 0.9em">쉽게 유도리가 부족하다면</i><br><br>
+          추가적으로 들어올 데이터에 대한 예측이 부정확 할 수 있습니다.<br><br>
+           
+          이에 결정 초평면을 어느정도 떨어뜨려<br> 
+          높은 일반화 성능을 뽑아내고자 하는 것이죠. <br><br>
+
+          <img src="/assets/photos/machineLearning10/svm_overfit.jpg"> <br>
           그림으로 보면 바로 이해가 되실겁니다.<br><br>
           '보라색 점선이 아닌 어느정도 여백이 있는 실선을 사용하겠다.' <br><br>
-
+          
           <div><!--child1 of major1-->
             <h3 style = "font-size :1.2em">선형 SVM</h3><!--title of child1 of major1-->
               <div style = "margin-left : 3%"><!--Article of child1 of major1-->
-                  선형 svm의 경우 간단합니다. <br><br>
-                  직선의 기울기, 즉 weight가 정해진다면 bias를 옮기면 됩니다. (평행이동)<br><br>
+                  선형 svm의 경우 
+                  
+                  
 
               </div><!--article of child1 of major1-->
             </div><!--child1 of major1-->
