@@ -26,9 +26,34 @@ categories: MachineLearning DataAnalyze
           그림으로 보면 바로 이해가 되실겁니다.<br><br>
           '보라색 점선이 아닌 어느정도 여백이 있는 실선을 사용하겠다.' <br><br>
 
-          
+          <div><!--child1 of major1-->
+            <h3 style = "font-size :1.2em">선형 SVM</h3><!--title of child1 of major1-->
+              <div style = "margin-left : 3%"><!--Article of child1 of major1-->
+                  선형 svm의 경우 간단합니다. <br><br>
+                  직선의 기울기, 즉 weight가 정해진다면 bias를 옮기면 됩니다. (평행이동)<br><br>
 
+              </div><!--article of child1 of major1-->
+            </div><!--child1 of major1-->
         </div><!--article of major1-->
+
+        <div><!--child1 of major1-->
+          <h3 style = "font-size :1.2em">비선형 SVM</h3><!--title of child2 of major1-->
+            <div style = "margin-left : 3%"><!--Article of child2 of major1-->
+
+
+            </div><!--article of child2 of major1-->
+          </div><!--child2 of major1-->
+      </div><!--article of major1-->
+
+      <div><!--child3 of major1-->
+        <h3 style = "font-size :1.2em">c-부류 SVM SVM</h3><!--title of child3 of major1-->
+          <div style = "margin-left : 3%"><!--Article of child3 of major1-->
+
+
+          </div><!--article of child3 of major1-->
+        </div><!--child3 of major1-->
+    </div><!--article of major1-->
+
       </div><!--major1-->
   </div><!--main-->
   <hr>
