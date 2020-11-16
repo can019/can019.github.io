@@ -37,11 +37,24 @@ categories: MachineLearning DataAnalyze
           그림으로 보면 바로 이해가 되실겁니다.<br><br>
           '보라색 점선이 아닌 어느정도 여백이 있는 실선을 사용하겠다.' <br><br>
           
+          실제 SVM에서는 최적의 W를 찾은 후 b를 margin으로 결정하는 것이 아닌, <br><br>
+          분류를 진행할 수 있는 결정초평면 후보를 몇가지 뽑은 후<br>
+          결정초평면에 대한 margin 계산,<br><br>
+          최적의 결정초평면을 채택합니다.<br><br>
           <div><!--child1 of major1-->
             <h3 style = "font-size :1.2em">선형 SVM</h3><!--title of child1 of major1-->
               <div style = "margin-left : 3%"><!--Article of child1 of major1-->
-                  선형 svm의 경우 
-                  
+                  선형 svm의 경우 따져줄 것이 크지 않습니다.<br><br>
+
+                  d(x) = WTX + b = 0인 결정초평면을 구했을 때<br><br>
+                  classA는 d(x)>0을, classB는 d(x)<0>을 만족합니다.<br> 
+                  <i style = "font-size : 0.9em">0대신 임의의 상수 c를 줘도 같은 결정초평면입니다.</i><br><br>
+
+                  여기서 W는 초평면의 법선 벡터, b는 위치를 나타내며<br>
+                  임의의 점 x에서 초평면 까지의 거리 h = |d(x)/||w||입니다.<br><br>
+
+                  통상 d(x)가 +1, -1 사이 범위는 outlier로 판단, 버려주며<br><br>
+                  이렇기에 margin의 영역은 2/||w||로 표현이 됩니다. <br><br>
                   
 
               </div><!--article of child1 of major1-->
