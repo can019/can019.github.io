@@ -46,8 +46,8 @@ categories: ipad develop_setting
           <img src="/assets/photos/ipadDevelop1/git_finger_print.png" width="550px"><br/>
           작성이 끝나면 우측 상단 구석에 있는 "Done"을 누르고 상단 바에 있는 지문모양을 누릅니다.<br/><br/>
           
-          이후 Commit message 작성과 push를하게 되면 git remote 저장소에 올라가게 됩니다.<br/>
           <img src="/assets/photos/ipadDevelop1/git_push.png" width="550px"><br/>
+          이후 Commit message 작성과 push를하게 되면 git remote 저장소에 올라가게 됩니다.<br/>
           
           
         </div><!--article of major2-->
