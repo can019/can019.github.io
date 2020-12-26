@@ -4,6 +4,7 @@ date: 2020-12-27 00:13:20 -0400
 categories: ipad develop_setting
 ---
 ## Ipad 개발환경 세팅.
+
 <div style = "font-size : 0.8em"><!--biggest-->
   <div><!--main-->
     <div><!--major1-->
