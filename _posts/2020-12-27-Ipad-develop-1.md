@@ -32,7 +32,7 @@ categories: ipad develop_setting
           블로그가 git 기반이기도 하고 밖에서 자잘한 이슈가 생겼을 때<br/>
           ipad로 git 푸시를 하면 좋겠다라는 생각이  들 때가 많아서 요것부터 세팅하기로 했습니다.<br/><br/>
           
-          구글에 단순히 git ipad 요렇게 다들 "Working Copy" <<요걸 추천하기에 깔았습니다.<br/>br/>
+          구글에 단순히 git ipad 요렇게 다들 "Working Copy" <<요걸 추천하기에 깔았습니다.<br/><br/>
           git 로그인후 Clone을 따니 SSH도 자동으로 할당/등록해서 가져옵니다.<br/><br/>
           
           git을 사파리/크롬으로 접속해서 한글을 작성하면<br/>
@@ -46,7 +46,7 @@ categories: ipad develop_setting
   <br>
   <div><!--<blockquote-->
     <blockquote>
-      2020-2021 Winter Mogakco
+      IPAD 개발환경 세팅.
     </blockquote>
   </div><!--<blockquote-->
 </div><!--biggest-->
