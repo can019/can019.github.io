@@ -48,16 +48,17 @@ categories: ipad develop_setting
           
           <img src="/assets/photos/ipadDevelop1/git_push.png" width="550px"><br/>
           이후 Commit message 작성과 push를하게 되면 git remote 저장소에 올라가게 됩니다.<br/>
-          
-          
         </div><!--article of major2-->
       </div><!--major2-->
+      
+      다음에는 Terminal을 통한 개발환경 세팅을 다뤄보겠습니다.<br/><br/>
   </div><!--main-->
   <hr>
   <br>
   <div><!--<blockquote-->
     <blockquote>
-      IPAD 개발환경 세팅.
+      IPAD 개발환경 세팅.<br/><br/>
+      Git
     </blockquote>
   </div><!--<blockquote-->
 </div><!--biggest-->
