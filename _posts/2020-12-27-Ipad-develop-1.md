@@ -48,6 +48,11 @@ categories: ipad develop_setting
           
           <img src="/assets/photos/ipadDevelop1/git_push.png" width="550px"><br/>
           이후 Commit message 작성과 push를하게 되면 git remote 저장소에 올라가게 됩니다.<br/>
+          
+          ++Git 오가니제이션에 있는 레포지토리의 경우 이미지 파일 업로드와 Readme를 수정해서<br/>
+          업로드 했는데... 이상하게 git remote 레포에 업로드가 안되는 문제가 있었습니다.<br/><br/>
+          
+          아직 해결하진 못해 나중에 해결하면 하단에 포스팅하겠습니다.<br/><br/>
         </div><!--article of major2-->
       </div><!--major2-->
       
@@ -57,7 +62,7 @@ categories: ipad develop_setting
   <br>
   <div><!--<blockquote-->
     <blockquote>
-      IPAD 개발환경 세팅.<br/><br/>
+      IPAD 개발환경 세팅.<br/>
       Git
     </blockquote>
   </div><!--<blockquote-->
